@@ -98,7 +98,8 @@ function openInstallGuide() {
       <h2 class="install-heading">ホーム画面に追加する</h2>
       <p class="install-text">iPhoneのホーム画面にアイコンを追加できます。</p>
       <ol class="install-steps">
-        <li>画面下部の <strong>共有ボタン</strong>（□↑のアイコン）をタップ</li>
+        <li>画面下部の <strong>「•••」ボタン</strong>をタップ</li>
+        <li>メニューから <strong>共有ボタン</strong>（□↑のアイコン）をタップ</li>
         <li>メニューを下にスクロール</li>
         <li><strong>「ホーム画面に追加」</strong>をタップ</li>
         <li>右上の <strong>「追加」</strong> をタップ</li>
@@ -139,12 +140,12 @@ function openInstallGuide() {
       <h2 class="install-heading">アプリとして保存する</h2>
       <p class="install-text">パソコンのデスクトップにアプリとして保存できます。</p>
       <ol class="install-steps">
-        <li>アドレスバー右端の <strong>インストールアイコン</strong>（⊕のようなアイコン）をクリック</li>
+        <li>アドレスバーの右端にある <strong>「↓ インストール」</strong> というボタンをクリック</li>
         <li>ダイアログの <strong>「インストール」</strong> をクリック</li>
       </ol>
       <p class="install-note">
-        インストールアイコンが表示されない場合は、しばらく本書を読んでから再度お試しください。<br>
-        またはブラウザの<strong>メニュー(︙)</strong>から「新時代のWebライティングをインストール」を選べます。
+        「↓ インストール」ボタンが表示されない場合は、しばらく本書を読んでから再度お試しください。<br>
+        またはブラウザ右上の<strong>メニュー(︙)</strong>から「新時代のWebライティングをインストール」を選ぶこともできます。
       </p>
     `;
   }
