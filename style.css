@@ -1,0 +1,420 @@
+/* ═══════════════════════════════════════════
+   新時代のWebライティング — Simple Version
+   ═══════════════════════════════════════════ */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic UI",
+    "Segoe UI", sans-serif;
+  color: #1a1a1a;
+  background: #ffffff;
+  line-height: 1.9;
+  letter-spacing: 0.02em;
+  -webkit-font-smoothing: antialiased;
+  padding-top: 56px;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* ── ヘッダー ── */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12px;
+  background: #ffffff;
+  border-bottom: 1px solid #eee;
+  z-index: 50;
+}
+
+.header-title {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+}
+
+.header-btn {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  font-size: 20px;
+  color: #1a1a1a;
+  background: transparent;
+  border: none;
+  border-radius: 6px;
+}
+
+.header-btn:hover {
+  background: #f5f5f5;
+}
+
+/* ── ページ共通 ── */
+.page {
+  min-height: calc(100vh - 56px);
+  animation: fadeIn 0.4s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.content {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 32px 24px 60px;
+}
+
+/* ── 表紙 ── */
+.cover {
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 60px 24px;
+  text-align: center;
+}
+
+.cover-title {
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  letter-spacing: 0.04em;
+}
+
+.cover-subtitle {
+  font-size: 15px;
+  color: #666;
+  margin-bottom: 60px;
+  letter-spacing: 0.06em;
+}
+
+.cover-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* ── ボタン ── */
+.btn {
+  padding: 14px 24px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 8px;
+  letter-spacing: 0.06em;
+  transition: background 0.2s;
+}
+
+.btn-primary {
+  color: #ffffff;
+  background: #1a1a1a;
+  border: none;
+}
+
+.btn-primary:hover {
+  background: #333;
+}
+
+.btn-secondary {
+  color: #1a1a1a;
+  background: transparent;
+  border: 1px solid #1a1a1a;
+}
+
+.btn-secondary:hover {
+  background: #f5f5f5;
+}
+
+.btn-nav {
+  color: #1a1a1a;
+  background: transparent;
+  border: 1px solid #ddd;
+  padding: 12px 16px;
+  font-size: 14px;
+}
+
+.btn-nav:hover:not(:disabled) {
+  background: #f5f5f5;
+  border-color: #1a1a1a;
+}
+
+.btn-nav:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+/* ── 目次 ── */
+.section-heading {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 32px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #eee;
+  letter-spacing: 0.04em;
+}
+
+.toc-chapter {
+  margin-bottom: 32px;
+}
+
+.toc-chapter-title {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  letter-spacing: 0.02em;
+}
+
+.toc-section {
+  display: block;
+  padding: 10px 14px;
+  font-size: 14px;
+  color: #555;
+  background: transparent;
+  border: none;
+  border-radius: 6px;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  font-family: inherit;
+  line-height: 1.6;
+}
+
+.toc-section:hover {
+  background: #f5f5f5;
+  color: #1a1a1a;
+}
+
+/* ── 本文リーダー ── */
+.reader-breadcrumb {
+  font-size: 12px;
+  color: #999;
+  margin-bottom: 16px;
+  letter-spacing: 0.06em;
+}
+
+.reader-title {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 40px;
+  letter-spacing: 0.03em;
+}
+
+.reader-body {
+  font-size: 17px;
+  line-height: 1.95;
+}
+
+.reader-body p {
+  margin-bottom: 1.4em;
+}
+
+.reader-body h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 2.5em 0 1em;
+  padding-top: 1em;
+  border-top: 1px solid #eee;
+  letter-spacing: 0.03em;
+}
+
+.reader-body strong {
+  font-weight: 600;
+}
+
+.reader-body em {
+  font-style: normal;
+  font-weight: 600;
+}
+
+.reader-body hr {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 2em 0;
+}
+
+.reader-body code {
+  font-family: "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.88em;
+  padding: 0.15em 0.4em;
+  background: #f5f5f5;
+  border-radius: 3px;
+}
+
+.reader-body pre {
+  background: #f8f8f8;
+  padding: 16px 18px;
+  border-radius: 6px;
+  overflow-x: auto;
+  margin: 1.4em 0;
+  border: 1px solid #eee;
+}
+
+.reader-body pre code {
+  background: transparent;
+  padding: 0;
+  font-size: 0.9em;
+}
+
+/* リーダー下部ナビ */
+.reader-nav {
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.reader-nav .btn-nav:first-child,
+.reader-nav .btn-nav:last-child {
+  flex: 1;
+}
+
+/* ── スマホ対応 ── */
+@media (max-width: 480px) {
+  .cover-title { font-size: 28px; }
+  .reader-title { font-size: 22px; }
+  .reader-body { font-size: 16px; }
+}
+
+/* ═══════════════════════════════════════════
+   認証画面
+   ═══════════════════════════════════════════ */
+.auth-screen {
+  position: fixed;
+  inset: 0;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  z-index: 100;
+  padding-top: 0;
+}
+
+.auth-inner {
+  width: 100%;
+  max-width: 420px;
+  padding: 40px 24px;
+}
+
+.auth-title-area {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.auth-title {
+  font-size: 26px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 12px;
+  letter-spacing: 0.03em;
+}
+
+.auth-subtitle {
+  font-size: 14px;
+  color: #666;
+  letter-spacing: 0.04em;
+}
+
+.auth-form-label {
+  font-size: 13px;
+  color: #666;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.auth-input {
+  width: 100%;
+  padding: 14px 16px;
+  margin-bottom: 12px;
+  font-size: 16px;
+  font-family: inherit;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fafafa;
+  color: #1a1a1a;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.auth-input:focus {
+  outline: none;
+  border-color: #1a1a1a;
+  background: #ffffff;
+}
+
+.auth-submit {
+  width: 100%;
+  padding: 14px;
+  margin-top: 12px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #ffffff;
+  background: #1a1a1a;
+  border: none;
+  border-radius: 8px;
+  letter-spacing: 0.06em;
+  transition: background 0.2s;
+  cursor: pointer;
+}
+
+.auth-submit:hover {
+  background: #333;
+}
+
+.auth-submit:disabled {
+  background: #999;
+  cursor: not-allowed;
+}
+
+.auth-error {
+  margin-top: 16px;
+  padding: 10px 12px;
+  font-size: 13px;
+  color: #c53030;
+  background: #fff5f5;
+  border-radius: 6px;
+  text-align: center;
+}
+
+/* ─ ログアウトボタン（表紙下部） ─ */
+.cover-footer {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.btn-logout {
+  padding: 8px 16px;
+  font-size: 12px;
+  color: #999;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 0.04em;
+  font-family: inherit;
+}
+
+.btn-logout:hover {
+  color: #c53030;
+}
+
+/* パスワード欄の注釈 */
+.auth-password-hint {
+  font-size: 11px;
+  color: #999;
+  text-align: center;
+  margin-top: -4px;
+  margin-bottom: 12px;
+  letter-spacing: 0.04em;
+}

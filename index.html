@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>新時代のWebライティング</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════
+     認証画面
+     ═══════════════════════════════════════════ -->
+<div id="auth-screen" class="auth-screen" style="display:none">
+  <div class="auth-inner">
+    <div class="auth-title-area">
+      <h1 class="auth-title">新時代のWebライティング</h1>
+      <p class="auth-subtitle">AI・SNS時代を生きる書き手のために</p>
+    </div>
+    <div class="auth-form">
+      <p class="auth-form-label" id="auth-form-label">メールアドレスを入力してください</p>
+      <input
+        type="email"
+        id="auth-email"
+        class="auth-input"
+        placeholder="example@email.com"
+        autocomplete="email"
+      />
+      <div id="auth-password-wrap">
+        <input
+          type="password"
+          id="auth-password"
+          class="auth-input"
+          placeholder="パスワードを入力"
+          autocomplete="current-password"
+        />
+        <p class="auth-password-hint">（初回の方はパスワードが必要です）</p>
+      </div>
+      <button id="auth-submit" class="auth-submit">はじめる</button>
+      <p id="auth-error" class="auth-error" style="display:none"></p>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════
+     アプリ本体
+     ═══════════════════════════════════════════ -->
+<div id="app-main" style="display:none">
+
+  <!-- ヘッダー -->
+  <header class="header">
+    <button class="header-btn" id="btn-toc" aria-label="目次">☰</button>
+    <span class="header-title">新時代のWebライティング</span>
+    <button class="header-btn" id="btn-home" aria-label="表紙">⌂</button>
+  </header>
+
+  <!-- 表紙 -->
+  <section id="page-cover" class="page">
+    <div class="cover">
+      <h1 class="cover-title">新時代の<br>Webライティング</h1>
+      <p class="cover-subtitle">AI・SNS時代を生きる書き手のために</p>
+      <div class="cover-buttons">
+        <button class="btn btn-primary" id="btn-start">最初から読む</button>
+        <button class="btn btn-secondary" id="btn-toc-cover">目次から選ぶ</button>
+      </div>
+      <div class="cover-footer">
+        <button class="btn-logout" id="btn-logout">ログアウト</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 目次 -->
+  <section id="page-toc" class="page" style="display:none">
+    <div class="content">
+      <h2 class="section-heading">目次</h2>
+      <div id="toc-list"></div>
+    </div>
+  </section>
+
+  <!-- 本文リーダー -->
+  <section id="page-reader" class="page" style="display:none">
+    <article class="content">
+      <div class="reader-breadcrumb" id="reader-breadcrumb"></div>
+      <h1 class="reader-title" id="reader-title"></h1>
+      <div class="reader-body" id="reader-body"></div>
+      <nav class="reader-nav">
+        <button class="btn btn-nav" id="btn-prev">← 前へ</button>
+        <button class="btn btn-nav" id="btn-toc-reader">目次</button>
+        <button class="btn btn-nav" id="btn-next">次へ →</button>
+      </nav>
+    </article>
+  </section>
+
+</div>
+
+<script src="content.js"></script>
+<script src="auth.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
