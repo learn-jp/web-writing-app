@@ -69,6 +69,31 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('btn-start').addEventListener('click', () => openSection(0));
   document.getElementById('btn-toc-cover').addEventListener('click', () => showPage('page-toc'));
 
+  // インストールボタン
+  const installBtn = document.getElementById('btn-install');
+  if (installBtn) {
+    installBtn.addEventListener('click', () => {
+      if (typeof openInstallGuide === 'function') openInstallGuide();
+    });
+  }
+
+  // インストールガイドの閉じるボタン
+  const installClose = document.getElementById('install-close');
+  if (installClose) {
+    installClose.addEventListener('click', () => {
+      if (typeof closeInstallGuide === 'function') closeInstallGuide();
+    });
+  }
+  // オーバーレイの外側クリックで閉じる
+  const installOverlay = document.getElementById('install-overlay');
+  if (installOverlay) {
+    installOverlay.addEventListener('click', (e) => {
+      if (e.target === e.currentTarget) {
+        if (typeof closeInstallGuide === 'function') closeInstallGuide();
+      }
+    });
+  }
+
   // ログアウトボタン
   const logoutBtn = document.getElementById('btn-logout');
   if (logoutBtn) {

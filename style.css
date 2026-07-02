@@ -418,3 +418,144 @@ button {
   margin-bottom: 12px;
   letter-spacing: 0.04em;
 }
+
+/* ═══════════════════════════════════════════
+   インストールボタン（表紙下部）
+   ═══════════════════════════════════════════ */
+.btn-install {
+  display: block;
+  margin: 0 auto 12px;
+  padding: 8px 16px;
+  font-size: 12px;
+  color: #666;
+  background: transparent;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  cursor: pointer;
+  letter-spacing: 0.04em;
+  font-family: inherit;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.btn-install:hover {
+  background: #f5f5f5;
+  border-color: #1a1a1a;
+  color: #1a1a1a;
+}
+
+/* ═══════════════════════════════════════════
+   インストールガイド（オーバーレイ）
+   ═══════════════════════════════════════════ */
+.install-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+  padding: 20px;
+  animation: overlayFadeIn 0.2s ease-out;
+}
+
+@keyframes overlayFadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.install-panel {
+  width: 100%;
+  max-width: 420px;
+  padding: 32px 24px;
+  background: #ffffff;
+  border-radius: 12px;
+  position: relative;
+  animation: panelSlideIn 0.25s ease-out;
+  max-height: 85vh;
+  overflow-y: auto;
+}
+
+@keyframes panelSlideIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.install-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  font-size: 16px;
+  color: #666;
+  background: transparent;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.install-close:hover {
+  background: #f5f5f5;
+}
+
+.install-heading {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  padding-right: 24px;
+  letter-spacing: 0.03em;
+}
+
+.install-text {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.install-steps {
+  margin: 20px 0;
+  padding-left: 20px;
+  font-size: 14px;
+  line-height: 1.9;
+  color: #333;
+}
+
+.install-steps li {
+  margin-bottom: 10px;
+}
+
+.install-cta {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #ffffff;
+  background: #1a1a1a;
+  border: none;
+  border-radius: 8px;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.install-cta:hover {
+  background: #333;
+}
+
+.install-cta:disabled {
+  background: #999;
+  cursor: not-allowed;
+}
+
+.install-note {
+  margin-top: 16px;
+  padding: 10px 12px;
+  font-size: 12px;
+  line-height: 1.7;
+  color: #666;
+  background: #fafafa;
+  border-radius: 6px;
+}
