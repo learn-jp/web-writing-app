@@ -4,6 +4,19 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>新時代のWebライティング</title>
+<link rel="icon" href="favicon.png" type="image/png">
+
+<!-- PWA -->
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#1a1a1a">
+
+<!-- iOS ホーム画面対応 -->
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Webライティング">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -96,5 +109,15 @@
 <script src="content.js"></script>
 <script src="auth.js"></script>
 <script src="script.js"></script>
+<script>
+  // Service Worker 登録
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('./service-worker.js').catch(err => {
+        console.log('SW registration failed:', err);
+      });
+    });
+  }
+</script>
 </body>
 </html>
