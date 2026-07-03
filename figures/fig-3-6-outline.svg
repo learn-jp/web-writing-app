@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1000" role="img" aria-label="構成案テンプレート">
+  <style>
+    .card-outer { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .card-title-bg { fill: #1a1a1a; }
+    .card-title { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .card-subtitle { fill: #ccc; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 500; }
+    .field-label-red { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 20px; font-weight: 700; }
+    .field-content { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 500; }
+    .field-heading { fill: #333; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 600; }
+    .field-sub { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 20px; font-weight: 500; }
+    .h-marker { fill: #C44536; font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 18px; font-weight: 700; }
+    .field-line { stroke: #eee; stroke-width: 1; fill: none; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .footer { fill: #444; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 500; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+  </style>
+
+  <!-- ═══════════ Card outer frame ═══════════ -->
+  <rect x="30" y="30" width="840" height="810" rx="12" class="card-outer"/>
+
+  <!-- Card title bar (dark) -->
+  <rect x="30" y="30" width="840" height="90" rx="12" class="card-title-bg"/>
+  <rect x="30" y="90" width="840" height="30" class="card-title-bg"/>
+  <text x="60" y="72" class="card-title">記事構成案</text>
+  <text x="60" y="105" class="card-subtitle">Article Outline</text>
+
+  <!-- ═══════════ Field 1: タイトル ═══════════ -->
+  <text x="70" y="170" class="field-label-red">タイトル</text>
+  <text x="70" y="210" class="field-content">在宅勤務、最初の1ヶ月で失敗しない5つの習慣</text>
+  <line x1="70" y1="235" x2="830" y2="235" class="field-line"/>
+
+  <!-- ═══════════ Field 2: ターゲット読者 ═══════════ -->
+  <text x="70" y="280" class="field-label-red">ターゲット読者</text>
+  <text x="70" y="320" class="field-content">これから在宅勤務を始める会社員</text>
+  <text x="70" y="355" class="field-sub">→ 集中できるか不安を感じている人</text>
+  <line x1="70" y1="380" x2="830" y2="380" class="field-line"/>
+
+  <!-- ═══════════ Field 3: 見出し構成 ═══════════ -->
+  <text x="70" y="425" class="field-label-red">見出し構成</text>
+  
+  <text x="90" y="465" class="h-marker">H2</text>
+  <text x="140" y="465" class="field-heading">始める前に確認すること</text>
+  
+  <text x="90" y="500" class="h-marker">H2</text>
+  <text x="140" y="500" class="field-heading">環境を整える</text>
+  
+  <text x="90" y="535" class="h-marker">H2</text>
+  <text x="140" y="535" class="field-heading">1日のスケジュールを決める</text>
+  
+  <text x="90" y="570" class="h-marker">H2</text>
+  <text x="140" y="570" class="field-heading">集中力を保つ工夫</text>
+  
+  <text x="90" y="605" class="h-marker">H2</text>
+  <text x="140" y="605" class="field-heading">1ヶ月後の振り返り方</text>
+  
+  <line x1="70" y1="640" x2="830" y2="640" class="field-line"/>
+
+  <!-- ═══════════ Field 4: リード文の方向性 ═══════════ -->
+  <text x="70" y="685" class="field-label-red">リード文の方向性</text>
+  <text x="70" y="725" class="field-content">「集中できるか不安」に共感し、</text>
+  <text x="70" y="760" class="field-content">具体的な習慣で解決できると約束する</text>
+
+  <!-- ═══════════ Divider ═══════════ -->
+  <line x1="80" y1="890" x2="820" y2="890" class="divider-h"/>
+
+  <!-- ═══════════ Bottom message ═══════════ -->
+  <text x="450" y="945" text-anchor="middle" class="footer-headline">書く前に「設計図」を作れば、迷わず書ける</text>
+  <text x="450" y="985" text-anchor="middle" class="footer">構成案は、記事の羅針盤</text>
+</svg>

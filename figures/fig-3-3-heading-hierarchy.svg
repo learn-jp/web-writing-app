@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 820" role="img" aria-label="B案">
+  <style>
+    .box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .box-h1-red { fill: #C44536; stroke: #C44536; }
+    .label-white { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 24px; font-weight: 600; }
+    .label-h2 { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 600; }
+    .label-h3 { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 19px; font-weight: 500; }
+    .tag { fill: #666; font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 16px; font-weight: 600; }
+    .tag-white { fill: #ffffff; font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 17px; font-weight: 700; }
+    .line { stroke: #1a1a1a; stroke-width: 2; fill: none; }
+    .divider { stroke: #ddd; stroke-width: 1; stroke-dasharray: 4,4; fill: none; }
+    .divider-v { stroke: #ddd; stroke-width: 1; fill: none; }
+    .perspective-red { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 28px; font-weight: 700; }
+    .caption { fill: #333; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 400; }
+    .footer { fill: #444; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 500; }
+  </style>
+  <rect x="290" y="30" width="320" height="88" rx="10" class="box box-h1-red"/>
+  <text x="450" y="62" text-anchor="middle" class="tag-white">H1</text>
+  <text x="450" y="97" text-anchor="middle" class="label-white">在宅勤務の始め方</text>
+  <line x1="450" y1="118" x2="450" y2="160" class="line"/>
+  <line x1="140" y1="160" x2="760" y2="160" class="line"/>
+  <line x1="140" y1="160" x2="140" y2="190" class="line"/>
+  <line x1="450" y1="160" x2="450" y2="190" class="line"/>
+  <line x1="760" y1="160" x2="760" y2="190" class="line"/>
+  <rect x="20" y="190" width="240" height="80" rx="10" class="box"/>
+  <text x="45" y="218" class="tag">H2</text>
+  <text x="140" y="243" text-anchor="middle" class="label-h2">始める前に</text>
+  <rect x="330" y="190" width="240" height="80" rx="10" class="box"/>
+  <text x="355" y="218" class="tag">H2</text>
+  <text x="450" y="243" text-anchor="middle" class="label-h2">環境を整える</text>
+  <rect x="640" y="190" width="240" height="80" rx="10" class="box"/>
+  <text x="665" y="218" class="tag">H2</text>
+  <text x="760" y="243" text-anchor="middle" class="label-h2">実際に始めてから</text>
+  <line x1="140" y1="270" x2="140" y2="310" class="line"/>
+  <line x1="80" y1="310" x2="200" y2="310" class="line"/>
+  <line x1="80" y1="310" x2="80" y2="340" class="line"/>
+  <line x1="200" y1="310" x2="200" y2="340" class="line"/>
+  <line x1="450" y1="270" x2="450" y2="310" class="line"/>
+  <line x1="390" y1="310" x2="510" y2="310" class="line"/>
+  <line x1="390" y1="310" x2="390" y2="340" class="line"/>
+  <line x1="510" y1="310" x2="510" y2="340" class="line"/>
+  <rect x="25" y="340" width="110" height="105" rx="10" class="box"/>
+  <text x="40" y="368" class="tag">H3</text>
+  <text x="80" y="393" text-anchor="middle" class="label-h3">会社の</text>
+  <text x="80" y="418" text-anchor="middle" class="label-h3">制度</text>
+  <rect x="145" y="340" width="110" height="105" rx="10" class="box"/>
+  <text x="160" y="368" class="tag">H3</text>
+  <text x="200" y="393" text-anchor="middle" class="label-h3">家族との</text>
+  <text x="200" y="418" text-anchor="middle" class="label-h3">話し合い</text>
+  <rect x="335" y="340" width="110" height="105" rx="10" class="box"/>
+  <text x="350" y="368" class="tag">H3</text>
+  <text x="390" y="393" text-anchor="middle" class="label-h3">机と</text>
+  <text x="390" y="418" text-anchor="middle" class="label-h3">椅子</text>
+  <rect x="455" y="340" width="110" height="105" rx="10" class="box"/>
+  <text x="470" y="368" class="tag">H3</text>
+  <text x="510" y="393" text-anchor="middle" class="label-h3">ネット</text>
+  <text x="510" y="418" text-anchor="middle" class="label-h3">回線</text>
+  <line x1="80" y1="510" x2="820" y2="510" class="divider"/>
+  <text x="225" y="575" text-anchor="middle" class="perspective-red">読者にとっての目次</text>
+  <text x="225" y="625" text-anchor="middle" class="caption">記事の流れが</text>
+  <text x="225" y="660" text-anchor="middle" class="caption">一目で把握できる</text>
+  <line x1="450" y1="540" x2="450" y2="675" class="divider-v"/>
+  <text x="675" y="575" text-anchor="middle" class="perspective-red">機械にとっての地図</text>
+  <text x="675" y="625" text-anchor="middle" class="caption">記事の構造を</text>
+  <text x="675" y="660" text-anchor="middle" class="caption">正しく理解できる</text>
+  <text x="450" y="770" text-anchor="middle" class="footer">同じ階層が、読者にも機械にも「わかりやすさ」を届ける</text>
+</svg>

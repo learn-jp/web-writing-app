@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-label="構造化のBefore After">
+  <style>
+    .box-before { fill: #fafafa; stroke: #999; stroke-width: 2; }
+    .box-after { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .label-heading-red { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 32px; font-weight: 700; }
+    .label-heading { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 32px; font-weight: 700; }
+    .body-text { fill: #333; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 400; }
+    .key { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 20px; font-weight: 600; }
+    .val { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 500; }
+    .arrow { stroke: #C44536; stroke-width: 4; fill: none; }
+    .arrow-label { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .caption-machine { fill: #888; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 20px; font-weight: 500; }
+    .caption-machine-italic { fill: #888; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 20px; font-weight: 500; font-style: italic; }
+    .top-caption { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 500; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .footer { fill: #444; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 500; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+  </style>
+
+  <!-- ═══════════ Left side: Before ═══════════ -->
+  <text x="210" y="60" text-anchor="middle" class="label-heading">Before</text>
+  <text x="210" y="95" text-anchor="middle" class="top-caption">文章の塊</text>
+
+  <!-- Before box: dense text (taller, larger fonts) -->
+  <rect x="30" y="125" width="360" height="360" rx="8" class="box-before"/>
+  <text x="55" y="170" class="body-text">拝啓 田中様、</text>
+  <text x="55" y="205" class="body-text">お変わりなくお過ごし</text>
+  <text x="55" y="240" class="body-text">でしょうか。実は来月</text>
+  <text x="55" y="275" class="body-text">の同窓会の件でご連絡</text>
+  <text x="55" y="310" class="body-text">しました。日時は10月</text>
+  <text x="55" y="345" class="body-text">15日、場所は新宿の○○</text>
+  <text x="55" y="380" class="body-text">です。会費は5,000円</text>
+  <text x="55" y="415" class="body-text">となります。出欠は</text>
+  <text x="55" y="450" class="body-text">今月末までにご返信を。</text>
+
+  <!-- Machine's reaction under Before -->
+  <text x="210" y="535" text-anchor="middle" class="caption-machine">機械の目：</text>
+  <text x="210" y="568" text-anchor="middle" class="caption-machine-italic">「どこが何の情報？」</text>
+
+  <!-- ═══════════ Middle: Arrow ═══════════ -->
+  <line x1="410" y1="305" x2="480" y2="305" class="arrow"/>
+  <polygon points="480,292 505,305 480,318" fill="#C44536"/>
+  <text x="457" y="280" text-anchor="middle" class="arrow-label">構造化</text>
+
+  <!-- ═══════════ Right side: After ═══════════ -->
+  <text x="700" y="60" text-anchor="middle" class="label-heading-red">After</text>
+  <text x="700" y="95" text-anchor="middle" class="top-caption">構造化された文章</text>
+
+  <!-- After box: structured key-value (taller, larger fonts) -->
+  <rect x="520" y="125" width="360" height="360" rx="8" class="box-after"/>
+  <text x="550" y="180" class="key">宛名</text>
+  <text x="670" y="180" class="val">田中様</text>
+
+  <text x="550" y="230" class="key">用件</text>
+  <text x="670" y="230" class="val">同窓会のご案内</text>
+
+  <text x="550" y="280" class="key">日時</text>
+  <text x="670" y="280" class="val">10月15日</text>
+
+  <text x="550" y="330" class="key">場所</text>
+  <text x="670" y="330" class="val">新宿の○○</text>
+
+  <text x="550" y="380" class="key">会費</text>
+  <text x="670" y="380" class="val">5,000円</text>
+
+  <text x="550" y="430" class="key">返信締切</text>
+  <text x="670" y="430" class="val">今月末</text>
+
+  <!-- Machine's reaction under After -->
+  <text x="700" y="535" text-anchor="middle" class="caption-machine">機械の目：</text>
+  <text x="700" y="568" text-anchor="middle" class="caption-machine-italic">「一瞬で理解できる」</text>
+
+  <!-- ═══════════ Divider ═══════════ -->
+  <line x1="80" y1="655" x2="820" y2="655" class="divider-h"/>
+
+  <!-- ═══════════ Bottom message (bigger fonts) ═══════════ -->
+  <text x="450" y="730" text-anchor="middle" class="footer-headline">意味のかたまりに分けて、</text>
+  <text x="450" y="770" text-anchor="middle" class="footer-headline">役割を明確にする</text>
+  <text x="450" y="850" text-anchor="middle" class="footer">これが、人間にも機械にも伝わる「構造化」</text>
+</svg>

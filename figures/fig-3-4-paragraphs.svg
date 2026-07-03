@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-label="段落と改行のBefore After">
+  <style>
+    .box-before { fill: #fafafa; stroke: #999; stroke-width: 2; }
+    .box-after { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .label-heading-red { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 32px; font-weight: 700; }
+    .label-heading { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 32px; font-weight: 700; }
+    .body-text { fill: #333; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 500; }
+    .arrow { stroke: #C44536; stroke-width: 4; fill: none; }
+    .arrow-label { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .caption-machine { fill: #888; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 20px; font-weight: 500; }
+    .caption-machine-italic { fill: #888; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 20px; font-weight: 500; font-style: italic; }
+    .top-caption { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 500; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .footer { fill: #444; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 500; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+  </style>
+
+  <!-- ═══════════ Left side: Before ═══════════ -->
+  <text x="210" y="60" text-anchor="middle" class="label-heading">Before</text>
+  <text x="210" y="95" text-anchor="middle" class="top-caption">改行なしの詰まった文章</text>
+
+  <!-- Before box: full-width dense text -->
+  <rect x="30" y="125" width="360" height="360" rx="8" class="box-before"/>
+  <text x="55" y="175" class="body-text">在宅勤務には、専用の椅子を</text>
+  <text x="55" y="210" class="body-text">買うべきです。なぜなら、1</text>
+  <text x="55" y="245" class="body-text">日8時間以上座る環境で、椅</text>
+  <text x="55" y="280" class="body-text">子の質が体調を左右するから</text>
+  <text x="55" y="315" class="body-text">です。私自身、最初の半年は</text>
+  <text x="55" y="350" class="body-text">普通のダイニングチェアで仕</text>
+  <text x="55" y="385" class="body-text">事をして、ひどい腰痛になり</text>
+  <text x="55" y="420" class="body-text">ました。だから椅子に投資を。</text>
+
+  <!-- Reader's reaction under Before -->
+  <text x="210" y="530" text-anchor="middle" class="caption-machine">読者の目：</text>
+  <text x="210" y="563" text-anchor="middle" class="caption-machine-italic">「文字の壁だ…」</text>
+
+  <!-- ═══════════ Middle: Arrow ═══════════ -->
+  <line x1="410" y1="305" x2="480" y2="305" class="arrow"/>
+  <polygon points="480,292 505,305 480,318" fill="#C44536"/>
+  <text x="457" y="280" text-anchor="middle" class="arrow-label">改行</text>
+
+  <!-- ═══════════ Right side: After ═══════════ -->
+  <text x="700" y="60" text-anchor="middle" class="label-heading-red">After</text>
+  <text x="700" y="95" text-anchor="middle" class="top-caption">改行でリズムを作る</text>
+
+  <!-- After box: with paragraph breaks (full-width lines) -->
+  <rect x="520" y="125" width="360" height="360" rx="8" class="box-after"/>
+  <text x="545" y="175" class="body-text">在宅勤務には、専用の椅子を</text>
+  <text x="545" y="210" class="body-text">買うべきです。</text>
+
+  <text x="545" y="265" class="body-text">1日8時間座る環境で、椅子</text>
+  <text x="545" y="300" class="body-text">の質が体調を左右するから。</text>
+
+  <text x="545" y="355" class="body-text">私自身、半年で腰痛に。</text>
+
+  <text x="545" y="410" class="body-text">椅子に投資してください。</text>
+
+  <!-- Reader's reaction under After -->
+  <text x="700" y="530" text-anchor="middle" class="caption-machine">読者の目：</text>
+  <text x="700" y="563" text-anchor="middle" class="caption-machine-italic">「スッと読める」</text>
+
+  <!-- ═══════════ Divider ═══════════ -->
+  <line x1="80" y1="655" x2="820" y2="655" class="divider-h"/>
+
+  <!-- ═══════════ Bottom message ═══════════ -->
+  <text x="450" y="730" text-anchor="middle" class="footer-headline">同じ内容でも、改行があれば</text>
+  <text x="450" y="770" text-anchor="middle" class="footer-headline">読者はスッと読み進められる</text>
+  <text x="450" y="850" text-anchor="middle" class="footer">文と文の「間」が、読むリズムを生む</text>
+</svg>

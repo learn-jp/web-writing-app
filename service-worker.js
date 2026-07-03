@@ -4,7 +4,7 @@
 //  Cache First for static assets (icons)
 // ═══════════════════════════════════════════
 
-const CACHE_NAME = 'web-writing-v1';
+const CACHE_NAME = 'web-writing-v3';
 
 const APP_ASSETS = [
   './',
@@ -17,6 +17,12 @@ const APP_ASSETS = [
   './favicon.png',
   './icons/icon-192.png',
   './icons/icon-512.png',
+  './figures/fig-3-1-structure.svg',
+  './figures/fig-3-2-prep.svg',
+  './figures/fig-3-3-heading-hierarchy.svg',
+  './figures/fig-3-4-paragraphs.svg',
+  './figures/fig-3-5-lists-tables.svg',
+  './figures/fig-3-6-outline.svg',
 ];
 
 // インストール時：ファイルをキャッシュ

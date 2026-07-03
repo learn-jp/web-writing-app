@@ -559,3 +559,37 @@ button {
   background: #fafafa;
   border-radius: 6px;
 }
+
+/* ═══════════════════════════════════════════
+   図解(section-figure)
+   ═══════════════════════════════════════════ */
+.reader-body .section-figure {
+  margin: 2.5em -8px;
+  padding: 0;
+  text-align: center;
+}
+
+.reader-body .section-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.reader-body .section-figure figcaption {
+  margin-top: 12px;
+  font-size: 13px;
+  color: #666;
+  line-height: 1.6;
+  letter-spacing: 0.04em;
+}
+
+@media (max-width: 480px) {
+  .reader-body .section-figure {
+    margin: 2em -8px;
+  }
+  .reader-body .section-figure figcaption {
+    font-size: 12px;
+  }
+}

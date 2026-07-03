@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-label="PREP法の4ステップ">
+  <style>
+    .box-outer { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .box-outer-red { fill: #ffffff; stroke: #C44536; stroke-width: 3; }
+    .step-label { fill: #C44536; font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 22px; font-weight: 700; }
+    .step-name { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .step-jp { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 20px; font-weight: 500; }
+    .step-example { fill: #333; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 24px; font-weight: 500; }
+    .arrow-down { stroke: #1a1a1a; stroke-width: 2; fill: none; }
+    .arrow-red { stroke: #C44536; stroke-width: 3; fill: none; }
+    .footer-headline { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 28px; font-weight: 700; }
+    .footer { fill: #444; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 500; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+  </style>
+
+  <!-- ═══════════ Step 1: P (Point) — Red border ═══════════ -->
+  <rect x="60" y="30" width="780" height="130" rx="12" class="box-outer-red"/>
+  <text x="95" y="72" class="step-label">P</text>
+  <text x="140" y="72" class="step-name">Point</text>
+  <text x="280" y="72" class="step-jp">— 結論</text>
+  <text x="95" y="118" class="step-example">在宅勤務には、専用の椅子を買うべきです。</text>
+
+  <!-- Arrow 1→2 -->
+  <line x1="450" y1="170" x2="450" y2="200" class="arrow-down"/>
+  <polygon points="440,195 450,215 460,195" fill="#1a1a1a"/>
+
+  <!-- ═══════════ Step 2: R (Reason) ═══════════ -->
+  <rect x="60" y="225" width="780" height="130" rx="12" class="box-outer"/>
+  <text x="95" y="267" class="step-label">R</text>
+  <text x="140" y="267" class="step-name">Reason</text>
+  <text x="280" y="267" class="step-jp">— 理由</text>
+  <text x="95" y="313" class="step-example">1日8時間座る環境で、椅子の質が体調を左右するから。</text>
+
+  <!-- Arrow 2→3 -->
+  <line x1="450" y1="365" x2="450" y2="395" class="arrow-down"/>
+  <polygon points="440,390 450,410 460,390" fill="#1a1a1a"/>
+
+  <!-- ═══════════ Step 3: E (Example) ═══════════ -->
+  <rect x="60" y="420" width="780" height="130" rx="12" class="box-outer"/>
+  <text x="95" y="462" class="step-label">E</text>
+  <text x="140" y="462" class="step-name">Example</text>
+  <text x="315" y="462" class="step-jp">— 具体例</text>
+  <text x="95" y="508" class="step-example">私自身、安い椅子で半年働いてひどい腰痛に。</text>
+
+  <!-- Arrow 3→4 -->
+  <line x1="450" y1="560" x2="450" y2="590" class="arrow-down"/>
+  <polygon points="440,585 450,605 460,585" fill="#1a1a1a"/>
+
+  <!-- ═══════════ Step 4: P (Point) — Red border ═══════════ -->
+  <rect x="60" y="615" width="780" height="130" rx="12" class="box-outer-red"/>
+  <text x="95" y="657" class="step-label">P</text>
+  <text x="140" y="657" class="step-name">Point</text>
+  <text x="280" y="657" class="step-jp">— 結論（再掲）</text>
+  <text x="95" y="703" class="step-example">だから、まず椅子に投資してください。</text>
+
+  <!-- ═══════════ Divider ═══════════ -->
+  <line x1="80" y1="790" x2="820" y2="790" class="divider-h"/>
+
+  <!-- ═══════════ Bottom message ═══════════ -->
+  <text x="450" y="840" text-anchor="middle" class="footer-headline">結論で始まり、結論で締めくくる</text>
+  <text x="450" y="880" text-anchor="middle" class="footer">これが、説得力を生む文章の型</text>
+</svg>
