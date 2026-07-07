@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1000" role="img" aria-label="読者の読み方">
+  <style>
+    .stage-num { fill: #C44536; font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 20px; font-weight: 700; }
+    .stage-title { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .stage-caption { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 500; }
+    .article-box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .article-title { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 700; }
+    .article-line { stroke: #ccc; stroke-width: 1; fill: none; }
+    .article-line-bold { stroke: #1a1a1a; stroke-width: 1.5; fill: none; }
+    .heading-box { fill: #f5f5f5; stroke: #999; stroke-width: 1; }
+    .heading-highlight { fill: #C44536; stroke: #C44536; stroke-width: 1; }
+    .heading-text { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 16px; font-weight: 700; }
+    .heading-text-white { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 14px; font-weight: 700; }
+    .eye-line { stroke: #C44536; stroke-width: 3; fill: none; }
+    .eye-line-dashed { stroke: #C44536; stroke-width: 3; stroke-dasharray: 6,4; fill: none; }
+    .cross-line { stroke: #999; stroke-width: 4; fill: none; }
+    .action-label { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 700; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .footer-headline-red { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .footer { fill: #444; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 500; }
+    .tab-close { fill: #999; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 40px; font-weight: 700; }
+  </style>
+
+  <!-- ═══════════ Stage 1: スキャン ═══════════ -->
+  <text x="150" y="60" text-anchor="middle" class="stage-num">01</text>
+  <text x="150" y="100" text-anchor="middle" class="stage-title">スキャン</text>
+  <text x="150" y="130" text-anchor="middle" class="stage-caption">目を上から下へ走らせる</text>
+
+  <!-- Article mockup: 見出しだけ目立つ -->
+  <rect x="50" y="160" width="200" height="360" rx="8" class="article-box"/>
+  <text x="150" y="185" text-anchor="middle" class="article-title">記事タイトル</text>
+  
+  <!-- 見出し1 -->
+  <rect x="65" y="205" width="170" height="30" rx="3" class="heading-box"/>
+  <text x="150" y="226" text-anchor="middle" class="heading-text">見出し1</text>
+  <!-- 本文行(薄い) -->
+  <line x1="65" y1="245" x2="235" y2="245" class="article-line"/>
+  <line x1="65" y1="258" x2="235" y2="258" class="article-line"/>
+  <line x1="65" y1="271" x2="200" y2="271" class="article-line"/>
+
+  <!-- 見出し2 -->
+  <rect x="65" y="290" width="170" height="30" rx="3" class="heading-box"/>
+  <text x="150" y="311" text-anchor="middle" class="heading-text">見出し2</text>
+  <line x1="65" y1="330" x2="235" y2="330" class="article-line"/>
+  <line x1="65" y1="343" x2="235" y2="343" class="article-line"/>
+  <line x1="65" y1="356" x2="180" y2="356" class="article-line"/>
+
+  <!-- 見出し3 -->
+  <rect x="65" y="375" width="170" height="30" rx="3" class="heading-box"/>
+  <text x="150" y="396" text-anchor="middle" class="heading-text">見出し3</text>
+  <line x1="65" y1="415" x2="235" y2="415" class="article-line"/>
+  <line x1="65" y1="428" x2="235" y2="428" class="article-line"/>
+  <line x1="65" y1="441" x2="210" y2="441" class="article-line"/>
+
+  <!-- 見出し4 -->
+  <rect x="65" y="460" width="170" height="30" rx="3" class="heading-box"/>
+  <text x="150" y="481" text-anchor="middle" class="heading-text">見出し4</text>
+  <line x1="65" y1="500" x2="235" y2="500" class="article-line"/>
+
+  <!-- 視線の矢印(縦にスーッと) -->
+  <line x1="30" y1="180" x2="30" y2="500" class="eye-line"/>
+  <polygon points="24,495 30,510 36,495" fill="#C44536"/>
+
+  <!-- ═══════════ Stage 2: ジャンプ ═══════════ -->
+  <text x="450" y="60" text-anchor="middle" class="stage-num">02</text>
+  <text x="450" y="100" text-anchor="middle" class="stage-title">ジャンプ</text>
+  <text x="450" y="130" text-anchor="middle" class="stage-caption">気になる見出しに飛ぶ</text>
+
+  <!-- Article mockup: 3つ目の見出しが赤くハイライト -->
+  <rect x="350" y="160" width="200" height="360" rx="8" class="article-box"/>
+  <text x="450" y="185" text-anchor="middle" class="article-title">記事タイトル</text>
+  
+  <!-- 見出し1 (薄い) -->
+  <rect x="365" y="205" width="170" height="30" rx="3" class="heading-box"/>
+  <text x="450" y="226" text-anchor="middle" class="heading-text">見出し1</text>
+  <line x1="365" y1="245" x2="535" y2="245" class="article-line"/>
+  <line x1="365" y1="258" x2="535" y2="258" class="article-line"/>
+  <line x1="365" y1="271" x2="500" y2="271" class="article-line"/>
+
+  <!-- 見出し2 (薄い) -->
+  <rect x="365" y="290" width="170" height="30" rx="3" class="heading-box"/>
+  <text x="450" y="311" text-anchor="middle" class="heading-text">見出し2</text>
+  <line x1="365" y1="330" x2="535" y2="330" class="article-line"/>
+  <line x1="365" y1="343" x2="535" y2="343" class="article-line"/>
+  <line x1="365" y1="356" x2="480" y2="356" class="article-line"/>
+
+  <!-- 見出し3 (赤くハイライト、この節に興味) -->
+  <rect x="360" y="373" width="180" height="34" rx="3" class="heading-highlight"/>
+  <text x="450" y="395" text-anchor="middle" class="heading-text-white">見出し3 ← 興味あり！</text>
+  <line x1="365" y1="418" x2="535" y2="418" class="article-line-bold"/>
+  <line x1="365" y1="431" x2="535" y2="431" class="article-line-bold"/>
+  <line x1="365" y1="444" x2="510" y2="444" class="article-line-bold"/>
+
+  <!-- 見出し4 -->
+  <rect x="365" y="460" width="170" height="30" rx="3" class="heading-box"/>
+  <text x="450" y="481" text-anchor="middle" class="heading-text">見出し4</text>
+  <line x1="365" y1="500" x2="535" y2="500" class="article-line"/>
+
+  <!-- 視線がジャンプする矢印(曲線) -->
+  <path d="M 330 210 Q 300 300 335 388" class="eye-line-dashed"/>
+  <polygon points="325,383 340,378 343,398" fill="#C44536"/>
+
+  <!-- ═══════════ Stage 3: 離脱 ═══════════ -->
+  <text x="750" y="60" text-anchor="middle" class="stage-num">03</text>
+  <text x="750" y="100" text-anchor="middle" class="stage-title">離脱</text>
+  <text x="750" y="130" text-anchor="middle" class="stage-caption">つまらない → タブを閉じる</text>
+
+  <!-- Article mockup: グレーアウト + ×マーク -->
+  <rect x="650" y="160" width="200" height="360" rx="8" class="article-box" style="opacity: 0.4;"/>
+  <text x="750" y="185" text-anchor="middle" class="article-title" style="opacity: 0.4;">記事タイトル</text>
+  
+  <rect x="665" y="205" width="170" height="30" rx="3" class="heading-box" style="opacity: 0.4;"/>
+  <text x="750" y="226" text-anchor="middle" class="heading-text" style="opacity: 0.4;">見出し1</text>
+  <line x1="665" y1="245" x2="835" y2="245" class="article-line" style="opacity: 0.4;"/>
+  <line x1="665" y1="258" x2="835" y2="258" class="article-line" style="opacity: 0.4;"/>
+  <line x1="665" y1="271" x2="800" y2="271" class="article-line" style="opacity: 0.4;"/>
+
+  <rect x="665" y="290" width="170" height="30" rx="3" class="heading-box" style="opacity: 0.4;"/>
+  <text x="750" y="311" text-anchor="middle" class="heading-text" style="opacity: 0.4;">見出し2</text>
+  <line x1="665" y1="330" x2="835" y2="330" class="article-line" style="opacity: 0.4;"/>
+
+  <!-- 大きな × マーク -->
+  <line x1="670" y1="230" x2="830" y2="470" class="cross-line" stroke="#C44536"/>
+  <line x1="830" y1="230" x2="670" y2="470" class="cross-line" stroke="#C44536"/>
+
+  <text x="750" y="510" text-anchor="middle" class="action-label">タブを閉じる</text>
+
+  <!-- ═══════════ Divider ═══════════ -->
+  <line x1="80" y1="600" x2="820" y2="600" class="divider-h"/>
+
+  <!-- ═══════════ Bottom message ═══════════ -->
+  <text x="450" y="660" text-anchor="middle" class="footer-headline">書き手ができること</text>
+
+  <!-- 大きな朱色メッセージ -->
+  <text x="450" y="730" text-anchor="middle" class="footer-headline-red">スキャンに耐える文章を書く</text>
+
+  <text x="450" y="800" text-anchor="middle" class="footer">見出しだけで内容がわかる</text>
+  <text x="450" y="835" text-anchor="middle" class="footer">太字だけ追えば要点が掴める</text>
+  <text x="450" y="870" text-anchor="middle" class="footer">最初の3行で「ここに答えがある」と確信できる</text>
+
+  <!-- ═══════════ Final message ═══════════ -->
+  <text x="450" y="945" text-anchor="middle" class="footer-headline">まず「見られる」もの</text>
+  <text x="450" y="985" text-anchor="middle" class="footer-headline">その次に「読まれる」もの</text>
+</svg>

@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1000" role="img" aria-label="紙とWebの違い">
+  <style>
+    .label-heading { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 30px; font-weight: 700; }
+    .label-heading-red { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 30px; font-weight: 700; }
+    .step-box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .step-box-red-outline { fill: #ffffff; stroke: #C44536; stroke-width: 3; }
+    .step-final-good { fill: #C44536; stroke: #C44536; stroke-width: 3; }
+    .step-final-bad { fill: #1a1a1a; stroke: #1a1a1a; stroke-width: 3; }
+    .step-text { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 20px; font-weight: 600; }
+    .step-text-red { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 20px; font-weight: 700; }
+    .step-text-white { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 20px; font-weight: 700; }
+    .arrow-black { stroke: #1a1a1a; stroke-width: 2; fill: none; }
+    .arrow-red { stroke: #C44536; stroke-width: 3; fill: none; }
+    .divider-v { stroke: #ddd; stroke-width: 2; fill: none; stroke-dasharray: 6,6; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .footer-headline-red { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .footer { fill: #444; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 500; }
+  </style>
+
+  <!-- ═══════════ Titles ═══════════ -->
+  <text x="220" y="55" text-anchor="middle" class="label-heading">紙の本</text>
+  <text x="680" y="55" text-anchor="middle" class="label-heading-red">Webの記事</text>
+
+  <!-- ═══════════ Vertical divider ═══════════ -->
+  <line x1="450" y1="80" x2="450" y2="770" class="divider-v"/>
+
+  <!-- ═══════════════════════════════════════════
+       Left column: 紙の本 (4 steps)
+       ═══════════════════════════════════════════ -->
+  
+  <!-- Step 1 (紙): 本の文章 -->
+  <rect x="40" y="105" width="360" height="90" rx="10" class="step-box"/>
+  <text x="220" y="158" text-anchor="middle" class="step-text">本の文章</text>
+
+  <line x1="220" y1="195" x2="220" y2="230" class="arrow-black"/>
+  <polygon points="210,225 220,245 230,225" fill="#1a1a1a"/>
+
+  <!-- Step 2 (紙): 読者が読書を中断しても -->
+  <rect x="40" y="250" width="360" height="90" rx="10" class="step-box"/>
+  <text x="220" y="290" text-anchor="middle" class="step-text">読者が読書を</text>
+  <text x="220" y="318" text-anchor="middle" class="step-text">中断しても</text>
+
+  <line x1="220" y1="340" x2="220" y2="375" class="arrow-black"/>
+  <polygon points="210,370 220,390 230,370" fill="#1a1a1a"/>
+
+  <!-- Step 3 (紙): 本(実物)として残る -->
+  <rect x="40" y="395" width="360" height="90" rx="10" class="step-box"/>
+  <text x="220" y="435" text-anchor="middle" class="step-text">本（実物）</text>
+  <text x="220" y="463" text-anchor="middle" class="step-text">として残る</text>
+
+  <line x1="220" y1="485" x2="220" y2="520" class="arrow-black"/>
+  <polygon points="210,515 220,535 230,515" fill="#1a1a1a"/>
+
+  <!-- Step 4 (紙・良い結末): 再び読まれる -->
+  <rect x="40" y="540" width="360" height="100" rx="10" class="step-final-good"/>
+  <text x="220" y="580" text-anchor="middle" class="step-text-white">再び読まれる</text>
+  <text x="220" y="608" text-anchor="middle" class="step-text-white">可能性がある</text>
+
+  <!-- ═══════════════════════════════════════════
+       Right column: Webの記事 (4 steps)
+       ═══════════════════════════════════════════ -->
+
+  <!-- Step 1 (Web): ウェブの文章 -->
+  <rect x="500" y="105" width="360" height="90" rx="10" class="step-box"/>
+  <text x="680" y="158" text-anchor="middle" class="step-text">ウェブの文章</text>
+
+  <line x1="680" y1="195" x2="680" y2="230" class="arrow-red"/>
+  <polygon points="670,225 680,245 690,225" fill="#C44536"/>
+
+  <!-- Step 2 (Web): まず機械の目 (朱色枠) -->
+  <rect x="500" y="250" width="360" height="90" rx="10" class="step-box-red-outline"/>
+  <text x="680" y="290" text-anchor="middle" class="step-text-red">まず「機械の目」に</text>
+  <text x="680" y="318" text-anchor="middle" class="step-text-red">チェックされる</text>
+
+  <line x1="680" y1="340" x2="680" y2="375" class="arrow-red"/>
+  <polygon points="670,370 680,390 690,370" fill="#C44536"/>
+
+  <!-- Step 3 (Web): 読者はいつでも離脱 -->
+  <rect x="500" y="395" width="360" height="90" rx="10" class="step-box"/>
+  <text x="680" y="435" text-anchor="middle" class="step-text">読者はいつでも</text>
+  <text x="680" y="463" text-anchor="middle" class="step-text">スキップ可能（離脱）</text>
+
+  <line x1="680" y1="485" x2="680" y2="520" class="arrow-red"/>
+  <polygon points="670,515 680,535 690,515" fill="#C44536"/>
+
+  <!-- Step 4 (Web・厳しい結末): 二度と読まれない -->
+  <rect x="500" y="540" width="360" height="100" rx="10" class="step-final-bad"/>
+  <text x="680" y="580" text-anchor="middle" class="step-text-white">二度と</text>
+  <text x="680" y="608" text-anchor="middle" class="step-text-white">読まれない</text>
+
+  <!-- ═══════════ Divider ═══════════ -->
+  <line x1="80" y1="800" x2="820" y2="800" class="divider-h"/>
+
+  <!-- ═══════════ Bottom message ═══════════ -->
+  <text x="450" y="860" text-anchor="middle" class="footer-headline">読者は簡単に逃げる</text>
+  <text x="450" y="905" text-anchor="middle" class="footer-headline">その前に「機械の目」がある</text>
+  <text x="450" y="970" text-anchor="middle" class="footer">これがWebの決定的な違い</text>
+</svg>

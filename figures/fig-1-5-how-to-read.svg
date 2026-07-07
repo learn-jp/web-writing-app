@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1075" role="img" aria-label="本書の歩き方">
+  <style>
+    .source-box { fill: #C44536; stroke: #C44536; stroke-width: 3; }
+    .path-box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .goal-box { fill: #ffffff; stroke: #C44536; stroke-width: 3; }
+    .source-title { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 500; }
+    .source-main { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 30px; font-weight: 700; }
+    .source-sub { fill: #ffe5e2; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 500; }
+    .path-label-red { fill: #C44536; font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 15px; font-weight: 700; }
+    .path-title { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 24px; font-weight: 700; }
+    .path-sub { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 500; }
+    .example-label { fill: #999; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 15px; font-weight: 500; font-style: italic; }
+    .example-item { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 16px; font-weight: 500; }
+    .goal-label { fill: #C44536; font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 16px; font-weight: 700; }
+    .goal-main { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 28px; font-weight: 700; }
+    .goal-sub { fill: #444; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 500; }
+    .transform-label { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 20px; font-weight: 700; }
+    .goal-label-jp { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 700; letter-spacing: 0.2em; }
+    .line-red { stroke: #C44536; stroke-width: 3; fill: none; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .footer { fill: #444; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 500; }
+  </style>
+
+  <!-- ═══════════ Top: 本書の入口 ═══════════ -->
+  <rect x="240" y="30" width="420" height="130" rx="12" class="source-box"/>
+  <text x="450" y="72" text-anchor="middle" class="source-title">この本の歩き方は自由です</text>
+  <text x="450" y="115" text-anchor="middle" class="source-main">新時代のWebライティング</text>
+  <text x="450" y="145" text-anchor="middle" class="source-sub">全13章</text>
+
+  <!-- ═══════════ Branching lines ═══════════ -->
+  <line x1="450" y1="160" x2="450" y2="200" class="line-red"/>
+  <line x1="225" y1="200" x2="675" y2="200" class="line-red"/>
+  <line x1="225" y1="200" x2="225" y2="240" class="line-red"/>
+  <polygon points="215,235 225,255 235,235" fill="#C44536"/>
+  <line x1="675" y1="200" x2="675" y2="240" class="line-red"/>
+  <polygon points="665,235 675,255 685,235" fill="#C44536"/>
+
+  <!-- ═══════════ Path A: 順番に読む ═══════════ -->
+  <rect x="55" y="260" width="340" height="240" rx="12" class="path-box"/>
+  <text x="225" y="315" text-anchor="middle" class="path-title">順番に読む</text>
+  <text x="225" y="360" text-anchor="middle" class="path-sub">1章から順に</text>
+  <text x="225" y="390" text-anchor="middle" class="path-sub">全体の流れを掴む</text>
+  <text x="225" y="435" text-anchor="middle" class="example-label">→ 王道のルート</text>
+
+  <!-- ═══════════ Path B: 気になる章から ═══════════ -->
+  <rect x="505" y="260" width="340" height="240" rx="12" class="path-box"/>
+  <text x="675" y="315" text-anchor="middle" class="path-title">気になる章から</text>
+  <text x="675" y="360" text-anchor="middle" class="example-item">SNSに悩む → 第6章</text>
+  <text x="675" y="390" text-anchor="middle" class="example-item">AIとの付き合い → 第7章</text>
+  <text x="675" y="420" text-anchor="middle" class="example-item">リライトに困る → 第11章</text>
+  <text x="675" y="465" text-anchor="middle" class="example-label">→ Web的な読み方</text>
+
+  <!-- ═══════════ Merging lines with arrow ═══════════ -->
+  <line x1="225" y1="500" x2="225" y2="555" class="line-red"/>
+  <line x1="675" y1="500" x2="675" y2="555" class="line-red"/>
+  <line x1="225" y1="555" x2="675" y2="555" class="line-red"/>
+  <line x1="450" y1="555" x2="450" y2="625" class="line-red"/>
+  <polygon points="440,620 450,640 460,620" fill="#C44536"/>
+
+  <!-- ═══════════ Bottom: 実践 ═══════════ -->
+  <rect x="120" y="655" width="660" height="200" rx="12" class="goal-box"/>
+  <text x="450" y="705" text-anchor="middle" class="goal-label-jp">実践</text>
+  <text x="450" y="755" text-anchor="middle" class="goal-main">自分の文章を書き直してみる</text>
+  <text x="450" y="798" text-anchor="middle" class="goal-sub">過去のブログ、SNS投稿、これから書く記事</text>
+  <text x="450" y="828" text-anchor="middle" class="goal-sub">— 何でもいい</text>
+
+  <!-- ═══════════ Divider ═══════════ -->
+  <line x1="80" y1="905" x2="820" y2="905" class="divider-h"/>
+
+  <!-- ═══════════ Bottom message ═══════════ -->
+  <text x="450" y="960" text-anchor="middle" class="footer-headline">知識が「技術」に変わり</text>
+  <text x="450" y="1000" text-anchor="middle" class="footer-headline">あなたの文章は、届き始める</text>
+  <text x="450" y="1045" text-anchor="middle" class="footer">さあ、旅を始めましょう</text>
+</svg>

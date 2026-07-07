@@ -4,7 +4,7 @@
 //  Cache First for static assets (icons)
 // ═══════════════════════════════════════════
 
-const CACHE_NAME = 'web-writing-v3';
+const CACHE_NAME = 'web-writing-v7';
 
 const APP_ASSETS = [
   './',
@@ -17,6 +17,16 @@ const APP_ASSETS = [
   './favicon.png',
   './icons/icon-192.png',
   './icons/icon-512.png',
+  './figures/fig-1-1-not-dead-v2.svg',
+  './figures/fig-1-2-why-now.svg',
+  './figures/fig-1-3-paper-vs-web.svg',
+  './figures/fig-1-4-three-paths.svg',
+  './figures/fig-1-5-how-to-read.svg',
+  './figures/fig-2-1-questions.svg',
+  './figures/fig-2-2-persona.svg',
+  './figures/fig-2-3-how-readers-read.svg',
+  './figures/fig-2-4-platforms.svg',
+  './figures/fig-2-5-journey.svg',
   './figures/fig-3-1-structure.svg',
   './figures/fig-3-2-prep.svg',
   './figures/fig-3-3-heading-hierarchy.svg',

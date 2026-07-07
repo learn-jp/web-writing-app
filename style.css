@@ -593,3 +593,9 @@ button {
     font-size: 12px;
   }
 }
+
+
+/* 1-1 用: 上マージンを狭くする（前段落との余白調整） */
+.reader-body .section-figure.section-figure-tight {
+  margin-top: 1em;
+}

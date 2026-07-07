@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1000" role="img" aria-label="あなたの物語が届く3つの道">
+  <style>
+    .source-box { fill: #C44536; stroke: #C44536; stroke-width: 3; }
+    .path-box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .goal-box { fill: #ffffff; stroke: #C44536; stroke-width: 3; }
+    .source-main { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 28px; font-weight: 700; }
+    .source-sub { fill: #ffe5e2; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 500; }
+    .path-label { fill: #666; font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 15px; font-weight: 700; }
+    .path-num { fill: #C44536; font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 15px; font-weight: 700; }
+    .path-title { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 24px; font-weight: 700; }
+    .path-sub { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 16px; font-weight: 500; }
+    .goal-label { fill: #C44536; font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 16px; font-weight: 700; }
+    .goal-main { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 28px; font-weight: 700; }
+    .goal-sub { fill: #444; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 500; }
+    .line-red { stroke: #C44536; stroke-width: 3; fill: none; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .footer { fill: #444; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 500; }
+  </style>
+
+  <!-- ═══════════ Top: あなたの文章 (source) ═══════════ -->
+  <rect x="285" y="30" width="330" height="120" rx="12" class="source-box"/>
+  <text x="450" y="80" text-anchor="middle" class="source-main">あなたの文章</text>
+  <text x="450" y="120" text-anchor="middle" class="source-sub">記事、投稿、あらゆる言葉</text>
+
+  <!-- ═══════════ Branching lines ═══════════ -->
+  <!-- 上から分岐点へ -->
+  <line x1="450" y1="150" x2="450" y2="200" class="line-red"/>
+  <!-- 分岐点から左右へ (3本に分ける) -->
+  <line x1="160" y1="200" x2="740" y2="200" class="line-red"/>
+  <!-- 3本の縦線 -->
+  <line x1="160" y1="200" x2="160" y2="240" class="line-red"/>
+  <polygon points="150,235 160,255 170,235" fill="#C44536"/>
+  
+  <line x1="450" y1="200" x2="450" y2="240" class="line-red"/>
+  <polygon points="440,235 450,255 460,235" fill="#C44536"/>
+  
+  <line x1="740" y1="200" x2="740" y2="240" class="line-red"/>
+  <polygon points="730,235 740,255 750,235" fill="#C44536"/>
+
+  <!-- ═══════════ Path 1: 検索エンジン ═══════════ -->
+  <rect x="35" y="255" width="250" height="240" rx="12" class="path-box"/>
+  <text x="60" y="298" class="path-num">01</text>
+  <text x="90" y="298" class="path-label">SEARCH ENGINE</text>
+  <text x="160" y="345" text-anchor="middle" class="path-title">検索エンジン</text>
+  <text x="160" y="395" text-anchor="middle" class="path-sub">「知りたい」から</text>
+  <text x="160" y="420" text-anchor="middle" class="path-sub">辿り着く</text>
+  <text x="160" y="465" text-anchor="middle" class="path-sub" style="font-style: italic;">昔からの王道</text>
+
+  <!-- ═══════════ Path 2: SNS ═══════════ -->
+  <rect x="325" y="255" width="250" height="240" rx="12" class="path-box"/>
+  <text x="350" y="298" class="path-num">02</text>
+  <text x="380" y="298" class="path-label">SNS</text>
+  <text x="450" y="345" text-anchor="middle" class="path-title">SNS</text>
+  <text x="450" y="395" text-anchor="middle" class="path-sub">誰かがシェアして</text>
+  <text x="450" y="420" text-anchor="middle" class="path-sub">思いがけず届く</text>
+  <text x="450" y="465" text-anchor="middle" class="path-sub" style="font-style: italic;">現代のルート</text>
+
+  <!-- ═══════════ Path 3: AI ═══════════ -->
+  <rect x="615" y="255" width="250" height="240" rx="12" class="path-box"/>
+  <text x="640" y="298" class="path-num">03</text>
+  <text x="670" y="298" class="path-label">AI</text>
+  <text x="740" y="345" text-anchor="middle" class="path-title">AI</text>
+  <text x="740" y="395" text-anchor="middle" class="path-sub">質問に対して</text>
+  <text x="740" y="420" text-anchor="middle" class="path-sub">要約して答える</text>
+  <text x="740" y="465" text-anchor="middle" class="path-sub" style="font-style: italic;">ここ数年の新しい道</text>
+
+  <!-- ═══════════ Merging lines to goal ═══════════ -->
+  <line x1="160" y1="495" x2="160" y2="545" class="line-red"/>
+  <line x1="450" y1="495" x2="450" y2="545" class="line-red"/>
+  <line x1="740" y1="495" x2="740" y2="545" class="line-red"/>
+  <!-- 合流の横線 -->
+  <line x1="160" y1="545" x2="740" y2="545" class="line-red"/>
+  <!-- 中央から下へ + 矢印 -->
+  <line x1="450" y1="545" x2="450" y2="620" class="line-red"/>
+  <polygon points="440,615 450,635 460,615" fill="#C44536"/>
+
+  <!-- ═══════════ Bottom: 読者に届く (goal) ═══════════ -->
+  <rect x="150" y="640" width="600" height="160" rx="12" class="goal-box"/>
+  <text x="450" y="695" text-anchor="middle" class="goal-main">読者に届く</text>
+  <text x="450" y="745" text-anchor="middle" class="goal-sub">どの道を通っても、</text>
+  <text x="450" y="772" text-anchor="middle" class="goal-sub">まず「機械の目」にチェックされる</text>
+
+  <!-- ═══════════ Divider ═══════════ -->
+  <line x1="80" y1="860" x2="820" y2="860" class="divider-h"/>
+
+  <!-- ═══════════ Bottom message ═══════════ -->
+  <text x="450" y="915" text-anchor="middle" class="footer-headline">正しいWebライティングこそが</text>
+  <text x="450" y="955" text-anchor="middle" class="footer-headline">しっかり読者に届く</text>
+</svg>

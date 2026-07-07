@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-label="なぜ今Webライティングが必要なのか">
+  <style>
+    .source-box { fill: #C44536; stroke: #C44536; stroke-width: 3; }
+    .path-box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .goal-box { fill: #ffffff; stroke: #C44536; stroke-width: 3; }
+    .source-title { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 20px; font-weight: 600; }
+    .source-main { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 30px; font-weight: 700; }
+    .source-sub { fill: #ffe5e2; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 500; }
+    .path-label { fill: #666; font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 16px; font-weight: 700; }
+    .path-title { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 24px; font-weight: 700; }
+    .path-sub { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 500; }
+    .goal-label { fill: #C44536; font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 16px; font-weight: 700; }
+    .goal-title { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 28px; font-weight: 700; }
+    .goal-sub { fill: #444; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 20px; font-weight: 500; }
+    .line-red { stroke: #C44536; stroke-width: 3; fill: none; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .footer { fill: #444; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 500; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+  </style>
+
+  <!-- ═══════════ Top: あなたの物語 (source) ═══════════ -->
+  <rect x="285" y="30" width="330" height="140" rx="12" class="source-box"/>
+  <text x="450" y="70" text-anchor="middle" class="source-title">あなたが伝えたい</text>
+  <text x="450" y="115" text-anchor="middle" class="source-main">あなたの物語</text>
+  <text x="450" y="150" text-anchor="middle" class="source-sub">（AIには書けないもの）</text>
+
+  <!-- ═══════════ Branching lines from source ═══════════ -->
+  <!-- 上から下へ -->
+  <line x1="450" y1="170" x2="450" y2="230" class="line-red"/>
+  <!-- 分岐点から左右へ (T字型に) -->
+  <line x1="225" y1="230" x2="675" y2="230" class="line-red"/>
+  <!-- 左のボックスへ下る + 矢印 -->
+  <line x1="225" y1="230" x2="225" y2="270" class="line-red"/>
+  <polygon points="215,265 225,280 235,265" fill="#C44536"/>
+  <!-- 右のボックスへ下る + 矢印 -->
+  <line x1="675" y1="230" x2="675" y2="270" class="line-red"/>
+  <polygon points="665,265 675,280 685,265" fill="#C44536"/>
+
+  <!-- ═══════════ Left path: 機械への到達 ═══════════ -->
+  <rect x="55" y="280" width="340" height="140" rx="12" class="path-box"/>
+  <text x="80" y="315" class="path-label">FOR MACHINES</text>
+  <text x="225" y="360" text-anchor="middle" class="path-title">機械の目に届ける</text>
+  <text x="225" y="398" text-anchor="middle" class="path-sub">正しく理解される</text>
+
+  <!-- ═══════════ Right path: 読者への到達 ═══════════ -->
+  <rect x="505" y="280" width="340" height="140" rx="12" class="path-box"/>
+  <text x="530" y="315" class="path-label">FOR HUMANS</text>
+  <text x="675" y="360" text-anchor="middle" class="path-title">読者の心に届ける</text>
+  <text x="675" y="398" text-anchor="middle" class="path-sub">心を動かされる</text>
+
+  <!-- ═══════════ Merging lines to goal ═══════════ -->
+  <!-- 左のボックスから下へ -->
+  <line x1="225" y1="420" x2="225" y2="480" class="line-red"/>
+  <!-- 右のボックスから下へ -->
+  <line x1="675" y1="420" x2="675" y2="480" class="line-red"/>
+  <!-- 合流点をつなぐ横線 -->
+  <line x1="225" y1="480" x2="675" y2="480" class="line-red"/>
+  <!-- 中央から下へ + 矢印 -->
+  <line x1="450" y1="480" x2="450" y2="560" class="line-red"/>
+  <polygon points="440,555 450,570 460,555" fill="#C44536"/>
+
+  <!-- ═══════════ Bottom: Web最適化 (goal) ═══════════ -->
+  <rect x="200" y="570" width="500" height="180" rx="12" class="goal-box"/>
+  <text x="450" y="610" text-anchor="middle" class="goal-label">THE GOAL</text>
+  <text x="450" y="660" text-anchor="middle" class="goal-title">文章のWeb最適化</text>
+  <text x="450" y="700" text-anchor="middle" class="goal-sub">機械にも人にも届く、</text>
+  <text x="450" y="730" text-anchor="middle" class="goal-sub">現代の作法</text>
+
+  <!-- ═══════════ Divider ═══════════ -->
+  <line x1="80" y1="810" x2="820" y2="810" class="divider-h"/>
+
+  <!-- ═══════════ Bottom message ═══════════ -->
+  <text x="450" y="865" text-anchor="middle" class="footer-headline">両方の目に届いてこそ、言葉は生きる</text>
+</svg>

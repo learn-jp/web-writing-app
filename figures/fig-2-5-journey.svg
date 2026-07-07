@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-label="あなたの物語が読者に届くまでの道のり">
+  <style>
+    .top-title { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 28px; font-weight: 700; }
+    .top-caption { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 20px; font-weight: 500; }
+    
+    .source-box { fill: #C44536; stroke: #C44536; stroke-width: 3; }
+    .source-main { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 24px; font-weight: 700; }
+    .source-sub { fill: #ffe5e2; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 20px; font-weight: 600; }
+    
+    .stage-box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .stage-header { fill: #1a1a1a; }
+    .stage-num { fill: #ffe5e2; font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 16px; font-weight: 700; }
+    .stage-title { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 700; }
+    .stage-body-label { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 17px; font-weight: 700; }
+    .stage-body { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 20px; font-weight: 600; }
+    .stage-quote { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 15px; font-weight: 500; font-style: italic; }
+    
+    .goal-box { fill: #ffffff; stroke: #C44536; stroke-width: 3; }
+    .goal-label { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 700; letter-spacing: 0.2em; }
+    .goal-main { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 28px; font-weight: 700; }
+    .goal-sub { fill: #444; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 600; }
+    
+    .arrow-red { stroke: #C44536; stroke-width: 3; fill: none; }
+    
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 28px; font-weight: 700; }
+    .footer { fill: #444; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 500; }
+    .footer-bridge { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 20px; font-weight: 500; font-style: italic; }
+  </style>
+
+  <!-- ═══════════ Top: Title ═══════════ -->
+  <text x="450" y="55" text-anchor="middle" class="top-title">あなたの物語が、読者に届くまでの道のり</text>
+  <text x="450" y="90" text-anchor="middle" class="top-caption">書いてから、届いて、心を動かし、ファンになるまで</text>
+
+  <!-- ═══════════ Source: あなたの文章 ═══════════ -->
+  <rect x="225" y="130" width="450" height="100" rx="12" class="source-box"/>
+  <text x="450" y="170" text-anchor="middle" class="source-main">あなたの文章</text>
+  <text x="450" y="205" text-anchor="middle" class="source-sub">書きあがった記事、投稿、動画の概要</text>
+
+  <!-- ═══════════ Arrow down ═══════════ -->
+  <line x1="450" y1="230" x2="450" y2="270" class="arrow-red"/>
+  <polygon points="440,265 450,285 460,265" fill="#C44536"/>
+
+  <!-- ═══════════════════════════════════════════
+       Stage 1: 機械の目に理解される
+       ═══════════════════════════════════════════ -->
+  <rect x="60" y="290" width="780" height="150" rx="10" class="stage-box"/>
+  <!-- Header -->
+  <rect x="60" y="290" width="180" height="150" rx="10" class="stage-header"/>
+  <text x="80" y="320" class="stage-num">STAGE 01</text>
+  <text x="150" y="370" text-anchor="middle" class="stage-title">機械の目に</text>
+  <text x="150" y="400" text-anchor="middle" class="stage-title">理解される</text>
+  <!-- Body -->
+  <text x="270" y="330" class="stage-body-label">機械が判断する</text>
+  <text x="270" y="375" class="stage-body">「これは誰の、どんな問いに答える文章か」</text>
+  <text x="270" y="408" class="stage-body">「この文章は信頼できるか、誰に届けるべきか」</text>
+
+  <!-- Arrow -->
+  <line x1="450" y1="440" x2="450" y2="475" class="arrow-red"/>
+  <polygon points="440,470 450,490 460,470" fill="#C44536"/>
+
+  <!-- ═══════════════════════════════════════════
+       Stage 2: 読者の関心を掴む
+       ═══════════════════════════════════════════ -->
+  <rect x="60" y="495" width="780" height="150" rx="10" class="stage-box"/>
+  <rect x="60" y="495" width="180" height="150" rx="10" class="stage-header"/>
+  <text x="80" y="525" class="stage-num">STAGE 02</text>
+  <text x="150" y="575" text-anchor="middle" class="stage-title">読者の関心を</text>
+  <text x="150" y="605" text-anchor="middle" class="stage-title">掴む</text>
+  <!-- Body -->
+  <text x="270" y="535" class="stage-body-label">読者が数秒で判断する</text>
+  <text x="270" y="580" class="stage-body">「これは自分のための文章か」</text>
+  <text x="270" y="613" class="stage-body">「読む価値はあるか」</text>
+
+  <!-- Arrow -->
+  <line x1="450" y1="645" x2="450" y2="680" class="arrow-red"/>
+  <polygon points="440,675 450,695 460,675" fill="#C44536"/>
+
+  <!-- ═══════════════════════════════════════════
+       Stage 3: 読者の心を動かす
+       ═══════════════════════════════════════════ -->
+  <rect x="60" y="700" width="780" height="150" rx="10" class="stage-box"/>
+  <rect x="60" y="700" width="180" height="150" rx="10" class="stage-header"/>
+  <text x="80" y="730" class="stage-num">STAGE 03</text>
+  <text x="150" y="780" text-anchor="middle" class="stage-title">読者の心を</text>
+  <text x="150" y="810" text-anchor="middle" class="stage-title">動かす</text>
+  <!-- Body -->
+  <text x="270" y="740" class="stage-body-label">読者が動く</text>
+  <text x="270" y="785" class="stage-body">じっくり読み込む → シェアする</text>
+  <text x="270" y="818" class="stage-body">深く知りたくなる → 他の記事も読む</text>
+
+  <!-- Arrow -->
+  <line x1="450" y1="850" x2="450" y2="885" class="arrow-red"/>
+  <polygon points="440,880 450,900 460,880" fill="#C44536"/>
+
+  <!-- ═══════════════════════════════════════════
+       Stage 4 (GOAL): ファンになる
+       ═══════════════════════════════════════════ -->
+  <rect x="60" y="905" width="780" height="160" rx="12" class="goal-box"/>
+  <text x="450" y="940" text-anchor="middle" class="goal-label">GOAL</text>
+  <text x="450" y="995" text-anchor="middle" class="goal-main">読者があなたのファンになる</text>
+  <text x="450" y="1035" text-anchor="middle" class="goal-sub">一人ずつ、確実に、育っていく</text>
+
+  <!-- ═══════════ Divider ═══════════ -->
+  <line x1="80" y1="1110" x2="820" y2="1110" class="divider-h"/>
+
+  <!-- ═══════════ Bottom message ═══════════ -->
+  <text x="450" y="1170" text-anchor="middle" class="footer-headline">届くまでの全体を、設計する</text>
+</svg>

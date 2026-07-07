@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 950" role="img" aria-label="読者の問いを読み解く - 氷山モデル">
+  <style>
+    .iceberg-above { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2.5; }
+    .iceberg-below { fill: #C44536; stroke: #C44536; stroke-width: 3; }
+    .water-line { stroke: #1a1a1a; stroke-width: 2; stroke-dasharray: 10,6; fill: none; }
+    .water-label { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 500; font-style: italic; }
+    .surface-tag { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 20px; font-weight: 700; }
+    .surface-caption { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 17px; font-weight: 500; }
+    .surface-text { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 600; }
+    .deep-tag { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 700; }
+    .deep-caption { fill: #ffe5e2; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 17px; font-weight: 500; }
+    .deep-question { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 21px; font-weight: 500; }
+    .deep-emotion { fill: #ffe5e2; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 700; font-style: italic; }
+    .side-label-red { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 700; }
+    .side-label-black { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 700; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .footer { fill: #444; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 500; }
+  </style>
+
+  <!-- ═══════════ Iceberg above water (small, ~1/4) ═══════════ -->
+  <!-- 氷山の水面上部分：三角形状（頂点を持つ形） -->
+  <polygon points="380,60 520,60 570,220 330,220" class="iceberg-above"/>
+
+  <!-- 水面上のラベル -->
+  <text x="450" y="105" text-anchor="middle" class="surface-tag">見えている問い</text>
+  <text x="450" y="140" text-anchor="middle" class="surface-caption">検索キーワード</text>
+  <text x="450" y="185" text-anchor="middle" class="surface-text">「在宅勤務 始め方」</text>
+
+  <!-- 側面ラベル：全体の1/8 -->
+  <text x="640" y="145" class="side-label-black">全体の一部</text>
+
+  <!-- ═══════════ Water line ═══════════ -->
+  <line x1="60" y1="240" x2="840" y2="240" class="water-line"/>
+  <text x="60" y="230" class="water-label">水面</text>
+
+  <!-- ═══════════ Iceberg below water (large, ~3/4) ═══════════ -->
+  <!-- 氷山の水面下部分：大きな逆三角/台形状 -->
+  <polygon points="330,260 570,260 780,760 120,760" class="iceberg-below"/>
+
+  <!-- 水面下のラベル -->
+  <text x="450" y="380" text-anchor="middle" class="deep-tag">本当の問い</text>
+  <text x="450" y="413" text-anchor="middle" class="deep-caption">読者の心の奥にあるもの</text>
+
+  <!-- 3つの深い問い -->
+  <text x="450" y="480" text-anchor="middle" class="deep-question">「自分にも在宅勤務ができるだろうか」</text>
+  <text x="450" y="535" text-anchor="middle" class="deep-question">「会社にどう切り出せばいいだろうか」</text>
+  <text x="450" y="590" text-anchor="middle" class="deep-question">「本当に成果を出せるだろうか」</text>
+
+  <!-- 感情の言葉（強調） -->
+  <text x="450" y="680" text-anchor="middle" class="deep-emotion">不安・迷い・恐れ</text>
+
+  <!-- 側面ラベル：本体 -->
+  <text x="795" y="510" text-anchor="end" class="side-label-red">これが本体</text>
+
+  <!-- ═══════════ Divider ═══════════ -->
+  <line x1="80" y1="820" x2="820" y2="820" class="divider-h"/>
+
+  <!-- ═══════════ Bottom message ═══════════ -->
+  <text x="450" y="870" text-anchor="middle" class="footer-headline">水面下にある「本当の問い」に</text>
+  <text x="450" y="910" text-anchor="middle" class="footer-headline">答える文章が、読者の心に響く</text>
+</svg>

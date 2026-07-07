@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1090" role="img" aria-label="ペルソナと読者像の設定">
+  <style>
+    .card-outer { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .card-header { fill: #1a1a1a; }
+    .card-header-title { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .card-header-sub { fill: #ccc; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 16px; font-weight: 500; }
+    .field-label { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 700; }
+    .field-value { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 500; }
+    .field-value-strong { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 24px; font-weight: 700; }
+    .field-line { stroke: #eee; stroke-width: 1; fill: none; }
+    .tip-box { fill: #C44536; stroke: #C44536; stroke-width: 3; }
+    .tip-label { fill: #ffe5e2; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 500; letter-spacing: 0.2em; }
+    .tip-title { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 28px; font-weight: 700; }
+    .tip-sub { fill: #ffe5e2; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 20px; font-weight: 500; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .footer { fill: #444; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 500; }
+  </style>
+
+  <!-- ═══════════ Persona card ═══════════ -->
+  <rect x="60" y="30" width="780" height="660" rx="12" class="card-outer"/>
+
+  <!-- Card header (dark) -->
+  <rect x="60" y="30" width="780" height="90" rx="12" class="card-header"/>
+  <rect x="60" y="90" width="780" height="30" class="card-header"/>
+  <text x="90" y="72" class="card-header-title">ペルソナ</text>
+  <text x="90" y="105" class="card-header-sub">たった一人の読者を思い描く</text>
+
+  <!-- ═══════════ Field 1: 名前 ═══════════ -->
+  <text x="90" y="170" class="field-label">名前</text>
+  <text x="90" y="210" class="field-value-strong">山田さん（仮名）</text>
+  <line x1="90" y1="235" x2="810" y2="235" class="field-line"/>
+
+  <!-- ═══════════ Field 2: 年齢 ═══════════ -->
+  <text x="90" y="280" class="field-label">年齢</text>
+  <text x="90" y="320" class="field-value">32歳</text>
+  <line x1="90" y1="345" x2="810" y2="345" class="field-line"/>
+
+  <!-- ═══════════ Field 3: 仕事 ═══════════ -->
+  <text x="90" y="390" class="field-label">仕事</text>
+  <text x="90" y="430" class="field-value">都内のIT企業勤務、エンジニア4年目</text>
+  <line x1="90" y1="455" x2="810" y2="455" class="field-line"/>
+
+  <!-- ═══════════ Field 4: 状況 ═══════════ -->
+  <text x="90" y="500" class="field-label">状況</text>
+  <text x="90" y="540" class="field-value">来月から完全在宅勤務になることが決まった</text>
+  <line x1="90" y1="565" x2="810" y2="565" class="field-line"/>
+
+  <!-- ═══════════ Field 5: 不安 ═══════════ -->
+  <text x="90" y="610" class="field-label">不安</text>
+  <text x="90" y="640" class="field-value" style="font-size: 20px;">家で集中できるか、運動不足にならないか、孤独にならないか</text>
+
+  <!-- ═══════════ Tip box: 唯一のコツ ═══════════ -->
+  <rect x="60" y="740" width="780" height="170" rx="12" class="tip-box"/>
+  <text x="450" y="775" text-anchor="middle" class="tip-label">たった一つのコツ</text>
+  <text x="450" y="828" text-anchor="middle" class="tip-title">実在する誰かを思い浮かべる</text>
+  <text x="450" y="868" text-anchor="middle" class="tip-sub">友人、家族、過去の自分、知り合い — 誰でもいい</text>
+
+  <!-- ═══════════ Divider ═══════════ -->
+  <line x1="80" y1="965" x2="820" y2="965" class="divider-h"/>
+
+  <!-- ═══════════ Bottom message ═══════════ -->
+  <text x="450" y="1025" text-anchor="middle" class="footer-headline">具体的な一人に語りかけると</text>
+  <text x="450" y="1065" text-anchor="middle" class="footer-headline">文章に温度が宿る</text>
+</svg>

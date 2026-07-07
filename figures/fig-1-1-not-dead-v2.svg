@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 720" role="img" aria-label="Webライティングは死んでいない">
+  <style>
+    .env-box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .center-box { fill: #C44536; stroke: #C44536; stroke-width: 3; }
+    .env-label { fill: #666; font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 18px; font-weight: 700; }
+    .env-title { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .env-sub { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 500; }
+    .center-title { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 24px; font-weight: 700; }
+    .center-main { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 30px; font-weight: 700; }
+    .center-sub { fill: #ffe5e2; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 500; }
+    .line-red { stroke: #C44536; stroke-width: 3; fill: none; stroke-dasharray: 6,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .footer { fill: #444; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 500; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+  </style>
+
+  <!-- ═══════════ Top: AI ═══════════ -->
+  <rect x="325" y="40" width="250" height="110" rx="12" class="env-box"/>
+  <text x="355" y="73" class="env-label">AI</text>
+  <text x="450" y="103" text-anchor="middle" class="env-title">AIの時代</text>
+  <text x="450" y="132" text-anchor="middle" class="env-sub">誰でも数秒で文章が書ける</text>
+
+  <!-- Line: AI → Center -->
+  <line x1="450" y1="150" x2="450" y2="195" class="line-red"/>
+
+  <!-- ═══════════ Left: SNS ═══════════ -->
+  <rect x="30" y="250" width="250" height="110" rx="12" class="env-box"/>
+  <text x="60" y="283" class="env-label">SNS</text>
+  <text x="155" y="313" text-anchor="middle" class="env-title">SNSの時代</text>
+  <text x="155" y="342" text-anchor="middle" class="env-sub">動画と短文が主役に</text>
+
+  <!-- Line: SNS → Center -->
+  <line x1="280" y1="305" x2="335" y2="305" class="line-red"/>
+
+  <!-- ═══════════ Right: Search ═══════════ -->
+  <rect x="620" y="250" width="250" height="110" rx="12" class="env-box"/>
+  <text x="650" y="283" class="env-label">SEARCH</text>
+  <text x="745" y="313" text-anchor="middle" class="env-title">検索の変化</text>
+  <text x="745" y="342" text-anchor="middle" class="env-sub">選択肢が増えている</text>
+
+  <!-- Line: Search → Center -->
+  <line x1="620" y1="305" x2="565" y2="305" class="line-red"/>
+
+  <!-- ═══════════ Center: あなたの物語 (narrower) ═══════════ -->
+  <rect x="335" y="195" width="230" height="220" rx="12" class="center-box"/>
+  <text x="450" y="240" text-anchor="middle" class="center-title">Webライティング</text>
+  <text x="450" y="295" text-anchor="middle" class="center-main">あなたの</text>
+  <text x="450" y="335" text-anchor="middle" class="center-main">物語</text>
+  <text x="450" y="373" text-anchor="middle" class="center-sub">を世界に届ける</text>
+  <text x="450" y="400" text-anchor="middle" class="center-sub">現代の技術</text>
+
+  <!-- Line: Center → 読者 -->
+  <line x1="450" y1="415" x2="450" y2="460" class="line-red"/>
+
+  <!-- ═══════════ Bottom: 読者の心 ═══════════ -->
+  <rect x="325" y="460" width="250" height="110" rx="12" class="env-box"/>
+  <text x="450" y="510" text-anchor="middle" class="env-title">読者の心</text>
+  <text x="450" y="543" text-anchor="middle" class="env-sub">言葉が「届く」その先へ</text>
+
+  <!-- ═══════════ Divider ═══════════ -->
+  <line x1="80" y1="620" x2="820" y2="620" class="divider-h"/>
+
+  <!-- ═══════════ Bottom message ═══════════ -->
+  <text x="450" y="675" text-anchor="middle" class="footer-headline">技術そのものは死んでいない</text>
+</svg>
