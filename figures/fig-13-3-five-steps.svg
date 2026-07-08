@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 680" role="img" aria-label="企画からリサーチ構成執筆校正の5ステップ">
+  <style>
+    .step-box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .step-num-circle { fill: #C44536; }
+    .step-num-text { fill: #ffffff; font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 17px; font-weight: 700; }
+    .step-title { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 700; }
+    .step-desc { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 13px; font-weight: 500; }
+    .arrow-red { stroke: #C44536; stroke-width: 2.5; fill: none; }
+    .label-heading { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+  </style>
+
+  <text x="450" y="50" text-anchor="middle" class="label-heading">1本の記事を書く、5つのステップ</text>
+
+  <!-- 5つを横並び、各幅150、間隔10、矢印分20を挟む -->
+  <!-- 総幅: 5*150 + 4*30(矢印含む間隔) = 750+120=870, x開始=15 -->
+
+  <rect x="15" y="100" width="150" height="230" rx="10" class="step-box"/>
+  <circle cx="90" cy="140" r="19" class="step-num-circle"/>
+  <text x="90" y="147" text-anchor="middle" class="step-num-text">1</text>
+  <text x="90" y="185" text-anchor="middle" class="step-title">企画</text>
+  <text x="90" y="220" text-anchor="middle" class="step-desc">何を、誰に、</text>
+  <text x="90" y="240" text-anchor="middle" class="step-desc">なぜ伝えるか</text>
+
+  <line x1="165" y1="215" x2="190" y2="215" class="arrow-red"/>
+  <polygon points="183,208 200,215 183,222" fill="#C44536"/>
+
+  <rect x="200" y="100" width="150" height="230" rx="10" class="step-box"/>
+  <circle cx="275" cy="140" r="19" class="step-num-circle"/>
+  <text x="275" y="147" text-anchor="middle" class="step-num-text">2</text>
+  <text x="275" y="185" text-anchor="middle" class="step-title">リサーチ</text>
+  <text x="275" y="220" text-anchor="middle" class="step-desc">情報を集める</text>
+  <text x="275" y="240" text-anchor="middle" class="step-desc">（8割でOK）</text>
+
+  <line x1="350" y1="215" x2="375" y2="215" class="arrow-red"/>
+  <polygon points="368,208 385,215 368,222" fill="#C44536"/>
+
+  <rect x="385" y="100" width="150" height="230" rx="10" class="step-box"/>
+  <circle cx="460" cy="140" r="19" class="step-num-circle"/>
+  <text x="460" y="147" text-anchor="middle" class="step-num-text">3</text>
+  <text x="460" y="185" text-anchor="middle" class="step-title">構成</text>
+  <text x="460" y="220" text-anchor="middle" class="step-desc">見出しを</text>
+  <text x="460" y="240" text-anchor="middle" class="step-desc">書き出す</text>
+
+  <line x1="535" y1="215" x2="560" y2="215" class="arrow-red"/>
+  <polygon points="553,208 570,215 553,222" fill="#C44536"/>
+
+  <rect x="570" y="100" width="150" height="230" rx="10" class="step-box"/>
+  <circle cx="645" cy="140" r="19" class="step-num-circle"/>
+  <text x="645" y="147" text-anchor="middle" class="step-num-text">4</text>
+  <text x="645" y="185" text-anchor="middle" class="step-title">執筆</text>
+  <text x="645" y="220" text-anchor="middle" class="step-desc">まず</text>
+  <text x="645" y="240" text-anchor="middle" class="step-desc">完走を目指す</text>
+
+  <line x1="720" y1="215" x2="745" y2="215" class="arrow-red"/>
+  <polygon points="738,208 755,215 738,222" fill="#C44536"/>
+
+  <rect x="755" y="100" width="130" height="230" rx="10" class="step-box"/>
+  <circle cx="820" cy="140" r="19" class="step-num-circle"/>
+  <text x="820" y="147" text-anchor="middle" class="step-num-text">5</text>
+  <text x="820" y="185" text-anchor="middle" class="step-title">校正</text>
+  <text x="820" y="220" text-anchor="middle" class="step-desc">スマホで</text>
+  <text x="820" y="240" text-anchor="middle" class="step-desc">読み返す</text>
+
+  <line x1="80" y1="380" x2="820" y2="380" class="divider-h"/>
+  <text x="450" y="440" text-anchor="middle" class="label-heading">大切なのは、思いつきで書き始めないこと</text>
+  <text x="450" y="490" text-anchor="middle" class="step-desc" style="font-size:20px;">段階を踏むことで、迷いが減り、質も上がる</text>
+
+  <line x1="80" y1="550" x2="820" y2="550" class="divider-h"/>
+  <text x="450" y="610" text-anchor="middle" class="footer-headline">このワークフローは、目安。慣れれば自分なりの順が見える</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 780" role="img" aria-label="本書の地図、3つの経路が読者の心に届く">
+  <style>
+    .path-box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .path-label { fill: #666; font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 15px; font-weight: 700; }
+    .path-title { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 700; }
+    .goal-box { fill: #C44536; stroke: #C44536; stroke-width: 3; }
+    .goal-text { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 27px; font-weight: 700; }
+    .goal-sub { fill: #ffe5e2; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 500; }
+    .line-red { stroke: #C44536; stroke-width: 3; fill: none; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 27px; font-weight: 700; }
+    .footer { fill: #444; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 21px; font-weight: 500; }
+  </style>
+
+  <text x="450" y="45" text-anchor="middle" class="footer-headline">これから始まる、旅の地図</text>
+
+  <!-- 3つの経路 -->
+  <rect x="60" y="90" width="230" height="110" rx="10" class="path-box"/>
+  <text x="85" y="122" class="path-label">SEARCH</text>
+  <text x="175" y="160" text-anchor="middle" class="path-title">検索エンジン</text>
+
+  <rect x="335" y="90" width="230" height="110" rx="10" class="path-box"/>
+  <text x="360" y="122" class="path-label">SNS</text>
+  <text x="450" y="160" text-anchor="middle" class="path-title">SNS</text>
+
+  <rect x="610" y="90" width="230" height="110" rx="10" class="path-box"/>
+  <text x="635" y="122" class="path-label">AI</text>
+  <text x="725" y="160" text-anchor="middle" class="path-title">AI</text>
+
+  <!-- 合流線 -->
+  <line x1="175" y1="200" x2="175" y2="255" class="line-red"/>
+  <line x1="450" y1="200" x2="450" y2="255" class="line-red"/>
+  <line x1="725" y1="200" x2="725" y2="255" class="line-red"/>
+  <line x1="175" y1="255" x2="725" y2="255" class="line-red"/>
+  <line x1="450" y1="255" x2="450" y2="310" class="line-red"/>
+  <polygon points="440,305 450,325 460,305" fill="#C44536"/>
+
+  <rect x="200" y="340" width="500" height="140" rx="12" class="goal-box"/>
+  <text x="450" y="395" text-anchor="middle" class="goal-text">読者の心</text>
+  <text x="450" y="440" text-anchor="middle" class="goal-sub">あなたの物語が、届く場所</text>
+
+  <line x1="80" y1="545" x2="820" y2="545" class="divider-h"/>
+  <text x="450" y="600" text-anchor="middle" class="footer-headline">誠実に届けば、自然と評価される</text>
+  <text x="450" y="645" text-anchor="middle" class="footer">順番は、読者の心が先。機械の目は、そのあと</text>
+
+  <text x="450" y="720" text-anchor="middle" class="footer" style="font-style:italic; fill:#666;">さあ、あなたの物語を届ける旅を、始めましょう</text>
+</svg>

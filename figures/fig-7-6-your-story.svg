@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 950" role="img" aria-label="あなたの物語を構成する4つの問い">
+  <style>
+    .petal-box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .petal-text { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 17px; font-weight: 600; }
+    .center-circle { fill: #C44536; stroke: #C44536; stroke-width: 3; }
+    .center-text { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .line-red { stroke: #C44536; stroke-width: 2; fill: none; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 27px; font-weight: 700; }
+    .footer-headline-red { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 30px; font-weight: 700; }
+    .footer { fill: #444; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 21px; font-weight: 500; }
+  </style>
+
+  <!-- 放射状の線（中心から4方向） -->
+  <line x1="450" y1="380" x2="230" y2="180" class="line-red"/>
+  <line x1="450" y1="380" x2="670" y2="180" class="line-red"/>
+  <line x1="450" y1="380" x2="230" y2="500" class="line-red"/>
+  <line x1="450" y1="380" x2="670" y2="500" class="line-red"/>
+
+  <!-- 4つの花びら（問い） -->
+  <rect x="80" y="105" width="300" height="110" rx="10" class="petal-box"/>
+  <text x="230" y="150" text-anchor="middle" class="petal-text">あなたが、これまで</text>
+  <text x="230" y="180" text-anchor="middle" class="petal-text">どんな道を歩いてきたか</text>
+
+  <rect x="520" y="105" width="300" height="110" rx="10" class="petal-box"/>
+  <text x="670" y="150" text-anchor="middle" class="petal-text">あなたが、何に夢中になり</text>
+  <text x="670" y="180" text-anchor="middle" class="petal-text">何に失敗してきたか</text>
+
+  <rect x="80" y="425" width="300" height="110" rx="10" class="petal-box"/>
+  <text x="230" y="470" text-anchor="middle" class="petal-text">あなたが、なぜ今これを</text>
+  <text x="230" y="500" text-anchor="middle" class="petal-text">書こうと思ったか</text>
+
+  <rect x="520" y="425" width="300" height="110" rx="10" class="petal-box"/>
+  <text x="670" y="470" text-anchor="middle" class="petal-text">あなたが、読者に伝えたい</text>
+  <text x="670" y="500" text-anchor="middle" class="petal-text">本当の想いは何か</text>
+
+  <!-- 中心：あなたの物語 -->
+  <circle cx="450" cy="380" r="115" class="center-circle"/>
+  <text x="450" y="372" text-anchor="middle" class="center-text">あなたの</text>
+  <text x="450" y="408" text-anchor="middle" class="center-text">物語</text>
+
+  <line x1="80" y1="600" x2="820" y2="600" class="divider-h"/>
+
+  <text x="450" y="660" text-anchor="middle" class="footer-headline">AIには、絶対に真似できない</text>
+  <text x="450" y="720" text-anchor="middle" class="footer">自分の物語を、自分の言葉で語る勇気を持つこと</text>
+
+  <text x="450" y="800" text-anchor="middle" class="footer-headline-red">あなたの物語を、世界に届けてください</text>
+</svg>

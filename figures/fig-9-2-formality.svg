@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 850" role="img" aria-label="敬体と常体の使い分け">
+  <style>
+    .label-heading { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 24px; font-weight: 700; }
+    .label-heading-red { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 24px; font-weight: 700; }
+    .box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .box-red { fill: #ffffff; stroke: #C44536; stroke-width: 2; }
+    .ex-text { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 600; }
+    .desc { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 17px; font-weight: 500; }
+    .divider-v { stroke: #ddd; stroke-width: 2; fill: none; stroke-dasharray: 6,6; }
+    .warn-box { fill: #1a1a1a; }
+    .warn-label { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 17px; font-weight: 700; letter-spacing: 0.1em; }
+    .warn-text { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 20px; font-weight: 700; }
+    .warn-example { fill: #ccc; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 16px; font-weight: 500; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+  </style>
+
+  <text x="220" y="50" text-anchor="middle" class="label-heading">敬体（です・ます）</text>
+  <text x="680" y="50" text-anchor="middle" class="label-heading-red">常体（だ・である）</text>
+
+  <line x1="450" y1="30" x2="450" y2="360" class="divider-v"/>
+
+  <rect x="60" y="85" width="360" height="150" rx="10" class="box"/>
+  <text x="90" y="130" class="ex-text">「在宅勤務には、椅子が</text>
+  <text x="90" y="158" class="ex-text">大切です」</text>
+  <text x="90" y="205" class="desc">丁寧、距離感を保つ</text>
+
+  <rect x="480" y="85" width="360" height="150" rx="10" class="box-red"/>
+  <text x="510" y="130" class="ex-text" style="fill:#C44536;">「在宅勤務には、椅子が</text>
+  <text x="510" y="158" class="ex-text" style="fill:#C44536;">大切だ」</text>
+  <text x="510" y="205" class="desc">力強く、断定的</text>
+
+  <text x="220" y="270" text-anchor="middle" class="desc">ビジネス記事・入門書・解説記事向き</text>
+  <text x="680" y="270" text-anchor="middle" class="desc">論説・エッセイ・強いメッセージ向き</text>
+
+  <line x1="80" y1="330" x2="820" y2="330" class="divider-h"/>
+
+  <rect x="100" y="365" width="700" height="185" rx="12" class="warn-box"/>
+  <text x="450" y="410" text-anchor="middle" class="warn-label">絶対にやってはいけないこと</text>
+  <text x="450" y="450" text-anchor="middle" class="warn-text">同じ記事の中で、混ぜること</text>
+  <text x="450" y="495" text-anchor="middle" class="warn-example">「椅子が大切です。だから、専用の椅子を選ぶべきだ」</text>
+  <text x="450" y="525" text-anchor="middle" class="warn-example">← 読者は違和感を覚える</text>
+
+  <line x1="80" y1="600" x2="820" y2="600" class="divider-h"/>
+  <text x="450" y="655" text-anchor="middle" class="footer-headline">1つの記事の中では、必ずどちらかに統一する</text>
+</svg>

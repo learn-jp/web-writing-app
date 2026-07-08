@@ -4,7 +4,7 @@
 //  Cache First for static assets (icons)
 // ═══════════════════════════════════════════
 
-const CACHE_NAME = 'web-writing-v8';
+const CACHE_NAME = 'web-writing-v9';
 
 const APP_ASSETS = [
   './',
@@ -50,6 +50,46 @@ const APP_ASSETS = [
   './figures/fig-6-4-hashtags.svg',
   './figures/fig-6-5-sns-search.svg',
   './figures/fig-6-6-your-place.svg',
+  './figures/fig-00-preface-map.svg',
+  './figures/fig-7-1-why-humans.svg',
+  './figures/fig-7-2-ai-friendly.svg',
+  './figures/fig-7-3-using-ai.svg',
+  './figures/fig-7-4-ai-search.svg',
+  './figures/fig-7-5-spotting-ai.svg',
+  './figures/fig-7-6-your-story.svg',
+  './figures/fig-8-1-what-is-eeat.svg',
+  './figures/fig-8-2-experience.svg',
+  './figures/fig-8-3-expertise.svg',
+  './figures/fig-8-4-authoritativeness.svg',
+  './figures/fig-8-5-trustworthiness.svg',
+  './figures/fig-8-6-ymyl.svg',
+  './figures/fig-9-1-tone-vs-voice.svg',
+  './figures/fig-9-2-formality.svg',
+  './figures/fig-9-3-distance.svg',
+  './figures/fig-9-4-courage.svg',
+  './figures/fig-9-5-empathy.svg',
+  './figures/fig-10-1-mobile-first.svg',
+  './figures/fig-10-2-short-screen.svg',
+  './figures/fig-10-3-cta.svg',
+  './figures/fig-10-4-readable-by-everyone.svg',
+  './figures/fig-10-5-plain-language.svg',
+  './figures/fig-10-6-alt-text.svg',
+  './figures/fig-11-1-why-rewrite.svg',
+  './figures/fig-11-2-finding-targets.svg',
+  './figures/fig-11-3-freshness.svg',
+  './figures/fig-11-4-rewrite-types.svg',
+  './figures/fig-11-5-process.svg',
+  './figures/fig-12-1-numbers-as-reply.svg',
+  './figures/fig-12-2-analytics.svg',
+  './figures/fig-12-3-search-console.svg',
+  './figures/fig-12-4-not-driven.svg',
+  './figures/fig-12-5-prioritization.svg',
+  './figures/fig-13-1-strategy-overview.svg',
+  './figures/fig-13-2-order-of-writing.svg',
+  './figures/fig-13-3-five-steps.svg',
+  './figures/fig-13-4-keep-writing.svg',
+  './figures/fig-13-5-post-publish.svg',
+  './figures/fig-13-6-afterword.svg',
 ];
 
 // インストール時：ファイルをキャッシュ

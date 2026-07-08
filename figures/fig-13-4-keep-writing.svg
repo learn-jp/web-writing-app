@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 850" role="img" aria-label="継続して書き続ける4つの仕組み">
+  <style>
+    .card-box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .p-num { fill: #C44536; font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 19px; font-weight: 700; }
+    .p-title { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 20px; font-weight: 700; }
+    .p-desc { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 16px; font-weight: 500; }
+    .goal-box { fill: #C44536; stroke: #C44536; stroke-width: 3; }
+    .goal-text { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .label-heading { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+  </style>
+
+  <text x="450" y="45" text-anchor="middle" class="label-heading">続けるための、4つの工夫</text>
+
+  <rect x="60" y="80" width="365" height="130" rx="10" class="card-box"/>
+  <text x="90" y="120" class="p-num">01</text>
+  <text x="150" y="120" class="p-title">完璧を目指さない</text>
+  <text x="90" y="160" class="p-desc">まず70点で公開し、</text>
+  <text x="90" y="185" class="p-desc">リライトで磨いていく</text>
+
+  <rect x="475" y="80" width="365" height="130" rx="10" class="card-box"/>
+  <text x="505" y="120" class="p-num">02</text>
+  <text x="565" y="120" class="p-title">自分のペースを決める</text>
+  <text x="505" y="160" class="p-desc">無理なペースは続かない。</text>
+  <text x="505" y="185" class="p-desc">ペースを守ることを優先する</text>
+
+  <rect x="60" y="230" width="365" height="130" rx="10" class="card-box"/>
+  <text x="90" y="270" class="p-num">03</text>
+  <text x="150" y="270" class="p-title">テーマのストックを持つ</text>
+  <text x="90" y="310" class="p-desc">「記事になりそう」と思った</text>
+  <text x="90" y="335" class="p-desc">瞬間に、すぐメモする</text>
+
+  <rect x="475" y="230" width="365" height="130" rx="10" class="card-box"/>
+  <text x="505" y="270" class="p-num">04</text>
+  <text x="565" y="270" class="p-title">公開しない時期も書く</text>
+  <text x="505" y="310" class="p-desc">「書くこと自体」を習慣にし、</text>
+  <text x="505" y="335" class="p-desc">後で選んで公開する</text>
+
+  <line x1="450" y1="380" x2="450" y2="410" class="arrow-red" style="stroke:#C44536;stroke-width:3;"/>
+  <polygon points="440,405 450,425 460,405" fill="#C44536"/>
+
+  <rect x="200" y="440" width="500" height="120" rx="12" class="goal-box"/>
+  <text x="450" y="490" text-anchor="middle" class="goal-text">続けることは、才能ではない</text>
+  <text x="450" y="530" text-anchor="middle" class="goal-text" style="font-size:22px;">仕組みである</text>
+
+  <line x1="80" y1="620" x2="820" y2="620" class="divider-h"/>
+  <text x="450" y="675" text-anchor="middle" class="footer-headline">続けられる仕組みが、長い目で大きな成果を生む</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 950" role="img" aria-label="誰でも読める文章を目指す">
+  <style>
+    .petal-box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .petal-text { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 16px; font-weight: 600; }
+    .center-circle { fill: #C44536; stroke: #C44536; stroke-width: 3; }
+    .center-text { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 21px; font-weight: 700; }
+    .line-red { stroke: #C44536; stroke-width: 2; fill: none; opacity: 0.6; }
+    .label-heading { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .footer { fill: #444; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 21px; font-weight: 500; }
+  </style>
+
+  <text x="450" y="45" text-anchor="middle" class="label-heading">誰もが、あなたの読者になりうる</text>
+
+  <!-- 放射状の線 -->
+  <line x1="450" y1="420" x2="450" y2="220" class="line-red"/>
+  <line x1="450" y1="420" x2="697" y2="340" class="line-red"/>
+  <line x1="450" y1="420" x2="603" y2="590" class="line-red"/>
+  <line x1="450" y1="420" x2="297" y2="590" class="line-red"/>
+  <line x1="450" y1="420" x2="203" y2="340" class="line-red"/>
+
+  <!-- 5つの読者像 -->
+  <rect x="350" y="130" width="200" height="90" rx="10" class="petal-box"/>
+  <text x="450" y="168" text-anchor="middle" class="petal-text">視覚に障害が</text>
+  <text x="450" y="195" text-anchor="middle" class="petal-text">ある人</text>
+
+  <rect x="597" y="295" width="200" height="90" rx="10" class="petal-box"/>
+  <text x="697" y="333" text-anchor="middle" class="petal-text">認知に困難が</text>
+  <text x="697" y="360" text-anchor="middle" class="petal-text">ある人</text>
+
+  <rect x="503" y="545" width="200" height="90" rx="10" class="petal-box"/>
+  <text x="603" y="583" text-anchor="middle" class="petal-text">日本語を学ぶ</text>
+  <text x="603" y="610" text-anchor="middle" class="petal-text">外国人</text>
+
+  <rect x="197" y="545" width="200" height="90" rx="10" class="petal-box"/>
+  <text x="297" y="583" text-anchor="middle" class="petal-text">漢字が読みにくい</text>
+  <text x="297" y="610" text-anchor="middle" class="petal-text">高齢者</text>
+
+  <rect x="103" y="295" width="200" height="90" rx="10" class="petal-box"/>
+  <text x="203" y="333" text-anchor="middle" class="petal-text">時間がない</text>
+  <text x="203" y="360" text-anchor="middle" class="petal-text">忙しい人</text>
+
+  <!-- 中心 -->
+  <circle cx="450" cy="420" r="95" class="center-circle"/>
+  <text x="450" y="412" text-anchor="middle" class="center-text">誰でも</text>
+  <text x="450" y="440" text-anchor="middle" class="center-text">読める文章</text>
+
+  <line x1="80" y1="700" x2="820" y2="700" class="divider-h"/>
+  <text x="450" y="755" text-anchor="middle" class="footer-headline">こうした方々にも届く文章を書く</text>
+  <text x="450" y="800" text-anchor="middle" class="footer">それが、Web時代の書き手の責任</text>
+</svg>

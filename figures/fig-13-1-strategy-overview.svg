@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 850" role="img" aria-label="戦略がない書き手と戦略がある書き手の違い">
+  <style>
+    .label-heading { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 24px; font-weight: 700; }
+    .label-heading-red { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 24px; font-weight: 700; }
+    .box { fill: #ffffff; stroke: #999; stroke-width: 2; }
+    .box-red { fill: #ffffff; stroke: #C44536; stroke-width: 3; }
+    .item-text { fill: #999; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 16px; font-weight: 500; }
+    .item-text-red { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 16px; font-weight: 600; }
+    .divider-v { stroke: #ddd; stroke-width: 2; fill: none; stroke-dasharray: 6,6; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+  </style>
+
+  <text x="220" y="50" text-anchor="middle" class="label-heading">戦略がない書き手</text>
+  <text x="680" y="50" text-anchor="middle" class="label-heading-red">戦略がある書き手</text>
+
+  <line x1="450" y1="30" x2="450" y2="560" class="divider-v"/>
+
+  <rect x="55" y="80" width="360" height="460" rx="10" class="box"/>
+  <text x="85" y="130" class="item-text">・今日は何を書こうか、</text>
+  <text x="85" y="155" class="item-text">　毎回ゼロから考える</text>
+
+  <text x="85" y="220" class="item-text">・思いつきで記事を書いて、</text>
+  <text x="85" y="245" class="item-text">　テーマが定まらない</text>
+
+  <text x="85" y="310" class="item-text">・アクセスが伸びないと、</text>
+  <text x="85" y="335" class="item-text">　すぐに方向性を変える</text>
+
+  <text x="85" y="400" class="item-text">・周りが書いているテーマに、</text>
+  <text x="85" y="425" class="item-text">　つい流される</text>
+
+  <text x="235" y="560" text-anchor="middle" class="item-text" style="font-style:italic;">「この人は何者か」見えない</text>
+
+  <rect x="485" y="80" width="360" height="460" rx="10" class="box-red"/>
+  <text x="515" y="130" class="item-text-red">・自分が伝えたいテーマが、</text>
+  <text x="515" y="155" class="item-text-red">　明確に決まっている</text>
+
+  <text x="515" y="220" class="item-text-red">・記事と記事が、</text>
+  <text x="515" y="245" class="item-text-red">　互いに繋がっている</text>
+
+  <text x="515" y="310" class="item-text-red">・短期的な数字で、</text>
+  <text x="515" y="335" class="item-text-red">　ブレることがない</text>
+
+  <text x="515" y="400" class="item-text-red">・自分のペースで、</text>
+  <text x="515" y="425" class="item-text-red">　着実に書き続けられる</text>
+
+  <text x="665" y="560" text-anchor="middle" class="item-text-red" style="font-style:italic; font-weight:700; fill:#C44536;">「この人の文章を読みたい」と思われる</text>
+
+  <line x1="80" y1="605" x2="820" y2="605" class="divider-h"/>
+  <text x="450" y="660" text-anchor="middle" class="footer-headline">バラバラの知識を、自分の戦略として繋ぎ直す</text>
+  <text x="450" y="705" text-anchor="middle" class="item-text" style="font-size:20px;">本書で伝えてきたことを、自分の言葉で繋ぐだけでいい</text>
+</svg>

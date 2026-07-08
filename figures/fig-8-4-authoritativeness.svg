@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 950" role="img" aria-label="権威性は外からの評価">
+  <style>
+    .petal-box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .petal-text { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 17px; font-weight: 600; }
+    .center-circle { fill: #ffffff; stroke: #C44536; stroke-width: 4; }
+    .center-text { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 28px; font-weight: 700; }
+    .arrow-in { stroke: #C44536; stroke-width: 2.5; fill: none; }
+    .label-heading { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .footer { fill: #444; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 21px; font-weight: 500; }
+  </style>
+
+  <text x="450" y="45" text-anchor="middle" class="label-heading">権威性は、外側から証明される</text>
+
+  <!-- 外から中心への矢印（7-6とは逆方向） -->
+  <line x1="230" y1="180" x2="410" y2="340" class="arrow-in"/>
+  <polygon points="400,325 395,348 418,338" fill="#C44536"/>
+
+  <line x1="670" y1="180" x2="490" y2="340" class="arrow-in"/>
+  <polygon points="482,338 505,348 500,325" fill="#C44536"/>
+
+  <line x1="230" y1="500" x2="410" y2="420" class="arrow-in"/>
+  <polygon points="418,432 395,442 400,419" fill="#C44536"/>
+
+  <line x1="670" y1="500" x2="490" y2="420" class="arrow-in"/>
+  <polygon points="500,419 505,442 482,432" fill="#C44536"/>
+
+  <!-- 4つの外部評価 -->
+  <rect x="80" y="105" width="300" height="110" rx="10" class="petal-box"/>
+  <text x="230" y="150" text-anchor="middle" class="petal-text">他のサイトから</text>
+  <text x="230" y="180" text-anchor="middle" class="petal-text">記事が引用される</text>
+
+  <rect x="520" y="105" width="300" height="110" rx="10" class="petal-box"/>
+  <text x="670" y="150" text-anchor="middle" class="petal-text">SNSで多くの人に</text>
+  <text x="670" y="180" text-anchor="middle" class="petal-text">シェアされる</text>
+
+  <rect x="80" y="425" width="300" height="110" rx="10" class="petal-box"/>
+  <text x="230" y="470" text-anchor="middle" class="petal-text">メディアやイベントで</text>
+  <text x="230" y="500" text-anchor="middle" class="petal-text">取り上げられる</text>
+
+  <rect x="520" y="425" width="300" height="110" rx="10" class="petal-box"/>
+  <text x="670" y="470" text-anchor="middle" class="petal-text">同業の専門家から</text>
+  <text x="670" y="500" text-anchor="middle" class="petal-text">推薦される</text>
+
+  <!-- 中心：あなた -->
+  <circle cx="450" cy="380" r="90" class="center-circle"/>
+  <text x="450" y="392" text-anchor="middle" class="center-text">あなた</text>
+
+  <line x1="80" y1="600" x2="820" y2="600" class="divider-h"/>
+  <text x="450" y="660" text-anchor="middle" class="label-heading">権威性の本質は「実績の積み重ね」</text>
+  <text x="450" y="710" text-anchor="middle" class="footer">派手なバズではなく、地道に良い記事を書き続けること</text>
+
+  <line x1="80" y1="770" x2="820" y2="770" class="divider-h"/>
+  <text x="450" y="825" text-anchor="middle" class="footer-headline">時間がかかるからこそ、早く始める価値がある</text>
+</svg>

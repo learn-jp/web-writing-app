@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 850" role="img" aria-label="トーンと声の違い">
+  <style>
+    .tone-box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .tone-label { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 16px; font-weight: 700; }
+    .tone-title { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 19px; font-weight: 700; }
+    .tone-desc { fill: #999; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 15px; font-weight: 500; font-style: italic; }
+    .voice-line { stroke: #C44536; stroke-width: 4; fill: none; }
+    .voice-box { fill: #C44536; stroke: #C44536; stroke-width: 3; }
+    .voice-text { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 24px; font-weight: 700; }
+    .voice-sub { fill: #ffe5e2; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 17px; font-weight: 500; }
+    .label-heading { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+  </style>
+
+  <text x="450" y="45" text-anchor="middle" class="label-heading">トーンは変わる、声は変わらない</text>
+
+  <rect x="60" y="80" width="230" height="120" rx="10" class="tone-box"/>
+  <text x="175" y="115" text-anchor="middle" class="tone-label">商品レビュー</text>
+  <text x="175" y="150" text-anchor="middle" class="tone-title">明るいトーン</text>
+  <text x="175" y="180" text-anchor="middle" class="tone-desc">わくわく感を伝える</text>
+
+  <rect x="335" y="80" width="230" height="120" rx="10" class="tone-box"/>
+  <text x="450" y="115" text-anchor="middle" class="tone-label">社会問題</text>
+  <text x="450" y="150" text-anchor="middle" class="tone-title">真面目なトーン</text>
+  <text x="450" y="180" text-anchor="middle" class="tone-desc">誠実さを伝える</text>
+
+  <rect x="610" y="80" width="230" height="120" rx="10" class="tone-box"/>
+  <text x="725" y="115" text-anchor="middle" class="tone-label">雑談記事</text>
+  <text x="725" y="150" text-anchor="middle" class="tone-title">カジュアルなトーン</text>
+  <text x="725" y="180" text-anchor="middle" class="tone-desc">親しみを伝える</text>
+
+  <!-- 声：全てを貫く一本の線 -->
+  <line x1="175" y1="200" x2="175" y2="280" class="voice-line"/>
+  <line x1="450" y1="200" x2="450" y2="280" class="voice-line"/>
+  <line x1="725" y1="200" x2="725" y2="280" class="voice-line"/>
+  <line x1="175" y1="280" x2="725" y2="280" class="voice-line"/>
+  <line x1="450" y1="280" x2="450" y2="315" class="voice-line"/>
+  <polygon points="440,310 450,330 460,310" fill="#C44536"/>
+
+  <rect x="200" y="345" width="500" height="150" rx="12" class="voice-box"/>
+  <text x="450" y="400" text-anchor="middle" class="voice-text">「声」＝一貫した人格</text>
+  <text x="450" y="440" text-anchor="middle" class="voice-sub">どの記事を読んでも「この人らしさ」がある</text>
+  <text x="450" y="470" text-anchor="middle" class="voice-sub">これが、ファンを生む</text>
+
+  <line x1="80" y1="560" x2="820" y2="560" class="divider-h"/>
+  <text x="450" y="615" text-anchor="middle" class="footer-headline">トーンは変えていい、声は変えるべきではない</text>
+  <text x="450" y="665" text-anchor="middle" class="tone-desc" style="font-size:20px;">「この人らしさ」が一貫している書き手だけが、長く愛される</text>
+</svg>

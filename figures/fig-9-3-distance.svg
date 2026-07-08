@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 850" role="img" aria-label="読者との距離感を決める言葉選び">
+  <style>
+    .circle-outer { fill: #f5f5f5; stroke: #999; stroke-width: 2; }
+    .circle-mid { fill: #fbe9e7; stroke: #d98a7c; stroke-width: 2; }
+    .circle-inner { fill: #C44536; stroke: #C44536; stroke-width: 3; }
+    .label-outer { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 700; }
+    .label-mid { fill: #a85847; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 19px; font-weight: 700; }
+    .label-inner { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 24px; font-weight: 700; }
+    .sub-outer { fill: #999; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 14px; font-weight: 500; }
+    .sub-mid { fill: #b8695a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 14px; font-weight: 500; }
+    .sub-inner { fill: #ffe5e2; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 15px; font-weight: 500; }
+    .label-heading { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .note-box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .note-text { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 600; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+  </style>
+
+  <text x="450" y="45" text-anchor="middle" class="label-heading">呼びかけ方が、距離感を決める</text>
+
+  <circle cx="450" cy="290" r="220" class="circle-outer"/>
+  <circle cx="450" cy="290" r="150" class="circle-mid"/>
+  <circle cx="450" cy="290" r="80" class="circle-inner"/>
+
+  <text x="450" y="105" text-anchor="middle" class="label-outer">読者の方</text>
+  <text x="450" y="128" text-anchor="middle" class="sub-outer">最もフォーマル・遠い</text>
+
+  <text x="450" y="175" text-anchor="middle" class="label-mid">皆さん</text>
+  <text x="450" y="198" text-anchor="middle" class="sub-mid">大勢に向けた口調</text>
+
+  <text x="450" y="282" text-anchor="middle" class="label-inner">あなた</text>
+  <text x="450" y="308" text-anchor="middle" class="sub-inner">一対一・親密</text>
+
+  <rect x="150" y="545" width="600" height="90" rx="10" class="note-box"/>
+  <text x="450" y="580" text-anchor="middle" class="note-text">本書のおすすめは「あなた」</text>
+  <text x="450" y="610" text-anchor="middle" class="sub-outer" style="font-size:16px;">画面の向こうにいるのは、常に「一人の人間」</text>
+
+  <line x1="80" y1="670" x2="820" y2="670" class="divider-h"/>
+  <text x="450" y="725" text-anchor="middle" class="footer-headline">「あなた」は、ここぞという時にだけ使う</text>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-label="代替テキストと読み上げソフト">
+  <style>
+    .img-box { fill: #eee; stroke: #999; stroke-width: 2; }
+    .img-icon { fill: #bbb; font-family: -apple-system, sans-serif; font-size: 32px; }
+    .code-box { fill: #1a1a1a; }
+    .code-text { fill: #7fdba0; font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 14px; font-weight: 500; }
+    .code-text-alt { fill: #ffe5e2; font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 14px; font-weight: 700; }
+    .arrow-red { stroke: #C44536; stroke-width: 3; fill: none; }
+    .speaker-box { fill: #ffffff; stroke: #C44536; stroke-width: 3; }
+    .speaker-text { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 700; }
+    .speaker-sub { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 16px; font-weight: 500; }
+    .p-num { fill: #C44536; font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 17px; font-weight: 700; }
+    .p-title { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 700; }
+    .card-box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .label-heading { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 700; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 25px; font-weight: 700; }
+  </style>
+
+  <rect x="60" y="40" width="160" height="120" rx="8" class="img-box"/>
+  <text x="140" y="115" text-anchor="middle" class="img-icon">🖼</text>
+
+  <rect x="250" y="55" width="450" height="90" rx="6" class="code-box"/>
+  <text x="270" y="90" class="code-text">&lt;img src="thai-curry.jpg"</text>
+  <text x="270" y="115" class="code-text-alt">  alt="タイカレーの写真。鶏肉と野菜"&gt;</text>
+
+  <line x1="475" y1="160" x2="475" y2="195" class="arrow-red"/>
+  <polygon points="465,190 475,210 485,190" fill="#C44536"/>
+
+  <rect x="250" y="220" width="450" height="90" rx="10" class="speaker-box"/>
+  <text x="475" y="255" text-anchor="middle" class="speaker-text">🔊 読み上げソフト</text>
+  <text x="475" y="285" text-anchor="middle" class="speaker-sub">「タイカレーの写真。鶏肉と野菜」</text>
+
+  <line x1="80" y1="345" x2="820" y2="345" class="divider-h"/>
+  <text x="450" y="400" text-anchor="middle" class="label-heading">altテキストを書く、3つのコツ</text>
+
+  <rect x="60" y="430" width="780" height="105" rx="10" class="card-box"/>
+  <text x="90" y="470" class="p-num">01</text>
+  <text x="150" y="470" class="p-title">具体的に書く</text>
+  <text x="150" y="503" class="speaker-sub" style="font-size:15px;">「画像」ではなく「エルゴノミックチェアの写真」</text>
+
+  <rect x="60" y="545" width="780" height="105" rx="10" class="card-box"/>
+  <text x="90" y="585" class="p-num">02</text>
+  <text x="150" y="585" class="p-title">装飾画像には空のalt</text>
+  <text x="150" y="618" class="speaker-sub" style="font-size:15px;">意味のない画像は、読み上げをスキップさせる</text>
+
+  <rect x="60" y="660" width="780" height="105" rx="10" class="card-box"/>
+  <text x="90" y="700" class="p-num">03</text>
+  <text x="150" y="700" class="p-title">簡潔に、1〜2文で</text>
+  <text x="150" y="733" class="speaker-sub" style="font-size:15px;">長すぎる説明は避ける</text>
+
+  <line x1="80" y1="800" x2="820" y2="800" class="divider-h"/>
+  <text x="450" y="855" text-anchor="middle" class="footer-headline">「誰にでも届く文章」は、最も価値のある技術</text>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 820" role="img" aria-label="AIが書く文章と人が書く文章の違い">
+  <style>
+    .label-heading { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .label-heading-red { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .top-caption { fill: #999; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 500; }
+    .box { fill: #ffffff; stroke: #999; stroke-width: 2; }
+    .box-red { fill: #ffffff; stroke: #C44536; stroke-width: 3; }
+    .quote-faded { fill: #999; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 16px; font-weight: 500; }
+    .quote-strong { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 16px; font-weight: 600; }
+    .verdict { fill: #999; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 17px; font-weight: 500; font-style: italic; }
+    .verdict-red { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 17px; font-weight: 700; font-style: italic; }
+    .goal-box { fill: #C44536; stroke: #C44536; stroke-width: 3; }
+    .goal-text { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .goal-sub { fill: #ffe5e2; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 500; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+  </style>
+
+  <text x="220" y="50" text-anchor="middle" class="label-heading">A：AIが書いた文章</text>
+  <text x="680" y="50" text-anchor="middle" class="label-heading-red">B：人が書いた文章</text>
+
+  <rect x="55" y="80" width="360" height="230" rx="10" class="box"/>
+  <text x="85" y="120" class="quote-faded">「在宅勤務の集中力を上げるには、</text>
+  <text x="85" y="148" class="quote-faded">適切な環境作り、時間管理、そして</text>
+  <text x="85" y="176" class="quote-faded">集中力を持続させるテクニックが</text>
+  <text x="85" y="204" class="quote-faded">重要です。具体的には…」</text>
+  <text x="235" y="270" text-anchor="middle" class="verdict">正しいが、心が動かない</text>
+
+  <rect x="485" y="80" width="360" height="230" rx="10" class="box-red"/>
+  <text x="515" y="120" class="quote-strong">「在宅勤務を始めて3ヶ月、私は</text>
+  <text x="515" y="148" class="quote-strong">ずっと集中できずに悩んでいました。</text>
+  <text x="515" y="176" class="quote-strong">たまたま読んだ本にあった</text>
+  <text x="515" y="204" class="quote-strong">『朝の散歩』を試してみたんです」</text>
+  <text x="665" y="270" text-anchor="middle" class="verdict-red">悩みと気づきが、心に届く</text>
+
+  <line x1="80" y1="345" x2="820" y2="345" class="divider-h"/>
+
+  <text x="450" y="400" text-anchor="middle" class="label-heading" style="fill:#1a1a1a;">AIには書けないもの</text>
+
+  <rect x="200" y="435" width="500" height="180" rx="12" class="goal-box"/>
+  <text x="450" y="490" text-anchor="middle" class="goal-text">あなたの物語</text>
+  <text x="450" y="535" text-anchor="middle" class="goal-sub">悩み、試行錯誤、気づき</text>
+  <text x="450" y="565" text-anchor="middle" class="goal-sub">あなたが生きてきた証</text>
+
+  <line x1="80" y1="660" x2="820" y2="660" class="divider-h"/>
+  <text x="450" y="715" text-anchor="middle" class="footer-headline">AIが書ける時代だからこそ、人が書く意味は強くなる</text>
+  <text x="450" y="760" text-anchor="middle" class="verdict" style="font-size:20px;">正しい情報はAIに聞ける。誰かの物語は、その人にしか語れない</text>
+</svg>

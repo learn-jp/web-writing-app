@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 850" role="img" aria-label="リライトすべき記事の見つけ方">
+  <style>
+    .card-box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .p-num { fill: #C44536; font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 19px; font-weight: 700; }
+    .p-title { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 20px; font-weight: 700; }
+    .p-desc { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 17px; font-weight: 500; }
+    .goal-box { fill: #C44536; stroke: #C44536; stroke-width: 3; }
+    .goal-label { fill: #ffe5e2; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 17px; font-weight: 700; letter-spacing: 0.1em; }
+    .goal-text { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 23px; font-weight: 700; }
+    .label-heading { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+  </style>
+
+  <text x="450" y="50" text-anchor="middle" class="label-heading">リライト候補を見つける、3つの観点</text>
+
+  <rect x="60" y="85" width="780" height="130" rx="10" class="card-box"/>
+  <text x="90" y="130" class="p-num">01</text>
+  <text x="150" y="130" class="p-title">アクセスはあるが、成果が出ていない</text>
+  <text x="90" y="170" class="p-desc">タイトルに惹かれて来たのに、内容が薄い/情報が古い</text>
+  <text x="90" y="198" class="p-desc">構成が分かりにくく、読み進められない</text>
+
+  <rect x="60" y="235" width="780" height="130" rx="10" class="card-box"/>
+  <text x="90" y="280" class="p-num">02</text>
+  <text x="150" y="280" class="p-title">かつてアクセスがあったが、減ってきている</text>
+  <text x="90" y="320" class="p-desc">情報が古くなったか、競合の記事に追い抜かれた可能性</text>
+  <text x="90" y="348" class="p-desc">最新情報への更新で、再び上位に返り咲くことも</text>
+
+  <rect x="60" y="385" width="780" height="130" rx="10" class="card-box"/>
+  <text x="90" y="430" class="p-num">03</text>
+  <text x="150" y="430" class="p-title">「今の自分なら違う書き方」と感じる</text>
+  <text x="90" y="470" class="p-desc">書き手として成長した証</text>
+  <text x="90" y="498" class="p-desc">書き直すことで、自分の成長も実感できる</text>
+
+  <line x1="80" y1="555" x2="820" y2="555" class="divider-h"/>
+  <text x="450" y="610" text-anchor="middle" class="label-heading">優先順位の、簡単な目安</text>
+
+  <rect x="150" y="640" width="600" height="140" rx="12" class="goal-box"/>
+  <text x="450" y="685" text-anchor="middle" class="goal-label">TOP PRIORITY</text>
+  <text x="450" y="730" text-anchor="middle" class="goal-text">アクセスはあるが、改善の余地が大きい記事</text>
+</svg>

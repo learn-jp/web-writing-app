@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-label="AIが書いた文章を見抜く4つのチェックポイント">
+  <style>
+    .check-box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .check-num { fill: #C44536; font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 20px; font-weight: 700; }
+    .check-title { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 21px; font-weight: 700; }
+    .check-desc { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 17px; font-weight: 500; }
+    .glass-ring { fill: none; stroke: #C44536; stroke-width: 4; }
+    .glass-handle { stroke: #C44536; stroke-width: 5; stroke-linecap: round; }
+    .label-heading { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .footer { fill: #444; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 500; }
+  </style>
+
+  <!-- 虫眼鏡アイコン -->
+  <circle cx="450" cy="65" r="32" class="glass-ring"/>
+  <line x1="473" y1="88" x2="495" y2="110" class="glass-handle"/>
+
+  <text x="450" y="160" text-anchor="middle" class="label-heading">見抜く目を育てる、4つの視点</text>
+
+  <rect x="60" y="195" width="365" height="140" rx="10" class="check-box"/>
+  <text x="90" y="235" class="check-num">01</text>
+  <text x="150" y="235" class="check-title">表現が平均的</text>
+  <text x="90" y="275" class="check-desc">個性的な比喩や独特の言い回しがなく</text>
+  <text x="90" y="300" class="check-desc">「どこかで読んだ感じ」がする</text>
+
+  <rect x="475" y="195" width="365" height="140" rx="10" class="check-box"/>
+  <text x="505" y="235" class="check-num">02</text>
+  <text x="565" y="235" class="check-title">エピソードが薄い</text>
+  <text x="505" y="275" class="check-desc">「私自身の経験では」が抽象的で</text>
+  <text x="505" y="300" class="check-desc">不自然。本物の経験がない</text>
+
+  <rect x="60" y="350" width="365" height="140" rx="10" class="check-box"/>
+  <text x="90" y="390" class="check-num">03</text>
+  <text x="150" y="390" class="check-title">型に忠実すぎる</text>
+  <text x="90" y="430" class="check-desc">「結論→理由→具体例→結論」に</text>
+  <text x="90" y="455" class="check-desc">過剰に従い、揺らぎがない</text>
+
+  <rect x="475" y="350" width="365" height="140" rx="10" class="check-box"/>
+  <text x="505" y="390" class="check-num">04</text>
+  <text x="565" y="390" class="check-title">断定を避ける</text>
+  <text x="505" y="430" class="check-desc">「人によって違います」が頻出し</text>
+  <text x="505" y="455" class="check-desc">立場をはっきりさせない</text>
+
+  <line x1="80" y1="530" x2="820" y2="530" class="divider-h"/>
+  <text x="450" y="590" text-anchor="middle" class="label-heading">自分自身にも、問いかけてみる</text>
+  <text x="450" y="640" text-anchor="middle" class="footer">「自分の文章は、AIっぽくなっていないか」</text>
+  <text x="450" y="675" text-anchor="middle" class="footer">「具体的なエピソードが含まれているか」</text>
+
+  <line x1="80" y1="730" x2="820" y2="730" class="divider-h"/>
+  <text x="450" y="785" text-anchor="middle" class="footer-headline">見抜く目は、書く力にもなる</text>
+</svg>

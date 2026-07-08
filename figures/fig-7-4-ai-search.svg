@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-label="新しい上位表示、AI検索での引用">
+  <style>
+    .label-heading { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 700; }
+    .label-heading-red { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 700; }
+    .box { fill: #ffffff; stroke: #999; stroke-width: 2; }
+    .box-red { fill: #ffffff; stroke: #C44536; stroke-width: 3; }
+    .box-text { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 20px; font-weight: 700; }
+    .box-sub { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 16px; font-weight: 500; }
+    .arrow-red { stroke: #C44536; stroke-width: 3; fill: none; }
+    .plus { fill: #999; font-family: -apple-system, sans-serif; font-size: 30px; font-weight: 700; }
+    .p-num { fill: #C44536; font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 18px; font-weight: 700; }
+    .p-title { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 700; }
+    .card-box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+  </style>
+
+  <text x="450" y="50" text-anchor="middle" class="label-heading" style="fill:#1a1a1a;">新しい「上位表示」の形</text>
+
+  <rect x="60" y="90" width="345" height="120" rx="10" class="box"/>
+  <text x="232" y="140" text-anchor="middle" class="box-text">Google検索 1位</text>
+  <text x="232" y="175" text-anchor="middle" class="box-sub">かつての目標</text>
+
+  <text x="450" y="165" text-anchor="middle" class="plus">＋</text>
+
+  <rect x="495" y="90" width="345" height="120" rx="10" class="box-red"/>
+  <text x="667" y="140" text-anchor="middle" class="box-text" style="fill:#C44536;">AI検索での引用</text>
+  <text x="667" y="175" text-anchor="middle" class="box-sub">これからの目標</text>
+
+  <line x1="450" y1="240" x2="450" y2="270" class="arrow-red"/>
+  <polygon points="440,265 450,285 460,265" fill="#C44536"/>
+
+  <text x="450" y="330" text-anchor="middle" class="label-heading" style="fill:#1a1a1a;">引用されやすい記事の4つの特徴</text>
+
+  <rect x="60" y="360" width="365" height="120" rx="10" class="card-box"/>
+  <text x="90" y="395" class="p-num">01</text>
+  <text x="150" y="395" class="p-title">結論が明確で</text>
+  <text x="150" y="420" class="p-title">要約しやすい</text>
+
+  <rect x="475" y="360" width="365" height="120" rx="10" class="card-box"/>
+  <text x="505" y="395" class="p-num">02</text>
+  <text x="565" y="395" class="p-title">出典がしっかり</text>
+  <text x="565" y="420" class="p-title">している</text>
+
+  <rect x="60" y="495" width="365" height="120" rx="10" class="card-box"/>
+  <text x="90" y="530" class="p-num">03</text>
+  <text x="150" y="530" class="p-title">専門性や経験が</text>
+  <text x="150" y="555" class="p-title">伝わる</text>
+
+  <rect x="475" y="495" width="365" height="120" rx="10" class="card-box"/>
+  <text x="505" y="530" class="p-num">04</text>
+  <text x="565" y="530" class="p-title">構造が整理</text>
+  <text x="565" y="555" class="p-title">されている</text>
+
+  <line x1="80" y1="660" x2="820" y2="660" class="divider-h"/>
+  <text x="450" y="715" text-anchor="middle" class="footer-headline">新しい対策ではなく、良い記事の当然の結果</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-label="E-E-A-Tとは何か">
+  <style>
+    .card-box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .letter-red { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 34px; font-weight: 700; }
+    .eng-title { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 21px; font-weight: 700; }
+    .jp-title { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 500; }
+    .goal-box { fill: #C44536; stroke: #C44536; stroke-width: 3; }
+    .goal-text { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .goal-sub { fill: #ffe5e2; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 500; }
+    .arrow-red { stroke: #C44536; stroke-width: 3; fill: none; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .label-heading { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+  </style>
+
+  <text x="450" y="50" text-anchor="middle" class="label-heading">信頼できるかを判断する、4つの観点</text>
+
+  <rect x="60" y="85" width="365" height="130" rx="10" class="card-box"/>
+  <text x="90" y="140" class="letter-red">E</text>
+  <text x="140" y="130" class="eng-title">Experience</text>
+  <text x="140" y="160" class="jp-title">経験</text>
+  <text x="90" y="195" class="jp-title" style="font-size:16px;">実際に体験しているか</text>
+
+  <rect x="475" y="85" width="365" height="130" rx="10" class="card-box"/>
+  <text x="505" y="140" class="letter-red">E</text>
+  <text x="555" y="130" class="eng-title">Expertise</text>
+  <text x="555" y="160" class="jp-title">専門性</text>
+  <text x="505" y="195" class="jp-title" style="font-size:16px;">深く理解しているか</text>
+
+  <rect x="60" y="230" width="365" height="130" rx="10" class="card-box"/>
+  <text x="90" y="285" class="letter-red">A</text>
+  <text x="140" y="275" class="eng-title">Authoritativeness</text>
+  <text x="140" y="305" class="jp-title">権威性</text>
+  <text x="90" y="340" class="jp-title" style="font-size:16px;">外部から評価されているか</text>
+
+  <rect x="475" y="230" width="365" height="130" rx="10" class="card-box"/>
+  <text x="505" y="285" class="letter-red">T</text>
+  <text x="555" y="275" class="eng-title">Trustworthiness</text>
+  <text x="555" y="305" class="jp-title">信頼性</text>
+  <text x="505" y="340" class="jp-title" style="font-size:16px;">総合的に信頼できるか</text>
+
+  <line x1="450" y1="380" x2="450" y2="415" class="arrow-red"/>
+  <polygon points="440,410 450,430 460,410" fill="#C44536"/>
+
+  <rect x="150" y="445" width="600" height="150" rx="12" class="goal-box"/>
+  <text x="450" y="500" text-anchor="middle" class="goal-text">信頼の「証明書」</text>
+  <text x="450" y="545" text-anchor="middle" class="goal-sub">機械のためではなく、読者のためにある</text>
+  <text x="450" y="575" text-anchor="middle" class="goal-sub">機械も、その証明書を見て判断している</text>
+
+  <line x1="80" y1="670" x2="820" y2="670" class="divider-h"/>
+  <text x="450" y="725" text-anchor="middle" class="footer-headline">読者に信頼してもらうための、4つの観点</text>
+</svg>

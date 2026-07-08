@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 850" role="img" aria-label="モバイルファーストの順序逆転">
+  <style>
+    .label-heading { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 21px; font-weight: 700; }
+    .label-heading-red { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 21px; font-weight: 700; }
+    .box { fill: #ffffff; stroke: #999; stroke-width: 2; }
+    .box-red { fill: #ffffff; stroke: #C44536; stroke-width: 3; }
+    .device-text { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 700; }
+    .arrow-gray { stroke: #999; stroke-width: 2.5; fill: none; }
+    .arrow-red { stroke: #C44536; stroke-width: 3; fill: none; }
+    .desc { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 16px; font-weight: 500; }
+    .p-num { fill: #C44536; font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 17px; font-weight: 700; }
+    .p-title { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 600; }
+    .card-box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+  </style>
+
+  <text x="450" y="45" text-anchor="middle" class="footer-headline">設計する順番が、逆転した</text>
+
+  <text x="450" y="90" text-anchor="middle" class="label-heading">少し前まで</text>
+  <rect x="80" y="115" width="220" height="80" rx="8" class="box"/>
+  <text x="190" y="163" text-anchor="middle" class="device-text">PC</text>
+  <line x1="300" y1="155" x2="380" y2="155" class="arrow-gray"/>
+  <polygon points="373,148 393,155 373,162" fill="#999"/>
+  <rect x="400" y="115" width="220" height="80" rx="8" class="box"/>
+  <text x="510" y="163" text-anchor="middle" class="device-text">スマホ（対応）</text>
+
+  <line x1="80" y1="240" x2="820" y2="240" class="divider-h"/>
+
+  <text x="450" y="290" text-anchor="middle" class="label-heading-red">これから</text>
+  <rect x="230" y="315" width="220" height="80" rx="8" class="box-red"/>
+  <text x="340" y="363" text-anchor="middle" class="device-text" style="fill:#C44536;">スマホ</text>
+  <line x1="450" y1="355" x2="530" y2="355" class="arrow-red"/>
+  <polygon points="523,348 543,355 523,362" fill="#C44536"/>
+  <rect x="550" y="315" width="220" height="80" rx="8" class="box"/>
+  <text x="660" y="363" text-anchor="middle" class="device-text">PC（対応）</text>
+
+  <line x1="80" y1="450" x2="820" y2="450" class="divider-h"/>
+  <text x="450" y="505" text-anchor="middle" class="footer-headline">公開前チェックリスト</text>
+
+  <rect x="60" y="535" width="365" height="90" rx="10" class="card-box"/>
+  <text x="90" y="575" class="p-num">・</text>
+  <text x="115" y="575" class="p-title">一文が長すぎないか</text>
+
+  <rect x="475" y="535" width="365" height="90" rx="10" class="card-box"/>
+  <text x="505" y="575" class="p-num">・</text>
+  <text x="530" y="575" class="p-title">段落が文字の壁になっていないか</text>
+
+  <rect x="60" y="640" width="365" height="90" rx="10" class="card-box"/>
+  <text x="90" y="680" class="p-num">・</text>
+  <text x="115" y="680" class="p-title">表が横に広すぎないか</text>
+
+  <rect x="475" y="640" width="365" height="90" rx="10" class="card-box"/>
+  <text x="505" y="680" class="p-num">・</text>
+  <text x="530" y="680" class="p-title">画像が大きすぎないか</text>
+
+  <line x1="80" y1="755" x2="820" y2="755" class="divider-h"/>
+  <text x="450" y="810" text-anchor="middle" class="footer-headline" style="font-size:23px;">書き終わったら、必ずスマホで読み返す</text>
+</svg>

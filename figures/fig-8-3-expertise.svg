@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-label="専門性とは何か">
+  <style>
+    .label-heading { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 700; }
+    .label-heading-red { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 700; }
+    .box { fill: #ffffff; stroke: #999; stroke-width: 2; }
+    .box-red { fill: #ffffff; stroke: #C44536; stroke-width: 3; }
+    .box-text-faded { fill: #999; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 16px; font-weight: 500; }
+    .box-text { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 600; }
+    .verdict { fill: #999; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 16px; font-weight: 500; font-style: italic; }
+    .verdict-red { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 16px; font-weight: 700; font-style: italic; }
+    .p-num { fill: #C44536; font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 18px; font-weight: 700; }
+    .p-title { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 19px; font-weight: 700; }
+    .card-box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+  </style>
+
+  <text x="450" y="45" text-anchor="middle" class="label-heading" style="fill:#1a1a1a;">難しいことを、簡単に語れるか</text>
+
+  <text x="220" y="90" text-anchor="middle" class="label-heading">専門用語だらけ</text>
+  <text x="680" y="90" text-anchor="middle" class="label-heading-red">誰でもわかる言葉</text>
+
+  <rect x="55" y="120" width="360" height="150" rx="10" class="box"/>
+  <text x="85" y="160" class="box-text-faded">「アジャイル開発における短い</text>
+  <text x="85" y="185" class="box-text-faded">イテレーションは、フィードバック</text>
+  <text x="85" y="210" class="box-text-faded">ループを最小化し…」</text>
+  <text x="235" y="248" text-anchor="middle" class="verdict">専門家っぽいが、伝わらない</text>
+
+  <rect x="485" y="120" width="360" height="150" rx="10" class="box-red"/>
+  <text x="515" y="165" class="box-text">「短い周期で開発を繰り返すと、</text>
+  <text x="515" y="193" class="box-text">すぐに修正できるので、</text>
+  <text x="515" y="221" class="box-text">変化に強くなる」</text>
+  <text x="665" y="248" text-anchor="middle" class="verdict-red">これこそが、本当の専門性</text>
+
+  <line x1="80" y1="305" x2="820" y2="305" class="divider-h"/>
+  <text x="450" y="360" text-anchor="middle" class="label-heading" style="fill:#1a1a1a;">専門性を高める、3つのコツ</text>
+
+  <rect x="60" y="390" width="780" height="110" rx="10" class="card-box"/>
+  <text x="90" y="430" class="p-num">01</text>
+  <text x="150" y="430" class="p-title">1つの分野を深く掘る</text>
+  <text x="150" y="465" class="box-text-faded">幅広く浅くより、狭く深く</text>
+
+  <rect x="60" y="510" width="780" height="110" rx="10" class="card-box"/>
+  <text x="90" y="550" class="p-num">02</text>
+  <text x="150" y="550" class="p-title">学び続ける</text>
+  <text x="150" y="585" class="box-text-faded">知識をアップデートし続ける</text>
+
+  <rect x="60" y="630" width="780" height="110" rx="10" class="card-box"/>
+  <text x="90" y="670" class="p-num">03</text>
+  <text x="150" y="670" class="p-title">自分の言葉に翻訳する</text>
+  <text x="150" y="705" class="box-text-faded">そこに、あなたならではの専門性が宿る</text>
+
+  <line x1="80" y1="770" x2="820" y2="770" class="divider-h"/>
+  <text x="450" y="825" text-anchor="middle" class="footer-headline">難しいことを簡単に語れることこそ、真の専門性</text>
+</svg>

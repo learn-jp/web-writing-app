@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 950" role="img" aria-label="共感を生む表現、避けたい表現">
+  <style>
+    .label-heading { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 24px; font-weight: 700; }
+    .label-heading-gray { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 24px; font-weight: 700; }
+    .box-ok { fill: #ffffff; stroke: #C44536; stroke-width: 2; }
+    .box-ng { fill: #ffffff; stroke: #999; stroke-width: 2; }
+    .mark-ok { fill: #C44536; font-family: -apple-system, sans-serif; font-size: 22px; font-weight: 700; }
+    .mark-ng { fill: #999; font-family: -apple-system, sans-serif; font-size: 22px; font-weight: 700; }
+    .ex-text { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 600; }
+    .ex-desc { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 15px; font-weight: 500; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+  </style>
+
+  <text x="450" y="45" text-anchor="middle" class="label-heading">共感を生む表現</text>
+
+  <rect x="60" y="70" width="780" height="80" rx="8" class="box-ok"/>
+  <text x="90" y="118" class="mark-ok">○</text>
+  <text x="125" y="118" class="ex-text">「〜ですよね」「〜じゃないですか」</text>
+  <text x="500" y="118" class="ex-desc">同意を引き出す</text>
+
+  <rect x="60" y="160" width="780" height="80" rx="8" class="box-ok"/>
+  <text x="90" y="208" class="mark-ok">○</text>
+  <text x="125" y="208" class="ex-text">「私自身も」「私も最初は」</text>
+  <text x="500" y="208" class="ex-desc">上から目線を避ける</text>
+
+  <rect x="60" y="250" width="780" height="80" rx="8" class="box-ok"/>
+  <text x="90" y="298" class="mark-ok">○</text>
+  <text x="125" y="298" class="ex-text">「もしかして〜ではありませんか？」</text>
+  <text x="500" y="298" class="ex-desc">心の中を言い当てる</text>
+
+  <line x1="80" y1="360" x2="820" y2="360" class="divider-h"/>
+  <text x="450" y="415" text-anchor="middle" class="label-heading-gray">避けたい表現</text>
+
+  <rect x="60" y="440" width="780" height="80" rx="8" class="box-ng"/>
+  <text x="90" y="488" class="mark-ng">×</text>
+  <text x="125" y="488" class="ex-text" style="fill:#999;">「〜すべきです」の連発</text>
+  <text x="500" y="488" class="ex-desc">命令調に読者は反発する</text>
+
+  <rect x="60" y="530" width="780" height="80" rx="8" class="box-ng"/>
+  <text x="90" y="578" class="mark-ng">×</text>
+  <text x="125" y="578" class="ex-text" style="fill:#999;">「常識ですよね」「当然ですが」</text>
+  <text x="500" y="578" class="ex-desc">暗に読者を責めている</text>
+
+  <rect x="60" y="620" width="780" height="80" rx="8" class="box-ng"/>
+  <text x="90" y="668" class="mark-ng">×</text>
+  <text x="125" y="668" class="ex-text" style="fill:#999;">「99%の人が知らない」「衝撃の事実」</text>
+  <text x="500" y="668" class="ex-desc">煽りは信頼を失う</text>
+
+  <line x1="80" y1="730" x2="820" y2="730" class="divider-h"/>
+  <text x="450" y="785" text-anchor="middle" class="footer-headline">読者を、対等な相手として尊重する</text>
+  <text x="450" y="830" text-anchor="middle" class="ex-desc" style="font-size:20px;">上から教えるでも、下から媚びるでもなく、同じ目線で</text>
+</svg>

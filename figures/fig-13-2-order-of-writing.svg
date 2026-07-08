@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 850" role="img" aria-label="書くべき順番を決める3つの観点">
+  <style>
+    .step-3 { fill: #C44536; stroke: #C44536; stroke-width: 2; }
+    .step-2 { fill: #e0917f; stroke: #C44536; stroke-width: 2; }
+    .step-1 { fill: #f5d5cd; stroke: #C44536; stroke-width: 2; }
+    .step-text-white { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 19px; font-weight: 700; }
+    .step-text-dark { fill: #7a3226; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 19px; font-weight: 700; }
+    .step-num { fill: #ffffff; font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 17px; font-weight: 700; }
+    .step-num-dark { fill: #7a3226; font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 17px; font-weight: 700; }
+    .step-desc { fill: #444; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 17px; font-weight: 500; }
+    .label-heading { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+  </style>
+
+  <text x="450" y="45" text-anchor="middle" class="label-heading">土台から、順番に積み上げる</text>
+
+  <!-- 階段状（下から積み上げ：土台が一番下・大きい） -->
+  <!-- Step 1（土台）: 一番下、一番広い -->
+  <rect x="100" y="420" width="700" height="120" rx="8" class="step-1"/>
+  <text x="130" y="465" class="step-num-dark">01</text>
+  <text x="180" y="465" class="step-text-dark">土台になる記事を先に書く</text>
+  <text x="130" y="500" class="step-desc">「これを知らないと他が理解できない」基本から</text>
+
+  <!-- Step 2: 中段 -->
+  <rect x="150" y="290" width="600" height="120" rx="8" class="step-2"/>
+  <text x="180" y="335" class="step-num">02</text>
+  <text x="230" y="335" class="step-text-white">需要が大きいテーマから書く</text>
+  <text x="180" y="370" class="step-desc" style="fill:#fff0ee;">読まれそうな検索ボリューム・話題性のあるテーマ</text>
+
+  <!-- Step 3: 上段（一番狭い、頂点） -->
+  <rect x="200" y="160" width="500" height="120" rx="8" class="step-3"/>
+  <text x="230" y="205" class="step-num">03</text>
+  <text x="280" y="205" class="step-text-white">自分にしか書けないテーマ</text>
+  <text x="230" y="240" class="step-desc" style="fill:#ffe5e2;">経験・専門・視点。差別化になる「定番記事」に</text>
+
+  <line x1="80" y1="595" x2="820" y2="595" class="divider-h"/>
+  <text x="450" y="650" text-anchor="middle" class="label-heading">無理に完璧にしない</text>
+  <text x="450" y="695" text-anchor="middle" class="step-desc" style="font-size:20px;">書き続ける中で、優先順位は柔軟に変わっていい</text>
+
+  <line x1="80" y1="750" x2="820" y2="750" class="divider-h"/>
+  <text x="450" y="800" text-anchor="middle" class="footer-headline">「次に何を書くか」に、毎回悩まない状態を作る</text>
+</svg>

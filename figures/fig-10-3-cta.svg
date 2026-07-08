@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-label="タップしやすいCTAの書き方">
+  <style>
+    .box-ng { fill: #f5f5f5; stroke: #999; stroke-width: 2; }
+    .box-ok { fill: #C44536; stroke: #C44536; stroke-width: 2; }
+    .mark-ng { fill: #999; font-family: -apple-system, sans-serif; font-size: 22px; font-weight: 700; }
+    .mark-ok { fill: #ffffff; font-family: -apple-system, sans-serif; font-size: 22px; font-weight: 700; }
+    .btn-text-ng { fill: #999; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 600; }
+    .btn-text-ok { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 17px; font-weight: 700; }
+    .desc { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 16px; font-weight: 500; }
+    .label-heading { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 24px; font-weight: 700; }
+    .size-label { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 16px; font-weight: 700; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+  </style>
+
+  <text x="450" y="45" text-anchor="middle" class="label-heading">具体的に、利益を示す</text>
+
+  <rect x="60" y="75" width="360" height="90" rx="8" class="box-ng"/>
+  <text x="90" y="128" class="mark-ng">×</text>
+  <text x="130" y="128" class="btn-text-ng">「こちらをクリック」</text>
+
+  <rect x="475" y="75" width="365" height="90" rx="8" class="box-ok"/>
+  <text x="505" y="128" class="mark-ok">○</text>
+  <text x="545" y="122" class="btn-text-ok">「無料の在宅勤務</text>
+  <text x="545" y="145" class="btn-text-ok">チェックリストを受け取る」</text>
+
+  <rect x="60" y="190" width="360" height="90" rx="8" class="box-ng"/>
+  <text x="90" y="243" class="mark-ng">×</text>
+  <text x="130" y="243" class="btn-text-ng">「メルマガに登録する」</text>
+
+  <rect x="475" y="190" width="365" height="90" rx="8" class="box-ok"/>
+  <text x="505" y="235" class="mark-ok">○</text>
+  <text x="545" y="230" class="btn-text-ok">「週1回、実体験から学んだ</text>
+  <text x="545" y="253" class="btn-text-ok">在宅勤務のコツを受け取る」</text>
+
+  <line x1="80" y1="330" x2="820" y2="330" class="divider-h"/>
+  <text x="450" y="385" text-anchor="middle" class="label-heading">タップしやすい大きさで</text>
+
+  <rect x="150" y="415" width="110" height="40" rx="8" class="box-ng"/>
+  <text x="205" y="440" text-anchor="middle" class="btn-text-ng" style="font-size:14px;">小さい</text>
+  <text x="205" y="480" text-anchor="middle" class="size-label">押し間違いの原因</text>
+
+  <rect x="450" y="405" width="300" height="70" rx="10" class="box-ok"/>
+  <text x="600" y="450" text-anchor="middle" class="btn-text-ok" style="font-size:19px;">タップしやすい</text>
+  <text x="600" y="500" text-anchor="middle" class="size-label" style="fill:#C44536; font-weight:700;">指で押しやすい大きさ</text>
+
+  <line x1="80" y1="555" x2="820" y2="555" class="divider-h"/>
+  <text x="450" y="615" text-anchor="middle" class="footer-headline">本当に役に立つ時にだけ、自然な流れで置く</text>
+  <text x="450" y="660" text-anchor="middle" class="desc" style="font-size:19px;">入れすぎは、読者を「売り込み」から遠ざける</text>
+</svg>

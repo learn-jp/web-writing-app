@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-label="アクセス解析の3つの指標">
+  <style>
+    .card-box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .metric-name { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 21px; font-weight: 700; }
+    .metric-desc { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 16px; font-weight: 500; }
+    .metric-note { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 14px; font-weight: 500; font-style: italic; }
+    .goal-box { fill: #C44536; stroke: #C44536; stroke-width: 3; }
+    .goal-text { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 24px; font-weight: 700; }
+    .goal-sub { fill: #ffe5e2; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 17px; font-weight: 500; }
+    .arrow-red { stroke: #C44536; stroke-width: 3; fill: none; }
+    .label-heading { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+  </style>
+
+  <text x="450" y="45" text-anchor="middle" class="label-heading">3つの基本指標</text>
+
+  <rect x="60" y="80" width="245" height="220" rx="10" class="card-box"/>
+  <text x="182" y="120" text-anchor="middle" class="metric-name">PV</text>
+  <text x="182" y="148" text-anchor="middle" class="metric-desc">ページビュー</text>
+  <text x="90" y="185" class="metric-desc" style="font-size:14px;">表示された回数</text>
+  <text x="90" y="225" class="metric-note">多い＝関心を引いている</text>
+  <text x="90" y="248" class="metric-note">でも離脱が早いと要注意</text>
+
+  <rect x="327" y="80" width="245" height="220" rx="10" class="card-box"/>
+  <text x="449" y="120" text-anchor="middle" class="metric-name">滞在時間</text>
+  <text x="449" y="148" text-anchor="middle" class="metric-desc">読んでいた時間</text>
+  <text x="357" y="185" class="metric-desc" style="font-size:14px;">じっくり読んだ証拠</text>
+  <text x="357" y="225" class="metric-note">記事の長さと比較して</text>
+  <text x="357" y="248" class="metric-note">判断する必要がある</text>
+
+  <rect x="594" y="80" width="245" height="220" rx="10" class="card-box"/>
+  <text x="716" y="120" text-anchor="middle" class="metric-name">直帰率</text>
+  <text x="716" y="148" text-anchor="middle" class="metric-desc">他を見ずに帰った割合</text>
+  <text x="624" y="185" class="metric-desc" style="font-size:14px;">高い＝期待とズレ？</text>
+  <text x="624" y="225" class="metric-note">疑問に答える記事なら</text>
+  <text x="624" y="248" class="metric-note">高くても自然なことも</text>
+
+  <line x1="450" y1="320" x2="450" y2="355" class="arrow-red"/>
+  <polygon points="440,350 450,370 460,350" fill="#C44536"/>
+
+  <rect x="150" y="390" width="600" height="140" rx="12" class="goal-box"/>
+  <text x="450" y="440" text-anchor="middle" class="goal-text">1つの数字だけで判断しない</text>
+  <text x="450" y="480" text-anchor="middle" class="goal-sub">複数を組み合わせて、立体的に読み解く</text>
+
+  <line x1="80" y1="580" x2="820" y2="580" class="divider-h"/>
+  <text x="450" y="635" text-anchor="middle" class="footer-headline">数字を組み合わせて、初めて真の反応が見える</text>
+</svg>

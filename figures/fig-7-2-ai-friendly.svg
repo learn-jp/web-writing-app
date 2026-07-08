@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 850" role="img" aria-label="AIに正しく理解される文章の4つの特徴">
+  <style>
+    .card-box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .p-num { fill: #C44536; font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 19px; font-weight: 700; }
+    .p-title { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 21px; font-weight: 700; }
+    .p-desc { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 17px; font-weight: 500; }
+    .arrow-red { stroke: #C44536; stroke-width: 3; fill: none; }
+    .union-box { fill: #C44536; stroke: #C44536; stroke-width: 3; }
+    .union-text { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 24px; font-weight: 700; }
+    .union-sub { fill: #ffe5e2; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 500; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .label-heading { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+  </style>
+
+  <text x="450" y="50" text-anchor="middle" class="label-heading">AIに正しく理解される4つの特徴</text>
+
+  <rect x="60" y="85" width="365" height="130" rx="10" class="card-box"/>
+  <text x="90" y="125" class="p-num">01</text>
+  <text x="150" y="125" class="p-title">構造が明確</text>
+  <text x="90" y="165" class="p-desc">見出しが階層化され、</text>
+  <text x="90" y="190" class="p-desc">何についての文章か一目で分かる</text>
+
+  <rect x="475" y="85" width="365" height="130" rx="10" class="card-box"/>
+  <text x="505" y="125" class="p-num">02</text>
+  <text x="565" y="125" class="p-title">結論が明確</text>
+  <text x="505" y="165" class="p-desc">記事の主張がはっきりしていて、</text>
+  <text x="505" y="190" class="p-desc">曖昧な後出しがない</text>
+
+  <rect x="60" y="230" width="365" height="130" rx="10" class="card-box"/>
+  <text x="90" y="270" class="p-num">03</text>
+  <text x="150" y="270" class="p-title">出典が明確</text>
+  <text x="90" y="310" class="p-desc">データや事実の引用元が</text>
+  <text x="90" y="335" class="p-desc">きちんと示されている</text>
+
+  <rect x="475" y="230" width="365" height="130" rx="10" class="card-box"/>
+  <text x="505" y="270" class="p-num">04</text>
+  <text x="565" y="270" class="p-title">自然な日本語</text>
+  <text x="505" y="310" class="p-desc">キーワードの詰め込みがなく、</text>
+  <text x="505" y="335" class="p-desc">自然に読める</text>
+
+  <line x1="450" y1="380" x2="450" y2="415" class="arrow-red"/>
+  <polygon points="440,410 450,430 460,410" fill="#C44536"/>
+
+  <rect x="150" y="445" width="600" height="180" rx="12" class="union-box"/>
+  <text x="450" y="495" text-anchor="middle" class="union-text">「機械の目」と「読者の心」は</text>
+  <text x="450" y="535" text-anchor="middle" class="union-text">対立しない</text>
+  <text x="450" y="580" text-anchor="middle" class="union-sub">良い文章を書けば、自然に両方に届く</text>
+
+  <line x1="80" y1="680" x2="820" y2="680" class="divider-h"/>
+  <text x="450" y="735" text-anchor="middle" class="footer-headline">人に優しい文章は、AIにも優しい</text>
+</svg>

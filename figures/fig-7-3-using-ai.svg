@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-label="AIを使った執筆の3段階">
+  <style>
+    .stage-box { fill: #ffffff; stroke: #999; stroke-width: 2; }
+    .stage-box-mid { fill: #ffffff; stroke: #b8895f; stroke-width: 2; }
+    .stage-box-best { fill: #ffffff; stroke: #C44536; stroke-width: 3; }
+    .mark-x { fill: #999; font-family: -apple-system, sans-serif; font-size: 26px; font-weight: 700; }
+    .mark-tri { fill: #b8895f; font-family: -apple-system, sans-serif; font-size: 24px; font-weight: 700; }
+    .mark-ok { fill: #C44536; font-family: -apple-system, sans-serif; font-size: 26px; font-weight: 700; }
+    .stage-label { fill: #999; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 16px; font-weight: 700; letter-spacing: 0.1em; }
+    .stage-title { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 700; }
+    .stage-title-red { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 700; }
+    .stage-desc { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 500; }
+    .arrow-gray { stroke: #ccc; stroke-width: 2; fill: none; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .footer { fill: #444; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 500; }
+  </style>
+
+  <rect x="60" y="40" width="780" height="140" rx="10" class="stage-box"/>
+  <text x="90" y="75" class="stage-label">段階 1</text>
+  <text x="750" y="75" text-anchor="end" class="mark-x">×</text>
+  <text x="90" y="115" class="stage-title">AIに全てを書かせる</text>
+  <text x="90" y="150" class="stage-desc">出来上がるのは、平均的で無味乾燥な文章。誰にも読まれない</text>
+
+  <line x1="450" y1="180" x2="450" y2="210" class="arrow-gray"/>
+  <polygon points="443,205 450,220 457,205" fill="#ccc"/>
+
+  <rect x="60" y="225" width="780" height="140" rx="10" class="stage-box-mid"/>
+  <text x="90" y="260" class="stage-label">段階 2</text>
+  <text x="750" y="260" text-anchor="end" class="mark-tri">△</text>
+  <text x="90" y="300" class="stage-title">AIに下書き→自分で書き直す</text>
+  <text x="90" y="335" class="stage-desc">時間の節約になるが、AIの下書きに引きずられる危険もある</text>
+
+  <line x1="450" y1="365" x2="450" y2="395" class="arrow-gray"/>
+  <polygon points="443,390 450,405 457,390" fill="#ccc"/>
+
+  <rect x="60" y="410" width="780" height="160" rx="10" class="stage-box-best"/>
+  <text x="90" y="448" class="stage-label" style="fill:#C44536;">段階 3　推奨</text>
+  <text x="750" y="448" text-anchor="end" class="mark-ok">○</text>
+  <text x="90" y="490" class="stage-title-red">AIをアシスタントとして使う</text>
+  <text x="90" y="525" class="stage-desc">自分で書き、AIに「分かりにくい部分」を聞き、自分で直す</text>
+  <text x="90" y="553" class="stage-desc">文章は、あくまで「あなたの言葉」のまま</text>
+
+  <line x1="80" y1="605" x2="820" y2="605" class="divider-h"/>
+  <text x="450" y="660" text-anchor="middle" class="footer-headline">最終的な責任は、書き手にある</text>
+  <text x="450" y="705" text-anchor="middle" class="footer">自分の目で確認し、自分の頭で考え、自分の責任で公開する</text>
+</svg>

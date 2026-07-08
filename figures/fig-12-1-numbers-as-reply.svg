@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-label="数字はあなたの物語への返信">
+  <style>
+    .action-box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .action-text { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 17px; font-weight: 600; }
+    .arrow-red { stroke: #C44536; stroke-width: 2.5; fill: none; }
+    .data-box { fill: #C44536; stroke: #C44536; stroke-width: 3; }
+    .data-text { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 24px; font-weight: 700; }
+    .data-sub { fill: #ffe5e2; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 17px; font-weight: 500; }
+    .label-heading { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 700; }
+    .label-heading-red { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 700; }
+    .box { fill: #ffffff; stroke: #999; stroke-width: 2; }
+    .box-red { fill: #ffffff; stroke: #C44536; stroke-width: 3; }
+    .desc { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 16px; font-weight: 500; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+  </style>
+
+  <rect x="60" y="40" width="170" height="70" rx="8" class="action-box"/>
+  <text x="145" y="82" text-anchor="middle" class="action-text">記事を読む</text>
+
+  <rect x="250" y="40" width="170" height="70" rx="8" class="action-box"/>
+  <text x="335" y="82" text-anchor="middle" class="action-text">途中で離れる</text>
+
+  <rect x="440" y="40" width="170" height="70" rx="8" class="action-box"/>
+  <text x="525" y="82" text-anchor="middle" class="action-text">最後まで読む</text>
+
+  <rect x="630" y="40" width="210" height="70" rx="8" class="action-box"/>
+  <text x="735" y="82" text-anchor="middle" class="action-text">シェア・コメント</text>
+
+  <line x1="145" y1="110" x2="400" y2="175" class="arrow-red"/>
+  <line x1="335" y1="110" x2="420" y2="175" class="arrow-red"/>
+  <line x1="525" y1="110" x2="470" y2="175" class="arrow-red"/>
+  <line x1="735" y1="110" x2="500" y2="175" class="arrow-red"/>
+  <polygon points="440,168 460,175 440,182" fill="#C44536" transform="translate(10,0)"/>
+
+  <rect x="250" y="190" width="400" height="120" rx="12" class="data-box"/>
+  <text x="450" y="240" text-anchor="middle" class="data-text">これが「データ」</text>
+  <text x="450" y="275" text-anchor="middle" class="data-sub">読者がどう感じたかの記録</text>
+
+  <line x1="80" y1="355" x2="820" y2="355" class="divider-h"/>
+
+  <text x="220" y="410" text-anchor="middle" class="label-heading">冷たい数字と見る</text>
+  <text x="680" y="410" text-anchor="middle" class="label-heading-red">読者からの返信と見る</text>
+
+  <rect x="55" y="440" width="360" height="150" rx="10" class="box"/>
+  <text x="85" y="480" class="desc" style="font-size:17px;">「アクセスが落ちた、どうしよう」</text>
+  <text x="85" y="515" class="desc" style="font-size:17px;">「離脱率が高い、なぜだ」</text>
+  <text x="85" y="560" class="desc" style="font-weight:700; fill:#999;">→ 焦るだけで、改善できない</text>
+
+  <rect x="485" y="440" width="360" height="150" rx="10" class="box-red"/>
+  <text x="515" y="480" class="desc" style="font-size:17px; fill:#1a1a1a; font-weight:600;">「関心が変わったのかもしれない」</text>
+  <text x="515" y="515" class="desc" style="font-size:17px; fill:#1a1a1a; font-weight:600;">「リード文と中身が合ってないかも」</text>
+  <text x="515" y="560" class="desc" style="font-weight:700; fill:#C44536;">→ 冷静に分析し、次に繋げる</text>
+
+  <line x1="80" y1="630" x2="820" y2="630" class="divider-h"/>
+  <text x="450" y="685" text-anchor="middle" class="footer-headline">データと対話できる書き手が、長く成長する</text>
+</svg>

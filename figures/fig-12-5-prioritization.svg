@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 950" role="img" aria-label="インパクトと労力の2軸マトリクス">
+  <style>
+    .axis-line { stroke: #1a1a1a; stroke-width: 2; fill: none; }
+    .axis-label { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 17px; font-weight: 700; }
+    .quad-1 { fill: #C44536; opacity: 0.12; }
+    .quad-other { fill: #f7f7f7; }
+    .quad-border { stroke: #ccc; stroke-width: 1.5; fill: none; }
+    .priority-badge { fill: #C44536; }
+    .priority-badge-gray { fill: #999; }
+    .priority-num { fill: #ffffff; font-family: -apple-system, sans-serif; font-size: 18px; font-weight: 700; }
+    .quad-title { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 700; }
+    .quad-example { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 14px; font-weight: 500; }
+    .label-heading { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 24px; font-weight: 700; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+  </style>
+
+  <text x="450" y="45" text-anchor="middle" class="label-heading">「インパクト」と「労力」の2軸で考える</text>
+
+  <!-- 軸ラベル -->
+  <text x="450" y="90" text-anchor="middle" class="axis-label">インパクト：大</text>
+  <text x="450" y="640" text-anchor="middle" class="axis-label">インパクト：小</text>
+  <text x="140" y="365" text-anchor="middle" class="axis-label">労力：少</text>
+  <text x="760" y="365" text-anchor="middle" class="axis-label">労力：大</text>
+
+  <!-- 4象限 -->
+  <rect x="70" y="110" width="365" height="245" class="quad-1"/>
+  <rect x="465" y="110" width="365" height="245" class="quad-other"/>
+  <rect x="70" y="355" width="365" height="245" class="quad-other"/>
+  <rect x="465" y="355" width="365" height="245" class="quad-other"/>
+  <line x1="450" y1="110" x2="450" y2="600" class="axis-line"/>
+  <line x1="70" y1="355" x2="830" y2="355" class="axis-line"/>
+
+  <!-- 象限1: インパクト大・労力少 (最優先) -->
+  <circle cx="115" cy="145" r="20" class="priority-badge"/>
+  <text x="115" y="152" text-anchor="middle" class="priority-num">1</text>
+  <text x="252" y="200" text-anchor="middle" class="quad-title">最優先</text>
+  <text x="252" y="240" text-anchor="middle" class="quad-example">検索順位11〜20位の</text>
+  <text x="252" y="260" text-anchor="middle" class="quad-example">記事のタイトルを書き直す</text>
+
+  <!-- 象限2: インパクト大・労力大 -->
+  <circle cx="510" cy="145" r="20" class="priority-badge-gray"/>
+  <text x="510" y="152" text-anchor="middle" class="priority-num">2</text>
+  <text x="647" y="200" text-anchor="middle" class="quad-title">時間を確保して</text>
+  <text x="647" y="240" text-anchor="middle" class="quad-example">直帰率が高い記事を</text>
+  <text x="647" y="260" text-anchor="middle" class="quad-example">全面リライトする</text>
+
+  <!-- 象限3: インパクト小・労力少 -->
+  <circle cx="115" cy="390" r="20" class="priority-badge-gray"/>
+  <text x="115" y="397" text-anchor="middle" class="priority-num">3</text>
+  <text x="252" y="445" text-anchor="middle" class="quad-title">余裕があれば</text>
+  <text x="252" y="485" text-anchor="middle" class="quad-example">軽微な誤字脱字の修正</text>
+
+  <!-- 象限4: インパクト小・労力大 -->
+  <circle cx="510" cy="390" r="20" class="priority-badge-gray"/>
+  <text x="510" y="397" text-anchor="middle" class="priority-num">4</text>
+  <text x="647" y="445" text-anchor="middle" class="quad-title">後回しでいい</text>
+  <text x="647" y="485" text-anchor="middle" class="quad-example">読まれていない記事を</text>
+  <text x="647" y="505" text-anchor="middle" class="quad-example">ゼロから書き直す</text>
+
+  <line x1="80" y1="650" x2="820" y2="650" class="divider-h"/>
+  <text x="450" y="710" text-anchor="middle" class="label-heading">まずは「インパクト大・労力少」から</text>
+
+  <line x1="80" y1="770" x2="820" y2="770" class="divider-h"/>
+  <text x="450" y="825" text-anchor="middle" class="footer-headline">目的は、読者の心にあなたの言葉を届けること</text>
+</svg>

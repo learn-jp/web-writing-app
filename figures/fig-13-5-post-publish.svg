@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 950" role="img" aria-label="公開後の運用タイムライン">
+  <style>
+    .timeline-line { stroke: #C44536; stroke-width: 3; fill: none; }
+    .time-dot { fill: #C44536; }
+    .time-label { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 15px; font-weight: 700; }
+    .phase-box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .phase-title { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 19px; font-weight: 700; }
+    .phase-item { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 15px; font-weight: 500; }
+    .label-heading { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+  </style>
+
+  <text x="450" y="45" text-anchor="middle" class="label-heading">公開してから、育てる</text>
+
+  <!-- 縦のタイムライン -->
+  <line x1="120" y1="100" x2="120" y2="680" class="timeline-line"/>
+
+  <!-- 直後 -->
+  <circle cx="120" cy="120" r="26" class="time-dot"/>
+  <text x="120" y="126" text-anchor="middle" class="time-label" style="font-size:12px;">〜1週間</text>
+  <rect x="170" y="80" width="670" height="110" rx="10" class="phase-box"/>
+  <text x="195" y="115" class="phase-title">公開直後</text>
+  <text x="195" y="145" class="phase-item">SNSでシェア／初動確認／誤字脱字の最終チェック</text>
+  <text x="195" y="170" class="phase-item" style="fill:#C44536; font-weight:700;">最初の読者を、自分から呼び込む</text>
+
+  <!-- 1ヶ月 -->
+  <circle cx="120" cy="270" r="26" class="time-dot"/>
+  <text x="120" y="276" text-anchor="middle" class="time-label" style="font-size:12px;">1ヶ月</text>
+  <rect x="170" y="230" width="670" height="110" rx="10" class="phase-box"/>
+  <text x="195" y="265" class="phase-title">公開後1ヶ月</text>
+  <text x="195" y="295" class="phase-item">アクセス解析／検索コンソール／読者の反応を確認</text>
+  <text x="195" y="320" class="phase-item" style="fill:#C44536; font-weight:700;">データを見て、軽い修正を加える</text>
+
+  <!-- 3-6ヶ月 -->
+  <circle cx="120" cy="420" r="26" class="time-dot"/>
+  <text x="120" y="426" text-anchor="middle" class="time-label" style="font-size:11px;">3〜6ヶ月</text>
+  <rect x="170" y="380" width="670" height="110" rx="10" class="phase-box"/>
+  <text x="195" y="415" class="phase-title">公開後3〜6ヶ月</text>
+  <text x="195" y="445" class="phase-item">アクセスのトレンド／検索順位を確認</text>
+  <text x="195" y="470" class="phase-item" style="fill:#C44536; font-weight:700;">良い記事は磨き、伸びなければリライト検討</text>
+
+  <!-- 1年以上 -->
+  <circle cx="120" cy="570" r="26" class="time-dot"/>
+  <text x="120" y="576" text-anchor="middle" class="time-label" style="font-size:12px;">1年〜</text>
+  <rect x="170" y="530" width="670" height="110" rx="10" class="phase-box"/>
+  <text x="195" y="565" class="phase-title">公開後1年以上</text>
+  <text x="195" y="595" class="phase-item">情報の鮮度を確認／大幅なリライトを検討</text>
+  <text x="195" y="620" class="phase-item" style="fill:#C44536; font-weight:700;">必要なら、統合や分割も</text>
+
+  <line x1="80" y1="720" x2="820" y2="720" class="divider-h"/>
+  <text x="450" y="780" text-anchor="middle" class="footer-headline">「公開して終わり」ではなく「公開してから育てる」</text>
+</svg>

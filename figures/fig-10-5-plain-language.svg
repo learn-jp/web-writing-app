@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-label="プレーンランゲージの実践">
+  <style>
+    .box-ng { fill: #ffffff; stroke: #999; stroke-width: 2; }
+    .box-ok { fill: #ffffff; stroke: #C44536; stroke-width: 2; }
+    .mark-ng { fill: #999; font-family: -apple-system, sans-serif; font-size: 20px; font-weight: 700; }
+    .mark-ok { fill: #C44536; font-family: -apple-system, sans-serif; font-size: 20px; font-weight: 700; }
+    .ex-text { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 17px; font-weight: 600; }
+    .ex-text-faded { fill: #999; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 17px; font-weight: 500; }
+    .p-num { fill: #C44536; font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 17px; font-weight: 700; }
+    .p-title { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 700; }
+    .p-desc { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 15px; font-weight: 500; }
+    .card-box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .label-heading { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 24px; font-weight: 700; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+  </style>
+
+  <text x="450" y="45" text-anchor="middle" class="label-heading">専門用語には、言い換えを添える</text>
+
+  <rect x="60" y="75" width="780" height="70" rx="8" class="box-ng"/>
+  <text x="90" y="118" class="mark-ng">×</text>
+  <text x="130" y="118" class="ex-text-faded">「アジャイル」とだけ書く</text>
+
+  <rect x="60" y="160" width="780" height="70" rx="8" class="box-ok"/>
+  <text x="90" y="203" class="mark-ok">○</text>
+  <text x="130" y="203" class="ex-text">「アジャイル（短い周期で開発を繰り返す手法）」</text>
+
+  <line x1="80" y1="255" x2="820" y2="255" class="divider-h"/>
+  <text x="450" y="310" text-anchor="middle" class="label-heading">実践する、3つの工夫</text>
+
+  <rect x="60" y="340" width="780" height="110" rx="10" class="card-box"/>
+  <text x="90" y="380" class="p-num">01</text>
+  <text x="150" y="380" class="p-title">漢字を多用しすぎない</text>
+  <text x="150" y="415" class="p-desc" style="font-size:16px;">「致します」より「いたします」の方が読みやすいことも</text>
+
+  <rect x="60" y="460" width="780" height="110" rx="10" class="card-box"/>
+  <text x="90" y="500" class="p-num">02</text>
+  <text x="150" y="500" class="p-title">専門用語にはルビや言い換えを</text>
+  <text x="150" y="535" class="p-desc" style="font-size:16px;">カッコで補足するだけで、初めての読者にも伝わる</text>
+
+  <rect x="60" y="580" width="780" height="110" rx="10" class="card-box"/>
+  <text x="90" y="620" class="p-num">03</text>
+  <text x="150" y="620" class="p-title">一文を短くする</text>
+  <text x="150" y="655" class="p-desc" style="font-size:16px;">目安は、一文60文字以内</text>
+
+  <line x1="80" y1="730" x2="820" y2="730" class="divider-h"/>
+  <text x="450" y="785" text-anchor="middle" class="footer-headline">誰にでも読める文章は、誰にとっても読みやすい</text>
+</svg>

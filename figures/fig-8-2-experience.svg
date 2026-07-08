@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-label="経験を込める">
+  <style>
+    .label-heading { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 24px; font-weight: 700; }
+    .label-heading-red { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 24px; font-weight: 700; }
+    .box { fill: #ffffff; stroke: #999; stroke-width: 2; }
+    .box-red { fill: #ffffff; stroke: #C44536; stroke-width: 3; }
+    .box-text-faded { fill: #999; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 500; }
+    .box-text { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 600; }
+    .verdict { fill: #999; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 17px; font-weight: 500; font-style: italic; }
+    .verdict-red { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 17px; font-weight: 700; font-style: italic; }
+    .p-num { fill: #C44536; font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 18px; font-weight: 700; }
+    .p-title { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 19px; font-weight: 700; }
+    .card-box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+  </style>
+
+  <text x="220" y="50" text-anchor="middle" class="label-heading">理論だけを調べた人</text>
+  <text x="680" y="50" text-anchor="middle" class="label-heading-red">実際に経験した人</text>
+
+  <rect x="55" y="80" width="360" height="150" rx="10" class="box"/>
+  <text x="85" y="125" class="box-text-faded">「集中力の研究によると、</text>
+  <text x="85" y="153" class="box-text-faded">環境要因が重要とされています」</text>
+  <text x="235" y="205" text-anchor="middle" class="verdict">正しいが、説得力が薄い</text>
+
+  <rect x="485" y="80" width="360" height="150" rx="10" class="box-red"/>
+  <text x="515" y="125" class="box-text">「在宅勤務3ヶ月、集中力に</text>
+  <text x="515" y="153" class="box-text">悩んだ私が実際に試した方法」</text>
+  <text x="665" y="205" text-anchor="middle" class="verdict-red">経験が、説得力になる</text>
+
+  <line x1="80" y1="265" x2="820" y2="265" class="divider-h"/>
+  <text x="450" y="320" text-anchor="middle" class="label-heading" style="fill:#1a1a1a;">経験を込める、3つのコツ</text>
+
+  <rect x="60" y="350" width="780" height="110" rx="10" class="card-box"/>
+  <text x="90" y="390" class="p-num">01</text>
+  <text x="150" y="390" class="p-title">具体的な数字を入れる</text>
+  <text x="150" y="425" class="box-text-faded" style="font-size:16px;">「3ヶ月やってみて」「5回失敗して」</text>
+
+  <rect x="60" y="470" width="780" height="110" rx="10" class="card-box"/>
+  <text x="90" y="510" class="p-num">02</text>
+  <text x="150" y="510" class="p-title">失敗を隠さない</text>
+  <text x="150" y="545" class="box-text-faded" style="font-size:16px;">失敗を語れる人は、信頼される</text>
+
+  <rect x="60" y="590" width="780" height="110" rx="10" class="card-box"/>
+  <text x="90" y="630" class="p-num">03</text>
+  <text x="150" y="630" class="p-title">感情を込める</text>
+  <text x="150" y="665" class="box-text-faded" style="font-size:16px;">「困った」「悔しかった」は、経験の証</text>
+
+  <line x1="80" y1="740" x2="820" y2="740" class="divider-h"/>
+  <text x="450" y="795" text-anchor="middle" class="footer-headline">経験は、AI時代の書き手の最大の武器</text>
+</svg>

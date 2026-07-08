@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 950" role="img" aria-label="数字に振り回されないための3つの姿勢">
+  <style>
+    .ng-box { fill: #ffffff; stroke: #999; stroke-width: 2; }
+    .ng-text { fill: #999; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 16px; font-weight: 500; }
+    .warn-box { fill: #1a1a1a; }
+    .warn-label { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 17px; font-weight: 700; letter-spacing: 0.1em; }
+    .warn-text { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 21px; font-weight: 700; }
+    .arrow-red { stroke: #C44536; stroke-width: 3; fill: none; }
+    .p-num { fill: #C44536; font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 18px; font-weight: 700; }
+    .p-title { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 700; }
+    .card-box { fill: #ffffff; stroke: #C44536; stroke-width: 2; }
+    .label-heading { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 24px; font-weight: 700; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+  </style>
+
+  <text x="450" y="45" text-anchor="middle" class="label-heading">目的を見失った、3つの行動</text>
+
+  <rect x="60" y="75" width="780" height="70" rx="8" class="ng-box"/>
+  <text x="90" y="118" class="ng-text">PVを稼ぐため、テーマが偏る</text>
+
+  <rect x="60" y="160" width="780" height="70" rx="8" class="ng-box"/>
+  <text x="90" y="203" class="ng-text">直帰率を下げるため、不自然なリンクを増やす</text>
+
+  <rect x="60" y="245" width="780" height="70" rx="8" class="ng-box"/>
+  <text x="90" y="288" class="ng-text">滞在時間を伸ばすため、文章を無駄に長くする</text>
+
+  <line x1="450" y1="330" x2="450" y2="360" class="arrow-red"/>
+  <polygon points="440,355 450,375 460,355" fill="#C44536"/>
+
+  <rect x="150" y="385" width="600" height="110" rx="12" class="warn-box"/>
+  <text x="450" y="425" text-anchor="middle" class="warn-label">本末転倒</text>
+  <text x="450" y="465" text-anchor="middle" class="warn-text">指標が目的になってしまった状態</text>
+
+  <line x1="80" y1="540" x2="820" y2="540" class="divider-h"/>
+  <text x="450" y="595" text-anchor="middle" class="label-heading">数字を見る、正しい3つの姿勢</text>
+
+  <rect x="60" y="625" width="780" height="95" rx="10" class="card-box"/>
+  <text x="90" y="660" class="p-num">01</text>
+  <text x="150" y="660" class="p-title">数字は「結果」でなく「ヒント」</text>
+  <text x="150" y="690" class="ng-text" style="font-size:14px;">次の改善のヒントと捉えれば、一喜一憂しない</text>
+
+  <rect x="60" y="730" width="780" height="95" rx="10" class="card-box"/>
+  <text x="90" y="765" class="p-num">02</text>
+  <text x="150" y="765" class="p-title">短期的な変動に振り回されない</text>
+  <text x="150" y="795" class="ng-text" style="font-size:14px;">長期的なトレンドで判断する</text>
+
+  <line x1="80" y1="855" x2="820" y2="855" class="divider-h"/>
+  <text x="450" y="905" text-anchor="middle" class="footer-headline">数字に表れない価値も、大切にする</text>
+</svg>

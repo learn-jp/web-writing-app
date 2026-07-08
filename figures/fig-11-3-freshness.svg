@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 850" role="img" aria-label="情報の鮮度と更新日の扱い">
+  <style>
+    .field-box { fill: #ffffff; stroke: #999; stroke-width: 2; }
+    .field-text { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 600; }
+    .label-heading { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 24px; font-weight: 700; }
+    .p-num { fill: #C44536; font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 17px; font-weight: 700; }
+    .p-title { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 700; }
+    .card-box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .warn-box { fill: #C44536; }
+    .warn-label { fill: #ffe5e2; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 17px; font-weight: 700; letter-spacing: 0.1em; }
+    .warn-text { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 700; }
+    .warn-sub { fill: #ffe5e2; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 16px; font-weight: 500; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+  </style>
+
+  <text x="450" y="45" text-anchor="middle" class="label-heading">鮮度の劣化が早い、5つの情報</text>
+
+  <rect x="60" y="80" width="145" height="70" rx="8" class="field-box"/>
+  <text x="132" y="122" text-anchor="middle" class="field-text" style="font-size:16px;">価格情報</text>
+
+  <rect x="215" y="80" width="180" height="70" rx="8" class="field-box"/>
+  <text x="305" y="122" text-anchor="middle" class="field-text" style="font-size:16px;">法律や制度</text>
+
+  <rect x="405" y="80" width="180" height="70" rx="8" class="field-box"/>
+  <text x="495" y="122" text-anchor="middle" class="field-text" style="font-size:16px;">技術やツール</text>
+
+  <rect x="595" y="80" width="120" height="70" rx="8" class="field-box"/>
+  <text x="655" y="122" text-anchor="middle" class="field-text" style="font-size:16px;">統計</text>
+
+  <rect x="725" y="80" width="115" height="70" rx="8" class="field-box"/>
+  <text x="782" y="122" text-anchor="middle" class="field-text" style="font-size:16px;">流行</text>
+
+  <line x1="80" y1="195" x2="820" y2="195" class="divider-h"/>
+  <text x="450" y="250" text-anchor="middle" class="label-heading">新しく保つための、3つの実践</text>
+
+  <rect x="60" y="280" width="780" height="105" rx="10" class="card-box"/>
+  <text x="90" y="320" class="p-num">01</text>
+  <text x="150" y="320" class="p-title">定期的に読み返す</text>
+  <text x="150" y="353" class="field-text" style="font-size:15px; font-weight:500; fill:#666;">半年に1度くらいの頻度で確認する</text>
+
+  <rect x="60" y="395" width="780" height="105" rx="10" class="card-box"/>
+  <text x="90" y="435" class="p-num">02</text>
+  <text x="150" y="435" class="p-title">更新日を明示する</text>
+  <text x="150" y="468" class="field-text" style="font-size:15px; font-weight:500; fill:#666;">読者は「最近更新された記事」を信頼する</text>
+
+  <rect x="60" y="510" width="780" height="105" rx="10" class="card-box"/>
+  <text x="90" y="550" class="p-num">03</text>
+  <text x="150" y="550" class="p-title">大きな変化があれば、すぐ更新</text>
+  <text x="150" y="583" class="field-text" style="font-size:15px; font-weight:500; fill:#666;">放置は、間違った情報を流し続けることになる</text>
+
+  <line x1="80" y1="655" x2="820" y2="655" class="divider-h"/>
+
+  <rect x="150" y="685" width="600" height="110" rx="12" class="warn-box"/>
+  <text x="450" y="725" text-anchor="middle" class="warn-label">最も誠実な対応</text>
+  <text x="450" y="765" text-anchor="middle" class="warn-text">間違いを見つけたら、すぐに直す</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1000" role="img" aria-label="あなたの物語を世界へ、本書のまとめ">
+  <style>
+    .petal-box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .petal-text { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 20px; font-weight: 700; }
+    .center-outer { fill: none; stroke: #C44536; stroke-width: 2; opacity: 0.4; }
+    .center-circle { fill: #C44536; stroke: #C44536; stroke-width: 3; }
+    .center-text { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 24px; font-weight: 700; }
+    .line-red { stroke: #C44536; stroke-width: 2; fill: none; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 24px; font-weight: 700; }
+    .footer-final { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 34px; font-weight: 700; }
+    .footer { fill: #444; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 19px; font-weight: 500; }
+  </style>
+
+  <text x="450" y="45" text-anchor="middle" class="footer-headline">本書を貫いてきた、4つのレンズ</text>
+
+  <!-- 放射状の線 -->
+  <line x1="450" y1="410" x2="230" y2="220" class="line-red"/>
+  <line x1="450" y1="410" x2="670" y2="220" class="line-red"/>
+  <line x1="450" y1="410" x2="230" y2="530" class="line-red"/>
+  <line x1="450" y1="410" x2="670" y2="530" class="line-red"/>
+
+  <!-- 4つのキーワード -->
+  <rect x="80" y="140" width="300" height="100" rx="10" class="petal-box"/>
+  <text x="230" y="198" text-anchor="middle" class="petal-text">あなたの物語</text>
+
+  <rect x="520" y="140" width="300" height="100" rx="10" class="petal-box"/>
+  <text x="670" y="198" text-anchor="middle" class="petal-text">あなたの言葉</text>
+
+  <rect x="80" y="480" width="300" height="100" rx="10" class="petal-box"/>
+  <text x="230" y="538" text-anchor="middle" class="petal-text">機械の目</text>
+
+  <rect x="520" y="480" width="300" height="100" rx="10" class="petal-box"/>
+  <text x="670" y="538" text-anchor="middle" class="petal-text">文章のWeb最適化</text>
+
+  <!-- 中心：二重円で特別感 -->
+  <circle cx="450" cy="410" r="120" class="center-outer"/>
+  <circle cx="450" cy="410" r="105" class="center-circle"/>
+  <text x="450" y="400" text-anchor="middle" class="center-text">新時代の</text>
+  <text x="450" y="435" text-anchor="middle" class="center-text">書き手へ</text>
+
+  <line x1="80" y1="650" x2="820" y2="650" class="divider-h"/>
+
+  <text x="450" y="710" text-anchor="middle" class="footer-headline">最強の書き手は、あなたです</text>
+  <text x="450" y="750" text-anchor="middle" class="footer">派手でなくていい。バズを狙わなくていい。</text>
+  <text x="450" y="785" text-anchor="middle" class="footer">誠実に、あなたの物語を語り続けること。</text>
+
+  <line x1="80" y1="840" x2="820" y2="840" class="divider-h"/>
+
+  <text x="450" y="920" text-anchor="middle" class="footer-final">さあ、届けましょう。</text>
+  <text x="450" y="965" text-anchor="middle" class="footer-final">あなたの物語を、世界へ。</text>
+</svg>

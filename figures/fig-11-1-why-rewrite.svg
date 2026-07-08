@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 950" role="img" aria-label="公開は出発点、リライトの循環">
+  <style>
+    .node-box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .node-box-red { fill: #C44536; stroke: #C44536; stroke-width: 3; }
+    .node-title { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 20px; font-weight: 700; }
+    .node-title-white { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 20px; font-weight: 700; }
+    .node-sub { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 15px; font-weight: 500; }
+    .arrow-red { stroke: #C44536; stroke-width: 3; fill: none; }
+    .p-num { fill: #C44536; font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 17px; font-weight: 700; }
+    .p-title { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 700; }
+    .card-box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .label-heading { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 24px; font-weight: 700; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+  </style>
+
+  <text x="450" y="45" text-anchor="middle" class="label-heading">公開は終点ではなく、出発点</text>
+
+  <rect x="330" y="80" width="240" height="90" rx="10" class="node-box-red"/>
+  <text x="450" y="132" text-anchor="middle" class="node-title-white">公開する</text>
+
+  <line x1="570" y1="125" x2="700" y2="125" class="arrow-red"/>
+  <polygon points="695,118 715,125 695,132" fill="#C44536"/>
+
+  <rect x="620" y="200" width="220" height="90" rx="10" class="node-box"/>
+  <text x="730" y="245" text-anchor="middle" class="node-title" style="font-size:18px;">反応を見る</text>
+  <text x="730" y="270" text-anchor="middle" class="node-sub">読者の反応を観察</text>
+
+  <line x1="700" y1="290" x2="590" y2="410" class="arrow-red"/>
+  <polygon points="585,400 580,423 603,413" fill="#C44536"/>
+
+  <rect x="390" y="430" width="220" height="90" rx="10" class="node-box"/>
+  <text x="500" y="475" text-anchor="middle" class="node-title" style="font-size:18px;">データを分析</text>
+  <text x="500" y="500" text-anchor="middle" class="node-sub">アクセス・離脱を確認</text>
+
+  <line x1="390" y1="475" x2="230" y2="350" class="arrow-red"/>
+  <polygon points="235,358 213,348 227,328" fill="#C44536"/>
+
+  <rect x="60" y="200" width="220" height="90" rx="10" class="node-box"/>
+  <text x="170" y="245" text-anchor="middle" class="node-title" style="font-size:18px;">書き直す</text>
+  <text x="170" y="270" text-anchor="middle" class="node-sub">より良い記事へ</text>
+
+  <line x1="170" y1="200" x2="380" y2="130" class="arrow-red"/>
+  <polygon points="370,135 393,127 385,150" fill="#C44536"/>
+
+  <line x1="80" y1="580" x2="820" y2="580" class="divider-h"/>
+  <text x="450" y="635" text-anchor="middle" class="label-heading">リライトの、3つの目的</text>
+
+  <rect x="60" y="665" width="240" height="110" rx="10" class="card-box"/>
+  <text x="90" y="700" class="p-num">01</text>
+  <text x="180" y="715" text-anchor="middle" class="p-title" style="font-size:16px;">情報を</text>
+  <text x="180" y="740" text-anchor="middle" class="p-title" style="font-size:16px;">新しく保つ</text>
+
+  <rect x="330" y="665" width="240" height="110" rx="10" class="card-box"/>
+  <text x="360" y="700" class="p-num">02</text>
+  <text x="450" y="715" text-anchor="middle" class="p-title" style="font-size:16px;">文章を</text>
+  <text x="450" y="740" text-anchor="middle" class="p-title" style="font-size:16px;">磨く</text>
+
+  <rect x="600" y="665" width="240" height="110" rx="10" class="card-box"/>
+  <text x="630" y="700" class="p-num">03</text>
+  <text x="720" y="715" text-anchor="middle" class="p-title" style="font-size:16px;">検索評価を</text>
+  <text x="720" y="740" text-anchor="middle" class="p-title" style="font-size:16px;">上げる</text>
+
+  <line x1="80" y1="820" x2="820" y2="820" class="divider-h"/>
+  <text x="450" y="875" text-anchor="middle" class="footer-headline">書き直すことで、記事は生き続ける</text>
+</svg>

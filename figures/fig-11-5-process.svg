@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1000" role="img" aria-label="リライトの5ステップ">
+  <style>
+    .step-box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .step-num { fill: #C44536; font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 19px; font-weight: 700; }
+    .step-title { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 21px; font-weight: 700; }
+    .step-desc { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 16px; font-weight: 500; }
+    .arrow-red { stroke: #C44536; stroke-width: 3; fill: none; }
+    .loop-line { stroke: #C44536; stroke-width: 2.5; fill: none; stroke-dasharray: 6,4; }
+    .loop-label { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 16px; font-weight: 700; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .footer { fill: #444; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 21px; font-weight: 500; }
+  </style>
+
+  <rect x="60" y="40" width="780" height="110" rx="10" class="step-box"/>
+  <text x="90" y="80" class="step-num">STEP 1</text>
+  <text x="90" y="115" class="step-title">記事を客観的に読み返す</text>
+  <text x="90" y="140" class="step-desc">時間を置いてから、他人の文章のつもりで</text>
+
+  <line x1="450" y1="150" x2="450" y2="180" class="arrow-red"/>
+  <polygon points="440,175 450,195 460,175" fill="#C44536"/>
+
+  <rect x="60" y="195" width="780" height="110" rx="10" class="step-box"/>
+  <text x="90" y="235" class="step-num">STEP 2</text>
+  <text x="90" y="270" class="step-title">読者のデータを確認する</text>
+  <text x="90" y="295" class="step-desc">検索キーワード、離脱ポイント、読者層を分析</text>
+
+  <line x1="450" y1="305" x2="450" y2="335" class="arrow-red"/>
+  <polygon points="440,330 450,350 460,330" fill="#C44536"/>
+
+  <rect x="60" y="350" width="780" height="110" rx="10" class="step-box"/>
+  <text x="90" y="390" class="step-num">STEP 3</text>
+  <text x="90" y="425" class="step-title">リライトの目的を明確にする</text>
+  <text x="90" y="450" class="step-desc">1つの記事につき、1〜2つの目的に絞る</text>
+
+  <line x1="450" y1="460" x2="450" y2="490" class="arrow-red"/>
+  <polygon points="440,485 450,505 460,485" fill="#C44536"/>
+
+  <rect x="60" y="505" width="780" height="110" rx="10" class="step-box"/>
+  <text x="90" y="545" class="step-num">STEP 4</text>
+  <text x="90" y="580" class="step-title">実際に書き直す</text>
+  <text x="90" y="605" class="step-desc">構造、見出し、リード、文末、トーン。全てを活かす</text>
+
+  <line x1="450" y1="615" x2="450" y2="645" class="arrow-red"/>
+  <polygon points="440,640 450,660 460,640" fill="#C44536"/>
+
+  <rect x="60" y="660" width="780" height="110" rx="10" class="step-box"/>
+  <text x="90" y="700" class="step-num">STEP 5</text>
+  <text x="90" y="735" class="step-title">公開して、観察する</text>
+  <text x="90" y="760" class="step-desc">アクセス、離脱率、検索順位の変化を測る</text>
+
+  <!-- ループの矢印：STEP5からSTEP1へ戻る -->
+  <path d="M 840 715 Q 890 715 890 400 Q 890 95 840 95" class="loop-line"/>
+  <polygon points="845,88 830,100 848,108" fill="#C44536"/>
+  <text x="860" y="410" class="loop-label" transform="rotate(90 860 410)">効果が出なければ、また繰り返す</text>
+
+  <line x1="60" y1="830" x2="820" y2="830" class="divider-h"/>
+  <text x="450" y="885" text-anchor="middle" class="footer-headline">リライトは、書き手にとって最高の学習の場</text>
+</svg>

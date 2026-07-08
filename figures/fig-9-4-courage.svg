@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 880" role="img" aria-label="私を出す勇気">
+  <style>
+    .label-heading { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 700; }
+    .label-heading-red { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 700; }
+    .box { fill: #ffffff; stroke: #999; stroke-width: 2; }
+    .box-red { fill: #ffffff; stroke: #C44536; stroke-width: 3; }
+    .box-text-faded { fill: #999; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 500; }
+    .box-text { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 16px; font-weight: 600; }
+    .verdict { fill: #999; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 17px; font-weight: 500; font-style: italic; }
+    .verdict-red { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 17px; font-weight: 700; font-style: italic; }
+    .final-red { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 30px; font-weight: 700; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .footer { fill: #444; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 21px; font-weight: 500; }
+  </style>
+
+  <text x="220" y="50" text-anchor="middle" class="label-heading">一般論</text>
+  <text x="680" y="50" text-anchor="middle" class="label-heading-red">「私」を出した文章</text>
+
+  <rect x="55" y="85" width="360" height="130" rx="10" class="box"/>
+  <text x="235" y="155" text-anchor="middle" class="box-text-faded" style="font-size:18px;">「在宅勤務には、</text>
+  <text x="235" y="183" text-anchor="middle" class="box-text-faded" style="font-size:18px;">椅子が大切です」</text>
+  <text x="235" y="240" text-anchor="middle" class="verdict">誰でも書ける、誰にも届かない</text>
+
+  <rect x="485" y="85" width="360" height="170" rx="10" class="box-red"/>
+  <text x="515" y="120" class="box-text">「私は、在宅勤務を始めて半年、</text>
+  <text x="515" y="145" class="box-text">ひどい腰痛で動けなくなりました。</text>
+  <text x="515" y="170" class="box-text">安いダイニングチェアで仕事を</text>
+  <text x="515" y="195" class="box-text">続けていたことが原因でした」</text>
+  <text x="665" y="280" text-anchor="middle" class="verdict-red">その人にしか書けない、心を動かす</text>
+
+  <line x1="80" y1="330" x2="820" y2="330" class="divider-h"/>
+
+  <text x="450" y="395" text-anchor="middle" class="footer-headline">「私」を出すことは、勇気がいる</text>
+  <text x="450" y="440" text-anchor="middle" class="footer">失敗した自分、悩んだ自分を、読者の前に晒すこと</text>
+
+  <text x="450" y="510" text-anchor="middle" class="footer" style="font-style:italic;">読者が求めているのは「完璧な情報」ではなく</text>
+  <text x="450" y="550" text-anchor="middle" class="footer" style="font-style:italic;">「同じように悩んだ人の物語」</text>
+
+  <line x1="80" y1="610" x2="820" y2="610" class="divider-h"/>
+  <text x="450" y="680" text-anchor="middle" class="final-red">堂々と、「私」を出してください</text>
+  <text x="450" y="730" text-anchor="middle" class="footer">その瞬間、文章は読者の心に届く</text>
+</svg>
