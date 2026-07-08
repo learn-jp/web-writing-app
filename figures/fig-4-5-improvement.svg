@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 850" role="img" aria-label="見出し・リードの改善方法">
+  <style>
+    .box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .s-num { fill: #C44536; font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 20px; font-weight: 700; }
+    .s-title { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 24px; font-weight: 700; }
+    .s-desc { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 19px; font-weight: 500; }
+    .bar-label { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 700; }
+    .bar-red { fill: #C44536; }
+    .bar-dark { fill: #1a1a1a; }
+    .bar-text-sm { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 17px; font-weight: 500; }
+    .bar-text-lg { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 700; }
+    .bar-message { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 24px; font-weight: 700; }
+    .divider-light { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+  </style>
+
+  <rect x="60" y="40" width="780" height="110" rx="10" class="box"/>
+  <text x="90" y="88" class="s-num">01</text>
+  <text x="150" y="88" class="s-title">一晩寝かせる</text>
+  <text x="150" y="126" class="s-desc">頭が冷えた状態で、読み返す</text>
+
+  <rect x="60" y="175" width="780" height="110" rx="10" class="box"/>
+  <text x="90" y="223" class="s-num">02</text>
+  <text x="150" y="223" class="s-title">他人の目で読む</text>
+  <text x="150" y="261" class="s-desc">「初めて見た人」になりきって読む</text>
+
+  <rect x="60" y="310" width="780" height="110" rx="10" class="box"/>
+  <text x="90" y="358" class="s-num">03</text>
+  <text x="150" y="358" class="s-title">数字で改善する</text>
+  <text x="150" y="396" class="s-desc">クリック率を見て、見出しを変え続ける</text>
+
+  <line x1="80" y1="475" x2="820" y2="475" class="divider-light"/>
+
+  <text x="450" y="530" text-anchor="middle" class="bar-label">時間配分の目安</text>
+
+  <rect x="60" y="560" width="234" height="70" class="bar-red"/>
+  <rect x="294" y="560" width="546" height="70" class="bar-dark"/>
+  <text x="177" y="590" text-anchor="middle" class="bar-text-sm">見出し・リード</text>
+  <text x="177" y="617" text-anchor="middle" class="bar-text-lg">3割</text>
+  <text x="567" y="590" text-anchor="middle" class="bar-text-sm">本文</text>
+  <text x="567" y="617" text-anchor="middle" class="bar-text-lg">7割</text>
+
+  <text x="450" y="690" text-anchor="middle" class="bar-message">読者の99%は、ここで判断する</text>
+
+  <line x1="80" y1="750" x2="820" y2="750" class="divider-light"/>
+  <text x="450" y="808" text-anchor="middle" class="footer-headline">見出しとリードに、時間をかける価値がある</text>
+</svg>

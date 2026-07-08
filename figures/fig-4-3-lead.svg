@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 910" role="img" aria-label="リード文の3要素">
+  <style>
+    .box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .goal-box { fill: #C44536; stroke: #C44536; stroke-width: 3; }
+    .s-num { fill: #C44536; font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 20px; font-weight: 700; }
+    .s-title { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 24px; font-weight: 700; }
+    .s-role { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 19px; font-weight: 700; }
+    .s-example { fill: #444; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 20px; font-weight: 500; }
+    .goal-main { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 28px; font-weight: 700; }
+    .goal-sub { fill: #ffe5e2; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 19px; font-weight: 500; }
+    .arrow-red { stroke: #C44536; stroke-width: 3; fill: none; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+  </style>
+
+  <rect x="60" y="40" width="780" height="150" rx="12" class="box"/>
+  <text x="90" y="93" class="s-num">01</text>
+  <text x="145" y="93" class="s-title">読者の問題を言語化する</text>
+  <text x="810" y="93" text-anchor="end" class="s-role">共感</text>
+  <text x="90" y="148" class="s-example">「家で集中できるか、不安を感じていませんか？」</text>
+
+  <line x1="450" y1="190" x2="450" y2="220" class="arrow-red"/>
+  <polygon points="440,215 450,235 460,215" fill="#C44536"/>
+
+  <rect x="60" y="235" width="780" height="150" rx="12" class="box"/>
+  <text x="90" y="288" class="s-num">02</text>
+  <text x="145" y="288" class="s-title">この記事で得られることを示す</text>
+  <text x="810" y="288" text-anchor="end" class="s-role">約束</text>
+  <text x="90" y="343" class="s-example">「つまずかないためのステップをお伝えします」</text>
+
+  <line x1="450" y1="385" x2="450" y2="415" class="arrow-red"/>
+  <polygon points="440,410 450,430 460,410" fill="#C44536"/>
+
+  <rect x="60" y="430" width="780" height="150" rx="12" class="box"/>
+  <text x="90" y="483" class="s-num">03</text>
+  <text x="145" y="483" class="s-title">読み進めたくなる「引き」を作る</text>
+  <text x="810" y="483" text-anchor="end" class="s-role">誘導</text>
+  <text x="90" y="538" class="s-example">「実は、見落としがちな、たった1つのコツがあります」</text>
+
+  <line x1="450" y1="580" x2="450" y2="610" class="arrow-red"/>
+  <polygon points="440,605 450,625 460,605" fill="#C44536"/>
+
+  <rect x="150" y="625" width="600" height="130" rx="12" class="goal-box"/>
+  <text x="450" y="683" text-anchor="middle" class="goal-main">3〜5行で、伝え切る</text>
+  <text x="450" y="723" text-anchor="middle" class="goal-sub">長いリード文は、それ自体が壁になる</text>
+
+  <line x1="80" y1="805" x2="820" y2="805" class="divider-h"/>
+  <text x="450" y="862" text-anchor="middle" class="footer-headline">リード文は「玄関」— ここで読者をつまずかせない</text>
+</svg>

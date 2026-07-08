@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-label="短い文章で心を動かす">
+  <style>
+    .label-heading { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 24px; font-weight: 700; }
+    .label-heading-red { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 24px; font-weight: 700; }
+    .post-box { fill: #ffffff; stroke: #999; stroke-width: 2; }
+    .post-box-red { fill: #ffffff; stroke: #C44536; stroke-width: 3; }
+    .post-text-faded { fill: #999; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 16px; font-weight: 500; }
+    .post-text-strong { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 700; }
+    .arrow-red { stroke: #C44536; stroke-width: 3; fill: none; }
+    .p-num { fill: #C44536; font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 19px; font-weight: 700; }
+    .p-title { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 20px; font-weight: 700; }
+    .card-box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+  </style>
+
+  <text x="450" y="50" text-anchor="middle" class="label-heading">10書きたいうち、9を捨てる</text>
+
+  <rect x="60" y="85" width="780" height="145" rx="10" class="post-box"/>
+  <text x="90" y="120" class="post-text-faded" style="font-weight:700;">Before（削ぎ落とす前）</text>
+  <text x="90" y="155" class="post-text-faded">「在宅勤務を始めて3ヶ月、最初は集中できなくて困っていました。</text>
+  <text x="90" y="180" class="post-text-faded">コーヒーを飲んだり、音楽を聴いたり、色々試したけど効果が出ず…</text>
+  <text x="90" y="205" class="post-text-faded">でも朝の散歩を取り入れたら、劇的に変わりました」</text>
+
+  <line x1="450" y1="240" x2="450" y2="275" class="arrow-red"/>
+  <polygon points="440,270 450,290 460,270" fill="#C44536"/>
+
+  <rect x="60" y="305" width="780" height="145" rx="10" class="post-box-red"/>
+  <text x="90" y="345" class="label-heading-red" style="font-size:19px;">After（削ぎ落とした後）</text>
+  <text x="90" y="390" class="post-text-strong">「在宅勤務の集中力、朝の散歩で激変しました。</text>
+  <text x="90" y="420" class="post-text-strong">コーヒーや音楽より効きます」</text>
+
+  <line x1="80" y1="490" x2="820" y2="490" class="divider-h"/>
+  <text x="450" y="543" text-anchor="middle" class="label-heading">削ぎ落とす3つのコツ</text>
+
+  <rect x="60" y="575" width="780" height="90" rx="10" class="card-box"/>
+  <text x="90" y="613" class="p-num">01</text>
+  <text x="150" y="613" class="p-title">「意味が伝わらないもの」以外、全部捨てる</text>
+  <text x="150" y="645" class="post-text-faded" style="font-size:17px;">経緯、補足、言い訳は捨てる対象</text>
+
+  <rect x="60" y="680" width="780" height="90" rx="10" class="card-box"/>
+  <text x="90" y="718" class="p-num">02</text>
+  <text x="150" y="718" class="p-title">最初の一行に「最も伝えたいこと」を置く</text>
+  <text x="150" y="750" class="post-text-faded" style="font-size:17px;">それ以降は読まれない前提で書く</text>
+
+  <line x1="80" y1="805" x2="820" y2="805" class="divider-h"/>
+  <text x="450" y="860" text-anchor="middle" class="footer-headline">本当に大切なことだけを、選び抜く覚悟</text>
+</svg>

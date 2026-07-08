@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 780" role="img" aria-label="タイトルとメタディスクリプション">
+  <style>
+    .browser-box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .browser-bar { fill: #f0f0f0; }
+    .browser-dot { fill: #ccc; }
+    .search-url { fill: #1a5c2e; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 16px; font-weight: 500; }
+    .search-title { fill: #1a56db; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 23px; font-weight: 500; }
+    .search-desc { fill: #4d4d4d; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 17px; font-weight: 400; }
+    .tag-red { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 16px; font-weight: 700; }
+    .connector { stroke: #C44536; stroke-width: 2; fill: none; stroke-dasharray: 5,4; }
+    .equiv-box { fill: #ffffff; stroke: #C44536; stroke-width: 2; }
+    .equiv-text { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 17px; font-weight: 700; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .footer { fill: #444; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 500; }
+  </style>
+
+  <rect x="80" y="40" width="740" height="360" rx="12" class="browser-box"/>
+  <rect x="80" y="40" width="740" height="45" rx="12" class="browser-bar"/>
+  <rect x="80" y="65" width="740" height="20" class="browser-bar"/>
+  <circle cx="110" cy="62" r="7" class="browser-dot"/>
+  <circle cx="135" cy="62" r="7" class="browser-dot"/>
+  <circle cx="160" cy="62" r="7" class="browser-dot"/>
+
+  <text x="115" y="140" class="search-url">example.com › zaitaku-shukatsu</text>
+  <text x="115" y="180" class="search-title">はじめての在宅勤務、最初の1ヶ月で失敗しない</text>
+  <text x="115" y="210" class="search-title">ための5つの習慣</text>
+
+  <text x="115" y="255" class="search-desc">在宅勤務が始まる方へ。本記事では、3年間の経験から</text>
+  <text x="115" y="282" class="search-desc">学んだ、最初の1ヶ月をスムーズに乗り切るための具体</text>
+  <text x="115" y="309" class="search-desc">的な5つの習慣をお伝えします。</text>
+
+  <!-- タイトルとの対応関係 -->
+  <line x1="740" y1="185" x2="800" y2="185" class="connector"/>
+  <rect x="805" y="163" width="0" height="0"/>
+  <text x="750" y="150" class="tag-red">TITLE</text>
+
+  <line x1="740" y1="280" x2="800" y2="280" class="connector"/>
+  <text x="750" y="345" class="tag-red">META DESCRIPTION</text>
+
+  <!-- 対応関係の説明 -->
+  <rect x="60" y="425" width="360" height="90" rx="10" class="equiv-box"/>
+  <text x="240" y="463" text-anchor="middle" class="equiv-text">タイトル ＝ 見出し</text>
+  <text x="240" y="495" text-anchor="middle" class="footer" style="font-size:17px;">読むかどうかを判断する最大要素</text>
+
+  <rect x="480" y="425" width="360" height="90" rx="10" class="equiv-box"/>
+  <text x="660" y="463" text-anchor="middle" class="equiv-text">メタ description ＝ リード文</text>
+  <text x="660" y="495" text-anchor="middle" class="footer" style="font-size:17px;">120〜150字で、続きを約束する</text>
+
+  <line x1="80" y1="580" x2="820" y2="580" class="divider-h"/>
+  <text x="450" y="635" text-anchor="middle" class="footer-headline">検索結果は、読者との「最初の接点」</text>
+  <text x="450" y="680" text-anchor="middle" class="footer">ここに手を抜くと、本文は読まれない</text>
+</svg>

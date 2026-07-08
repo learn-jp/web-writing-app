@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 850" role="img" aria-label="結論ファーストの実践">
+  <style>
+    .label-heading { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 28px; font-weight: 700; }
+    .label-heading-red { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 28px; font-weight: 700; }
+    .top-caption { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 19px; font-weight: 500; }
+    .article-box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .article-line { stroke: #ccc; stroke-width: 2; fill: none; }
+    .article-line-faded { stroke: #ccc; stroke-width: 2; fill: none; opacity: 0.35; }
+    .exit-line { stroke: #C44536; stroke-width: 2.5; stroke-dasharray: 7,5; fill: none; }
+    .exit-label { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 17px; font-weight: 700; }
+    .concl-block-faded { fill: #1a1a1a; opacity: 0.3; }
+    .concl-block-red { fill: #C44536; }
+    .concl-text { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 21px; font-weight: 700; }
+    .concl-example { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 600; }
+    .caption-eye { fill: #888; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 20px; font-weight: 500; }
+    .caption-eye-italic { fill: #888; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 20px; font-weight: 500; font-style: italic; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .footer { fill: #444; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 500; }
+  </style>
+
+  <text x="220" y="55" text-anchor="middle" class="label-heading">結論があとまわし</text>
+  <text x="220" y="90" text-anchor="middle" class="top-caption">経緯からダラダラと</text>
+  <text x="680" y="55" text-anchor="middle" class="label-heading-red">結論ファースト</text>
+  <text x="680" y="90" text-anchor="middle" class="top-caption">最初の一行で伝える</text>
+
+  <!-- Left: 結論があとまわし -->
+  <rect x="40" y="120" width="360" height="440" rx="10" class="article-box"/>
+  <line x1="70" y1="165" x2="370" y2="165" class="article-line"/>
+  <line x1="70" y1="193" x2="370" y2="193" class="article-line"/>
+  <line x1="70" y1="221" x2="340" y2="221" class="article-line"/>
+  <line x1="70" y1="249" x2="370" y2="249" class="article-line"/>
+  <line x1="70" y1="277" x2="355" y2="277" class="article-line"/>
+  <line x1="70" y1="305" x2="370" y2="305" class="article-line"/>
+
+  <line x1="55" y1="345" x2="385" y2="345" class="exit-line"/>
+  <text x="220" y="375" text-anchor="middle" class="exit-label">読者はここで離脱</text>
+
+  <line x1="70" y1="410" x2="370" y2="410" class="article-line-faded"/>
+  <line x1="70" y1="438" x2="350" y2="438" class="article-line-faded"/>
+  <line x1="70" y1="466" x2="370" y2="466" class="article-line-faded"/>
+
+  <rect x="65" y="490" width="310" height="52" rx="6" class="concl-block-faded"/>
+  <text x="220" y="524" text-anchor="middle" class="concl-text">結論（届かない）</text>
+
+  <!-- Right: 結論ファースト -->
+  <rect x="500" y="120" width="360" height="440" rx="10" class="article-box"/>
+  <rect x="525" y="150" width="310" height="55" rx="6" class="concl-block-red"/>
+  <text x="680" y="186" text-anchor="middle" class="concl-text">結論</text>
+  <text x="680" y="245" text-anchor="middle" class="concl-example">「コツは、朝の散歩です。」</text>
+
+  <line x1="530" y1="290" x2="830" y2="290" class="article-line"/>
+  <line x1="530" y1="318" x2="815" y2="318" class="article-line"/>
+  <line x1="530" y1="346" x2="830" y2="346" class="article-line"/>
+  <line x1="530" y1="374" x2="830" y2="374" class="article-line"/>
+  <line x1="530" y1="402" x2="800" y2="402" class="article-line"/>
+  <line x1="530" y1="430" x2="830" y2="430" class="article-line"/>
+  <line x1="530" y1="458" x2="830" y2="458" class="article-line"/>
+  <line x1="530" y1="486" x2="820" y2="486" class="article-line"/>
+  <line x1="530" y1="514" x2="750" y2="514" class="article-line"/>
+
+  <text x="220" y="610" text-anchor="middle" class="caption-eye">読者の目：</text>
+  <text x="220" y="640" text-anchor="middle" class="caption-eye-italic">「何が言いたいの…？」</text>
+  <text x="680" y="610" text-anchor="middle" class="caption-eye">読者の目：</text>
+  <text x="680" y="640" text-anchor="middle" class="caption-eye-italic">「なるほど、続きを読もう」</text>
+
+  <line x1="80" y1="700" x2="820" y2="700" class="divider-h"/>
+  <text x="450" y="758" text-anchor="middle" class="footer-headline">結論を先に書けば、離脱されても価値は届く</text>
+  <text x="450" y="808" text-anchor="middle" class="footer">Webの実用文章は、結論ファーストが正解</text>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 980" role="img" aria-label="画像動画につける言葉の力">
+  <style>
+    .photo-box { fill: #eee; stroke: #999; stroke-width: 2; }
+    .photo-icon { fill: #bbb; font-family: -apple-system, sans-serif; font-size: 28px; }
+    .cap-box { fill: #ffffff; stroke: #999; stroke-width: 2; }
+    .cap-box-red { fill: #ffffff; stroke: #C44536; stroke-width: 3; }
+    .cap-text-faded { fill: #999; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 16px; font-weight: 500; }
+    .cap-text { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 16px; font-weight: 500; }
+    .label { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 700; }
+    .verdict { fill: #999; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 16px; font-weight: 500; font-style: italic; }
+    .verdict-red { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 16px; font-weight: 700; font-style: italic; }
+    .p-title { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 24px; font-weight: 700; }
+    .list-item { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 19px; font-weight: 600; }
+    .list-desc { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 17px; font-weight: 500; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+  </style>
+
+  <text x="450" y="45" text-anchor="middle" class="p-title">ビジュアル＋言葉で、記憶に残る</text>
+
+  <!-- A -->
+  <rect x="60" y="80" width="230" height="140" rx="8" class="photo-box"/>
+  <text x="175" y="160" text-anchor="middle" class="photo-icon">📷</text>
+  <rect x="60" y="230" width="230" height="55" rx="6" class="cap-box"/>
+  <text x="175" y="263" text-anchor="middle" class="cap-text-faded">キャプションなし</text>
+  <text x="175" y="310" text-anchor="middle" class="verdict">A：スクロールされて終わる</text>
+
+  <!-- B -->
+  <rect x="335" y="80" width="230" height="140" rx="8" class="photo-box"/>
+  <text x="450" y="160" text-anchor="middle" class="photo-icon">📷</text>
+  <rect x="335" y="230" width="230" height="55" rx="6" class="cap-box"/>
+  <text x="450" y="263" text-anchor="middle" class="cap-text">「今日のランチ」</text>
+  <text x="450" y="310" text-anchor="middle" class="verdict">B：目に止まるが、すぐ忘れる</text>
+
+  <!-- C -->
+  <rect x="610" y="80" width="230" height="140" rx="8" class="photo-box"/>
+  <text x="725" y="160" text-anchor="middle" class="photo-icon">📷</text>
+  <rect x="610" y="230" width="230" height="80" rx="6" class="cap-box-red"/>
+  <text x="725" y="258" text-anchor="middle" class="cap-text" style="font-size:14px;">「在宅勤務3ヶ月目、ついに</text>
+  <text x="725" y="278" text-anchor="middle" class="cap-text" style="font-size:14px;">自分で作れた本格タイカレー」</text>
+  <text x="725" y="335" text-anchor="middle" class="verdict-red">C：思わず読み、記憶に残る</text>
+
+  <line x1="80" y1="380" x2="820" y2="380" class="divider-h"/>
+  <text x="450" y="435" text-anchor="middle" class="p-title">YouTubeでも言葉は5箇所で活きる</text>
+
+  <text x="90" y="490" class="list-item">・動画タイトル</text>
+  <text x="350" y="490" class="list-desc">検索やおすすめに表示される最初の接点</text>
+
+  <text x="90" y="535" class="list-item">・サムネイルの文字</text>
+  <text x="350" y="535" class="list-desc">クリックを決定づける最大の要素</text>
+
+  <text x="90" y="580" class="list-item">・概要欄</text>
+  <text x="350" y="580" class="list-desc">さらに深く知りたい時の窓口</text>
+
+  <text x="90" y="625" class="list-item">・字幕</text>
+  <text x="350" y="625" class="list-desc">聴覚に頼らず理解できる橋</text>
+
+  <text x="90" y="670" class="list-item">・コメントへの返信</text>
+  <text x="350" y="670" class="list-desc">視聴者との関係を深める場所</text>
+
+  <line x1="80" y1="730" x2="820" y2="730" class="divider-h"/>
+  <text x="450" y="785" text-anchor="middle" class="footer-headline">ビジュアルの強さを、言葉でさらに引き上げる</text>
+</svg>

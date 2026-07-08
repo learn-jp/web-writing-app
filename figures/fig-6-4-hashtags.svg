@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-label="ハッシュタグは物語の住所">
+  <style>
+    .p-title { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .tri-large { fill: #1a1a1a; opacity: 0.15; }
+    .tri-mid { fill: #1a1a1a; opacity: 0.35; }
+    .tri-small { fill: #C44536; }
+    .tag-large { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 20px; font-weight: 600; }
+    .tag-mid { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 20px; font-weight: 600; }
+    .tag-small { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 20px; font-weight: 700; }
+    .tag-note { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 16px; font-weight: 500; }
+    .platform-box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .platform-name { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 19px; font-weight: 700; }
+    .platform-num { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 19px; font-weight: 700; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+  </style>
+
+  <text x="450" y="50" text-anchor="middle" class="p-title">大・中・小を組み合わせる</text>
+
+  <!-- ピラミッド：大（外側）→中→小（内側） -->
+  <polygon points="450,90 190,430 710,430" class="tri-large"/>
+  <polygon points="450,190 275,430 625,430" class="tri-mid"/>
+  <polygon points="450,290 365,430 535,430" class="tri-small"/>
+
+  <text x="450" y="150" text-anchor="middle" class="tag-large">#在宅勤務</text>
+  <text x="450" y="178" text-anchor="middle" class="tag-note">大：投稿が埋もれやすい</text>
+
+  <text x="450" y="245" text-anchor="middle" class="tag-mid">#在宅勤務初心者</text>
+  <text x="450" y="273" text-anchor="middle" class="tag-note">中：ある程度絞れる</text>
+
+  <text x="450" y="365" text-anchor="middle" class="tag-small">#在宅勤務3ヶ月目の気づき</text>
+  <text x="450" y="395" text-anchor="middle" class="tag-note" style="fill:#C44536; font-weight:700;">小：コアな読者に届く</text>
+
+  <line x1="80" y1="470" x2="820" y2="470" class="divider-h"/>
+  <text x="450" y="525" text-anchor="middle" class="p-title">プラットフォーム別の適正数</text>
+
+  <rect x="150" y="560" width="280" height="120" rx="10" class="platform-box"/>
+  <text x="290" y="605" text-anchor="middle" class="platform-name">Instagram</text>
+  <text x="290" y="650" text-anchor="middle" class="platform-num">10〜15個</text>
+
+  <rect x="470" y="560" width="280" height="120" rx="10" class="platform-box"/>
+  <text x="610" y="605" text-anchor="middle" class="platform-name">X（旧Twitter）</text>
+  <text x="610" y="650" text-anchor="middle" class="platform-num">2〜3個</text>
+
+  <line x1="80" y1="740" x2="820" y2="740" class="divider-h"/>
+  <text x="450" y="795" text-anchor="middle" class="footer-headline">丁寧につければ、正しい場所に届く</text>
+</svg>

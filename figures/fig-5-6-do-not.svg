@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 950" role="img" aria-label="やってはいけないこと">
+  <style>
+    .ng-box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .ng-num { fill: #1a1a1a; font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 20px; font-weight: 700; }
+    .ng-mark { fill: #999; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 700; }
+    .ng-title { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 21px; font-weight: 700; }
+    .common-box { fill: #1a1a1a; }
+    .common-label { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 17px; font-weight: 700; letter-spacing: 0.15em; }
+    .common-text { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 24px; font-weight: 700; }
+    .good-box { fill: #C44536; }
+    .good-label { fill: #ffe5e2; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 17px; font-weight: 700; letter-spacing: 0.15em; }
+    .good-text { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 700; }
+    .arrow-red { stroke: #C44536; stroke-width: 3; fill: none; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+  </style>
+
+  <rect x="60" y="40" width="365" height="110" rx="10" class="ng-box"/>
+  <text x="90" y="80" class="ng-num">01</text>
+  <text x="150" y="80" class="ng-mark">×</text>
+  <text x="185" y="80" class="ng-title" style="font-size:19px;">キーワードの</text>
+  <text x="150" y="118" class="ng-title" style="font-size:19px;">不自然な詰め込み</text>
+
+  <rect x="475" y="40" width="365" height="110" rx="10" class="ng-box"/>
+  <text x="505" y="80" class="ng-num">02</text>
+  <text x="565" y="80" class="ng-mark">×</text>
+  <text x="600" y="80" class="ng-title" style="font-size:19px;">他サイトの</text>
+  <text x="565" y="118" class="ng-title" style="font-size:19px;">文章のコピー</text>
+
+  <rect x="60" y="170" width="365" height="110" rx="10" class="ng-box"/>
+  <text x="90" y="210" class="ng-num">03</text>
+  <text x="150" y="210" class="ng-mark">×</text>
+  <text x="185" y="210" class="ng-title" style="font-size:19px;">自動生成された</text>
+  <text x="150" y="248" class="ng-title" style="font-size:19px;">薄い記事の量産</text>
+
+  <rect x="475" y="170" width="365" height="110" rx="10" class="ng-box"/>
+  <text x="505" y="210" class="ng-num">04</text>
+  <text x="565" y="210" class="ng-mark">×</text>
+  <text x="600" y="210" class="ng-title" style="font-size:19px;">不自然な</text>
+  <text x="565" y="248" class="ng-title" style="font-size:19px;">リンク購入</text>
+
+  <line x1="450" y1="300" x2="450" y2="335" class="arrow-red"/>
+  <polygon points="440,330 450,350 460,330" fill="#C44536"/>
+
+  <rect x="150" y="365" width="600" height="110" rx="12" class="common-box"/>
+  <text x="450" y="405" text-anchor="middle" class="common-label">共通点</text>
+  <text x="450" y="450" text-anchor="middle" class="common-text">機械を騙すための行為</text>
+
+  <line x1="450" y1="475" x2="450" y2="510" class="arrow-red"/>
+  <polygon points="440,505 450,525 460,505" fill="#C44536"/>
+
+  <rect x="150" y="540" width="600" height="230" rx="12" class="good-box"/>
+  <text x="450" y="580" text-anchor="middle" class="good-label">正攻法</text>
+  <text x="450" y="630" text-anchor="middle" class="good-text">読者の問いに、誠実に応える</text>
+  <text x="450" y="670" text-anchor="middle" class="good-text">情報を正しく構造化する</text>
+  <text x="450" y="710" text-anchor="middle" class="good-text">信頼できる情報源を示す</text>
+
+  <line x1="80" y1="830" x2="820" y2="830" class="divider-h"/>
+  <text x="450" y="888" text-anchor="middle" class="footer-headline">これだけで、十分</text>
+</svg>

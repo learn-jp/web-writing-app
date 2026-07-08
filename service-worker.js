@@ -4,7 +4,7 @@
 //  Cache First for static assets (icons)
 // ═══════════════════════════════════════════
 
-const CACHE_NAME = 'web-writing-v7';
+const CACHE_NAME = 'web-writing-v8';
 
 const APP_ASSETS = [
   './',
@@ -33,6 +33,23 @@ const APP_ASSETS = [
   './figures/fig-3-4-paragraphs.svg',
   './figures/fig-3-5-lists-tables.svg',
   './figures/fig-3-6-outline.svg',
+  './figures/fig-4-1-role.svg',
+  './figures/fig-4-2-principles.svg',
+  './figures/fig-4-3-lead.svg',
+  './figures/fig-4-4-conclusion-first.svg',
+  './figures/fig-4-5-improvement.svg',
+  './figures/fig-5-1-what-is.svg',
+  './figures/fig-5-2-search-engine.svg',
+  './figures/fig-5-3-title-meta.svg',
+  './figures/fig-5-4-keywords.svg',
+  './figures/fig-5-5-links.svg',
+  './figures/fig-5-6-do-not.svg',
+  './figures/fig-6-1-why-sns.svg',
+  './figures/fig-6-2-short-powerful.svg',
+  './figures/fig-6-3-visuals.svg',
+  './figures/fig-6-4-hashtags.svg',
+  './figures/fig-6-5-sns-search.svg',
+  './figures/fig-6-6-your-place.svg',
 ];
 
 // インストール時：ファイルをキャッシュ

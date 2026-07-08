@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 800" role="img" aria-label="Web最適化とは何か">
+  <style>
+    .circle-black { fill: #1a1a1a; opacity: 0.88; }
+    .circle-red { fill: #C44536; opacity: 0.88; }
+    .circle-label-white { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 24px; font-weight: 700; }
+    .circle-sub-white { fill: #eee; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 16px; font-weight: 500; }
+    .overlap-label { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 24px; font-weight: 700; }
+    .top-caption { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 20px; font-weight: 500; }
+    .order-box { fill: #ffffff; stroke: #C44536; stroke-width: 3; }
+    .order-label { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 700; letter-spacing: 0.15em; }
+    .order-main { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .order-num1 { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 20px; font-weight: 700; }
+    .order-num2 { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 20px; font-weight: 700; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+  </style>
+
+  <text x="450" y="55" text-anchor="middle" class="top-caption">両方に届く文章を書くこと</text>
+
+  <circle cx="360" cy="230" r="170" class="circle-black"/>
+  <circle cx="540" cy="230" r="170" class="circle-red"/>
+
+  <text x="290" y="180" text-anchor="middle" class="circle-label-white">機械の目</text>
+  <text x="290" y="210" text-anchor="middle" class="circle-sub-white">検索・SNS・AI</text>
+
+  <text x="610" y="180" text-anchor="middle" class="circle-label-white">読者の心</text>
+  <text x="610" y="210" text-anchor="middle" class="circle-sub-white">問いに応える</text>
+
+  <text x="450" y="245" text-anchor="middle" class="overlap-label">Web</text>
+  <text x="450" y="278" text-anchor="middle" class="overlap-label">最適化</text>
+
+  <rect x="150" y="470" width="600" height="150" rx="12" class="order-box"/>
+  <text x="450" y="510" text-anchor="middle" class="order-label">大切な順番</text>
+  <text x="450" y="558" text-anchor="middle" class="order-main">
+    <tspan class="order-num1">読者の心が先</tspan><tspan class="order-num2">、機械の目が次</tspan>
+  </text>
+  <text x="450" y="595" text-anchor="middle" class="top-caption">この順番を、絶対に間違えない</text>
+
+  <line x1="80" y1="680" x2="820" y2="680" class="divider-h"/>
+  <text x="450" y="740" text-anchor="middle" class="footer-headline">機械に媚びるのではなく、両方に自然に届ける</text>
+</svg>

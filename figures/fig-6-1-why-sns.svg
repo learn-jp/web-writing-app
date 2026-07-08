@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 780" role="img" aria-label="ブログとSNSの勝負の時間の違い">
+  <style>
+    .label-heading { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 28px; font-weight: 700; }
+    .label-heading-red { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 28px; font-weight: 700; }
+    .box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .box-red { fill: #ffffff; stroke: #C44536; stroke-width: 3; }
+    .time-big { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 40px; font-weight: 700; }
+    .time-big-red { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 40px; font-weight: 700; }
+    .time-desc { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 19px; font-weight: 500; }
+    .divider-v { stroke: #ddd; stroke-width: 2; fill: none; stroke-dasharray: 6,6; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .footer { fill: #444; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 500; }
+  </style>
+
+  <text x="220" y="55" text-anchor="middle" class="label-heading">ブログ記事</text>
+  <text x="680" y="55" text-anchor="middle" class="label-heading-red">SNS投稿</text>
+
+  <line x1="450" y1="30" x2="450" y2="560" class="divider-v"/>
+
+  <rect x="60" y="90" width="320" height="230" rx="12" class="box"/>
+  <text x="220" y="200" text-anchor="middle" class="time-big">3000字</text>
+  <text x="220" y="240" text-anchor="middle" class="time-desc">使って説得できる</text>
+  <text x="220" y="270" text-anchor="middle" class="time-desc">途中で取り返すチャンスもある</text>
+
+  <rect x="520" y="90" width="320" height="230" rx="12" class="box-red"/>
+  <text x="680" y="200" text-anchor="middle" class="time-big-red">最初の3秒</text>
+  <text x="680" y="240" text-anchor="middle" class="time-desc">一瞬で判断される</text>
+  <text x="680" y="270" text-anchor="middle" class="time-desc">取り返すチャンスはない</text>
+
+  <rect x="60" y="350" width="320" height="150" rx="12" class="box"/>
+  <text x="220" y="400" text-anchor="middle" class="time-desc" style="font-size:20px; font-weight:700; fill:#1a1a1a;">読者の指を</text>
+  <text x="220" y="435" text-anchor="middle" class="time-desc" style="font-size:20px; font-weight:700; fill:#1a1a1a;">止められなければ</text>
+  <text x="220" y="470" text-anchor="middle" class="time-desc">記憶にも残らず消える</text>
+
+  <rect x="520" y="350" width="320" height="150" rx="12" class="box-red"/>
+  <text x="680" y="400" text-anchor="middle" class="time-desc" style="font-size:20px; font-weight:700; fill:#C44536;">技術を圧縮した</text>
+  <text x="680" y="435" text-anchor="middle" class="time-desc" style="font-size:20px; font-weight:700; fill:#C44536;">究極の形</text>
+  <text x="680" y="470" text-anchor="middle" class="time-desc">ごまかしが、一切効かない</text>
+
+  <line x1="80" y1="580" x2="820" y2="580" class="divider-h"/>
+  <text x="450" y="640" text-anchor="middle" class="footer-headline">短い文章ほど、ごまかしが効かない</text>
+  <text x="450" y="690" text-anchor="middle" class="footer">SNSは、書き手の技術を映し出す鏡</text>
+</svg>

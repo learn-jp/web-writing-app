@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 840" role="img" aria-label="良い見出しの3原則">
+  <style>
+    .card-outer { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .card-header { fill: #1a1a1a; }
+    .card-header-title { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .card-header-sub { fill: #ccc; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 17px; font-weight: 500; }
+    .p-num { fill: #C44536; font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 20px; font-weight: 700; }
+    .p-title { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 24px; font-weight: 700; }
+    .mark-ng { fill: #999; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 700; }
+    .mark-ok { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 700; }
+    .ex-ng { fill: #888; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 20px; font-weight: 500; }
+    .ex-ok { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 21px; font-weight: 600; }
+    .p-note { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 19px; font-weight: 500; }
+    .field-line { stroke: #eee; stroke-width: 1; fill: none; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+  </style>
+
+  <rect x="60" y="30" width="780" height="650" rx="12" class="card-outer"/>
+  <rect x="60" y="30" width="780" height="90" rx="12" class="card-header"/>
+  <rect x="60" y="90" width="780" height="30" class="card-header"/>
+  <text x="90" y="72" class="card-header-title">良い見出しの3原則</text>
+  <text x="90" y="103" class="card-header-sub">クリックされ、かつ誤解を生まない</text>
+
+  <text x="90" y="180" class="p-num">01</text>
+  <text x="145" y="180" class="p-title">具体的である</text>
+  <text x="95" y="228" class="mark-ng">×</text>
+  <text x="130" y="228" class="ex-ng">在宅勤務の心得</text>
+  <text x="93" y="271" class="mark-ok">○</text>
+  <text x="130" y="271" class="ex-ok">最初の1ヶ月で失敗しない5つの習慣</text>
+  <line x1="90" y1="305" x2="810" y2="305" class="field-line"/>
+
+  <text x="90" y="360" class="p-num">02</text>
+  <text x="145" y="360" class="p-title">読者の問いに対応している</text>
+  <text x="95" y="408" class="mark-ng">×</text>
+  <text x="130" y="408" class="ex-ng">リモートワークのススメ</text>
+  <text x="93" y="451" class="mark-ok">○</text>
+  <text x="130" y="451" class="ex-ok">在宅勤務って、本当に集中できるの？</text>
+  <line x1="90" y1="485" x2="810" y2="485" class="field-line"/>
+
+  <text x="90" y="540" class="p-num">03</text>
+  <text x="145" y="540" class="p-title">中身を裏切らない</text>
+  <text x="93" y="588" class="mark-ok">○</text>
+  <text x="130" y="588" class="ex-ok">「5つの習慣」なら、必ず5つ提示する</text>
+  <text x="130" y="626" class="p-note">見出しで期待させた内容を、本文で必ず提供する</text>
+
+  <line x1="80" y1="740" x2="820" y2="740" class="divider-h"/>
+  <text x="450" y="798" text-anchor="middle" class="footer-headline">期待と中身が一致して、信頼が生まれる</text>
+</svg>

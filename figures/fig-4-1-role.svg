@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 810" role="img" aria-label="煽りの見出しと誠実な見出しの違い">
+  <style>
+    .label-heading { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 30px; font-weight: 700; }
+    .label-heading-red { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 30px; font-weight: 700; }
+    .top-caption { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 20px; font-weight: 500; }
+    .step-box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .step-final-bad { fill: #1a1a1a; stroke: #1a1a1a; stroke-width: 3; }
+    .step-final-good { fill: #C44536; stroke: #C44536; stroke-width: 3; }
+    .step-text { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 20px; font-weight: 600; }
+    .step-text-white { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 20px; font-weight: 700; }
+    .arrow-black { stroke: #1a1a1a; stroke-width: 2; fill: none; }
+    .arrow-red { stroke: #C44536; stroke-width: 3; fill: none; }
+    .divider-v { stroke: #ddd; stroke-width: 2; fill: none; stroke-dasharray: 6,6; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+    .footer { fill: #444; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 500; }
+  </style>
+
+  <text x="220" y="55" text-anchor="middle" class="label-heading">煽りの見出し</text>
+  <text x="220" y="90" text-anchor="middle" class="top-caption">クリックを釣る</text>
+  <text x="680" y="55" text-anchor="middle" class="label-heading-red">誠実な見出し</text>
+  <text x="680" y="90" text-anchor="middle" class="top-caption">問いに応える</text>
+
+  <line x1="450" y1="40" x2="450" y2="630" class="divider-v"/>
+
+  <!-- Left: 煽り -->
+  <rect x="40" y="115" width="360" height="90" rx="10" class="step-box"/>
+  <text x="220" y="168" text-anchor="middle" class="step-text">「衝撃の事実！」と釣る</text>
+  <line x1="220" y1="205" x2="220" y2="235" class="arrow-black"/>
+  <polygon points="210,230 220,250 230,230" fill="#1a1a1a"/>
+
+  <rect x="40" y="255" width="360" height="90" rx="10" class="step-box"/>
+  <text x="220" y="308" text-anchor="middle" class="step-text">一時的にクリックは増える</text>
+  <line x1="220" y1="345" x2="220" y2="375" class="arrow-black"/>
+  <polygon points="210,370 220,390 230,370" fill="#1a1a1a"/>
+
+  <rect x="40" y="395" width="360" height="90" rx="10" class="step-box"/>
+  <text x="220" y="448" text-anchor="middle" class="step-text">中身が見合わず、すぐ離脱</text>
+  <line x1="220" y1="485" x2="220" y2="515" class="arrow-black"/>
+  <polygon points="210,510 220,530 230,510" fill="#1a1a1a"/>
+
+  <rect x="40" y="535" width="360" height="95" rx="10" class="step-final-bad"/>
+  <text x="220" y="573" text-anchor="middle" class="step-text-white">「信用できない」と</text>
+  <text x="220" y="602" text-anchor="middle" class="step-text-white">判断される</text>
+
+  <!-- Right: 誠実 -->
+  <rect x="500" y="115" width="360" height="90" rx="10" class="step-box"/>
+  <text x="680" y="168" text-anchor="middle" class="step-text">読者の問いに応える</text>
+  <line x1="680" y1="205" x2="680" y2="235" class="arrow-red"/>
+  <polygon points="670,230 680,250 690,230" fill="#C44536"/>
+
+  <rect x="500" y="255" width="360" height="90" rx="10" class="step-box"/>
+  <text x="680" y="308" text-anchor="middle" class="step-text">期待して読み始める</text>
+  <line x1="680" y1="345" x2="680" y2="375" class="arrow-red"/>
+  <polygon points="670,370 680,390 690,370" fill="#C44536"/>
+
+  <rect x="500" y="395" width="360" height="90" rx="10" class="step-box"/>
+  <text x="680" y="448" text-anchor="middle" class="step-text">期待と中身が一致する</text>
+  <line x1="680" y1="485" x2="680" y2="515" class="arrow-red"/>
+  <polygon points="670,510 680,530 690,510" fill="#C44536"/>
+
+  <rect x="500" y="535" width="360" height="95" rx="10" class="step-final-good"/>
+  <text x="680" y="573" text-anchor="middle" class="step-text-white">ファンとして</text>
+  <text x="680" y="602" text-anchor="middle" class="step-text-white">戻ってくる</text>
+
+  <line x1="80" y1="680" x2="820" y2="680" class="divider-h"/>
+  <text x="450" y="735" text-anchor="middle" class="footer-headline">誠実に応える見出しが、結局は最強の戦略</text>
+  <text x="450" y="785" text-anchor="middle" class="footer">煽りは一瞬、信頼は一生</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-label="キーワードを自然に配置する">
+  <style>
+    .box-bad { fill: #ffffff; stroke: #999; stroke-width: 2; }
+    .box-good { fill: #ffffff; stroke: #C44536; stroke-width: 3; }
+    .mark-ng { fill: #999; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 700; }
+    .mark-ok { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 700; }
+    .ex-text-bad { fill: #999; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 17px; font-weight: 500; }
+    .ex-text-good { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 17px; font-weight: 500; }
+    .box-label { fill: #666; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 17px; font-weight: 700; }
+    .p-num { fill: #C44536; font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 19px; font-weight: 700; }
+    .p-title { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 700; }
+    .card-box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+  </style>
+
+  <text x="450" y="55" text-anchor="middle" class="p-title">読者が検索する言葉を、自然に含める</text>
+
+  <rect x="60" y="90" width="780" height="130" rx="10" class="box-bad"/>
+  <text x="90" y="122" class="box-label">詰め込みすぎ</text>
+  <text x="95" y="122" class="mark-ng" style="opacity:0"> </text>
+  <text x="105" y="160" class="mark-ng">×</text>
+  <text x="140" y="160" class="ex-text-bad">「在宅勤務には在宅勤務専用の机が必要です。</text>
+  <text x="140" y="188" class="ex-text-bad">在宅勤務を始めるなら在宅勤務用の椅子も…」</text>
+
+  <rect x="60" y="240" width="780" height="130" rx="10" class="box-good"/>
+  <text x="90" y="272" class="box-label" style="fill:#C44536;">自然な言い換え</text>
+  <text x="105" y="310" class="mark-ok">○</text>
+  <text x="140" y="310" class="ex-text-good">「テレワーク」「リモートワーク」「家での仕事」</text>
+  <text x="140" y="338" class="ex-text-good">など、関連語を自然に散りばめる</text>
+
+  <line x1="80" y1="405" x2="820" y2="405" class="divider-h"/>
+  <text x="450" y="458" text-anchor="middle" class="p-title">キーワード配置の3原則</text>
+
+  <rect x="60" y="490" width="240" height="140" rx="10" class="card-box"/>
+  <text x="180" y="530" text-anchor="middle" class="p-num">01</text>
+  <text x="180" y="575" text-anchor="middle" class="p-title" style="font-size:19px;">読者の言葉で</text>
+  <text x="180" y="600" text-anchor="middle" class="p-title" style="font-size:19px;">書く</text>
+
+  <rect x="330" y="490" width="240" height="140" rx="10" class="card-box"/>
+  <text x="450" y="530" text-anchor="middle" class="p-num">02</text>
+  <text x="450" y="575" text-anchor="middle" class="p-title" style="font-size:19px;">不自然な繰り返し</text>
+  <text x="450" y="600" text-anchor="middle" class="p-title" style="font-size:19px;">を避ける</text>
+
+  <rect x="600" y="490" width="240" height="140" rx="10" class="card-box"/>
+  <text x="720" y="530" text-anchor="middle" class="p-num">03</text>
+  <text x="720" y="575" text-anchor="middle" class="p-title" style="font-size:19px;">大事な場所に</text>
+  <text x="720" y="600" text-anchor="middle" class="p-title" style="font-size:19px;">置く</text>
+
+  <line x1="80" y1="680" x2="820" y2="680" class="divider-h"/>
+  <text x="450" y="735" text-anchor="middle" class="footer-headline">複雑なテクニックは、必要ない</text>
+</svg>

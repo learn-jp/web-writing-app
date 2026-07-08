@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 920" role="img" aria-label="内部リンクと外部リンク">
+  <style>
+    .label-heading { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 27px; font-weight: 700; }
+    .label-heading-red { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 27px; font-weight: 700; }
+    .col-box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .col-box-red { fill: #ffffff; stroke: #C44536; stroke-width: 2; }
+    .effect-num { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 19px; font-weight: 700; }
+    .effect-text { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 19px; font-weight: 500; }
+    .divider-v { stroke: #ddd; stroke-width: 2; fill: none; stroke-dasharray: 6,6; }
+    .mark-ng { fill: #999; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 21px; font-weight: 700; }
+    .mark-ok { fill: #C44536; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 21px; font-weight: 700; }
+    .ex-bad { fill: #999; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 19px; font-weight: 500; }
+    .ex-good { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 19px; font-weight: 600; text-decoration: underline; }
+    .tip-box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
+    .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 700; }
+  </style>
+
+  <text x="220" y="50" text-anchor="middle" class="label-heading">内部リンク</text>
+  <text x="680" y="50" text-anchor="middle" class="label-heading-red">外部リンク</text>
+
+  <line x1="450" y1="30" x2="450" y2="380" class="divider-v"/>
+
+  <rect x="40" y="80" width="360" height="290" rx="10" class="col-box"/>
+  <text x="220" y="120" text-anchor="middle" class="effect-text" style="font-weight:700;">同じサイト内の別記事へ</text>
+
+  <text x="70" y="175" class="effect-num">・</text>
+  <text x="95" y="175" class="effect-text">読者がより深く情報を得る</text>
+  <text x="70" y="220" class="effect-num">・</text>
+  <text x="95" y="220" class="effect-text">滞在時間が伸びる</text>
+  <text x="70" y="265" class="effect-num">・</text>
+  <text x="95" y="265" class="effect-text">機械にサイト構造が伝わる</text>
+  <text x="95" y="295" class="effect-text" style="fill:#C44536; font-weight:700;">↑ これが特に重要</text>
+
+  <rect x="500" y="80" width="360" height="290" rx="10" class="col-box-red"/>
+  <text x="680" y="120" text-anchor="middle" class="effect-text" style="font-weight:700;">他の人のサイトへ</text>
+
+  <text x="530" y="175" class="effect-num">・</text>
+  <text x="555" y="175" class="effect-text">情報の信頼性を高める</text>
+  <text x="530" y="220" class="effect-num">・</text>
+  <text x="555" y="220" class="effect-text">さらに深い情報源を提供</text>
+  <text x="555" y="260" class="effect-text" style="fill:#C44536; font-weight:700;">読者が逃げる、ではなく</text>
+  <text x="555" y="290" class="effect-text" style="fill:#C44536; font-weight:700;">書き手への信頼につながる</text>
+
+  <line x1="80" y1="415" x2="820" y2="415" class="divider-h"/>
+  <text x="450" y="468" text-anchor="middle" class="label-heading">リンクテキストは具体的に</text>
+
+  <rect x="130" y="500" width="640" height="200" rx="10" class="tip-box"/>
+  <text x="165" y="555" class="mark-ng">×</text>
+  <text x="200" y="555" class="ex-bad">こちらをご覧ください</text>
+  <line x1="165" y1="600" x2="735" y2="600" class="divider-h"/>
+  <text x="165" y="655" class="mark-ok">○</text>
+  <text x="200" y="655" class="ex-good">在宅勤務に最適な椅子の選び方</text>
+
+  <line x1="80" y1="750" x2="820" y2="750" class="divider-h"/>
+  <text x="450" y="805" text-anchor="middle" class="footer-headline">何のリンクか、テキストだけで分かるように</text>
+  <text x="450" y="850" text-anchor="middle" style="fill:#444; font-family: -apple-system, sans-serif; font-size:22px;">関連性のあるリンクだけを、丁寧に</text>
+</svg>
