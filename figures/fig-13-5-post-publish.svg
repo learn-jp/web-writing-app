@@ -18,7 +18,7 @@
 
   <!-- 直後 -->
   <circle cx="120" cy="120" r="26" class="time-dot"/>
-  <text x="120" y="126" text-anchor="middle" class="time-label" style="font-size:12px;">〜1週間</text>
+  <text x="120" y="126" text-anchor="middle" class="time-label" style="font-size:14px;">〜1週間</text>
   <rect x="170" y="80" width="670" height="110" rx="10" class="phase-box"/>
   <text x="195" y="115" class="phase-title">公開直後</text>
   <text x="195" y="145" class="phase-item">SNSでシェア／初動確認／誤字脱字の最終チェック</text>
@@ -26,7 +26,7 @@
 
   <!-- 1ヶ月 -->
   <circle cx="120" cy="270" r="26" class="time-dot"/>
-  <text x="120" y="276" text-anchor="middle" class="time-label" style="font-size:12px;">1ヶ月</text>
+  <text x="120" y="276" text-anchor="middle" class="time-label" style="font-size:14px;">1ヶ月</text>
   <rect x="170" y="230" width="670" height="110" rx="10" class="phase-box"/>
   <text x="195" y="265" class="phase-title">公開後1ヶ月</text>
   <text x="195" y="295" class="phase-item">アクセス解析／検索コンソール／読者の反応を確認</text>
@@ -34,7 +34,7 @@
 
   <!-- 3-6ヶ月 -->
   <circle cx="120" cy="420" r="26" class="time-dot"/>
-  <text x="120" y="426" text-anchor="middle" class="time-label" style="font-size:11px;">3〜6ヶ月</text>
+  <text x="120" y="426" text-anchor="middle" class="time-label" style="font-size:14px;">3〜6ヶ月</text>
   <rect x="170" y="380" width="670" height="110" rx="10" class="phase-box"/>
   <text x="195" y="415" class="phase-title">公開後3〜6ヶ月</text>
   <text x="195" y="445" class="phase-item">アクセスのトレンド／検索順位を確認</text>
@@ -42,7 +42,7 @@
 
   <!-- 1年以上 -->
   <circle cx="120" cy="570" r="26" class="time-dot"/>
-  <text x="120" y="576" text-anchor="middle" class="time-label" style="font-size:12px;">1年〜</text>
+  <text x="120" y="576" text-anchor="middle" class="time-label" style="font-size:14px;">1年〜</text>
   <rect x="170" y="530" width="670" height="110" rx="10" class="phase-box"/>
   <text x="195" y="565" class="phase-title">公開後1年以上</text>
   <text x="195" y="595" class="phase-item">情報の鮮度を確認／大幅なリライトを検討</text>
