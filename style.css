@@ -599,3 +599,34 @@ button {
 .reader-body .section-figure.section-figure-tight {
   margin-top: 1em;
 }
+
+/* ═══════════════════════════════════════════
+   章扉の挿絵（chapter-illust）
+   本文の図解（section-figure）とは別に、
+   各章の冒頭に大きく写真を配置する
+   ═══════════════════════════════════════════ */
+.reader-body .chapter-illust {
+  margin: 0 -8px 2.5em -8px;
+  padding: 0;
+  text-align: center;
+}
+
+.reader-body .chapter-illust img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 320px;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+@media (min-width: 640px) {
+  .reader-body .chapter-illust {
+    margin: 0 0 2.5em 0;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  .reader-body .chapter-illust img {
+    max-height: 420px;
+  }
+}

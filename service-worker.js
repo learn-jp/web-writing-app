@@ -4,7 +4,7 @@
 //  Cache First for static assets (icons)
 // ═══════════════════════════════════════════
 
-const CACHE_NAME = 'web-writing-v9';
+const CACHE_NAME = 'web-writing-v10';
 
 const APP_ASSETS = [
   './',
@@ -90,6 +90,21 @@ const APP_ASSETS = [
   './figures/fig-13-4-keep-writing.svg',
   './figures/fig-13-5-post-publish.svg',
   './figures/fig-13-6-afterword.svg',
+  './images/illust-00-preface.jpg',
+  './images/illust-01-introduction.jpg',
+  './images/illust-02-reader-media.jpg',
+  './images/illust-03-structure.jpg',
+  './images/illust-04-headlines-leads.jpg',
+  './images/illust-05-web-optimization.jpg',
+  './images/illust-06-sns-era.jpg',
+  './images/illust-07-ai-era.jpg',
+  './images/illust-08-trust-eeat.jpg',
+  './images/illust-09-tone-and-voice.jpg',
+  './images/illust-10-mobile-and-accessibility.jpg',
+  './images/illust-11-rewrite-update.jpg',
+  './images/illust-12-data-and-improvement.jpg',
+  './images/illust-13-strategy-and-workflow.jpg',
+  './images/illust-14-afterword.jpg',
 ];
 
 // インストール時：ファイルをキャッシュ
