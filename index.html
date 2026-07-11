@@ -70,14 +70,18 @@
   <!-- 表紙 -->
   <section id="page-cover" class="page">
     <div class="cover">
-      <h1 class="cover-title">新時代の<br>Webライティング</h1>
-      <p class="cover-subtitle">AI・SNS時代を生きる書き手のために</p>
+      <div class="cover-hero">
+        <h1 class="cover-title">新時代の<br>Webライティング</h1>
+        <p class="cover-subtitle">AI・SNS時代を生きる書き手のために</p>
+      </div>
       <div class="cover-buttons">
         <button class="btn btn-primary" id="btn-start">最初から読む</button>
         <button class="btn btn-secondary" id="btn-toc-cover">目次から選ぶ</button>
       </div>
+      <p class="cover-progress" id="cover-progress" style="display:none"></p>
       <div class="cover-footer">
         <button class="btn-install" id="btn-install">📱 アプリとして保存する</button>
+        <button class="btn-author" id="btn-author">✎ 著者について</button>
         <button class="btn-logout" id="btn-logout">ログアウト</button>
       </div>
     </div>
@@ -97,6 +101,12 @@
       <div class="reader-breadcrumb" id="reader-breadcrumb"></div>
       <h1 class="reader-title" id="reader-title"></h1>
       <div class="reader-body" id="reader-body"></div>
+      <div class="read-toggle-wrap" id="read-toggle-wrap">
+        <label class="read-toggle">
+          <input type="checkbox" id="read-checkbox">
+          <span>この節を読み終えた</span>
+        </label>
+      </div>
       <nav class="reader-nav">
         <button class="btn btn-nav" id="btn-prev">← 前へ</button>
         <button class="btn btn-nav" id="btn-toc-reader">目次</button>
@@ -104,6 +114,14 @@
       </nav>
     </article>
   </section>
+
+  <!-- お知らせフッター（表紙・目次・リーダー共通で一番下に表示）
+       お知らせを更新したい時は、下の <p> の中身を書き換えるだけでOK -->
+  <footer class="app-footer">
+    <p class="app-footer-text">
+      新しい教材アプリ「読者に響く言葉 〜新時代のコピーライティング〜」を制作中です。お楽しみに。
+    </p>
+  </footer>
 
 </div>
 
@@ -114,6 +132,29 @@
   <div class="install-panel">
     <button class="install-close" id="install-close" aria-label="閉じる">✕</button>
     <div id="install-content"></div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════
+     著者について（オーバーレイ）
+     ═══════════════════════════════════════════ -->
+<div id="author-overlay" class="install-overlay" style="display:none">
+  <div class="install-panel">
+    <button class="install-close" id="author-close" aria-label="閉じる">✕</button>
+    <div class="author-profile">
+      <img src="images/author-photo.jpg" alt="著者近影" class="author-photo" />
+      <h3 class="author-name">Akira Sasano</h3>
+      <p class="author-title">Web Developer</p>
+      <p class="author-bio">
+        元、生粋のアナログ人間。<br>
+        コロナ禍での副業をきっかけにパソコンに触れ始め、IT・Webの技術に魅せられる。<br>
+        以来、Webサイト制作、動画制作、プログラミングによるシステム・アプリ開発の技術を独学で習得。<br>
+        IT初心者だったからこその視点を活かし、使う人に喜ばれるプロダクトづくりを続けている。
+      </p>
+      <p class="author-works">
+        制作物：WordPressテーマ「Kuu」／画像収集・最適化ツール「Superior」シリーズ 他
+      </p>
+    </div>
   </div>
 </div>
 

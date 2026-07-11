@@ -4,7 +4,7 @@
 //  Cache First for static assets (icons)
 // ═══════════════════════════════════════════
 
-const CACHE_NAME = 'web-writing-v10';
+const CACHE_NAME = 'web-writing-v15';
 
 const APP_ASSETS = [
   './',
@@ -91,6 +91,8 @@ const APP_ASSETS = [
   './figures/fig-13-5-post-publish.svg',
   './figures/fig-13-6-afterword.svg',
   './images/illust-00-preface.jpg',
+  './images/author-photo.jpg',
+  './images/cover-bg.jpg',
   './images/illust-01-introduction.jpg',
   './images/illust-02-reader-media.jpg',
   './images/illust-03-structure.jpg',

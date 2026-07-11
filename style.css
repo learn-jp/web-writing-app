@@ -79,11 +79,32 @@ button {
 }
 
 /* ── 表紙 ── */
+#page-cover {
+}
+
 .cover {
   max-width: 520px;
   margin: 0 auto;
-  padding: 60px 24px;
+  padding: 40px 24px 60px;
   text-align: center;
+}
+
+.cover-hero {
+  border-radius: 12px;
+  padding: 64px 24px;
+  margin-bottom: 40px;
+  background: #ffffff url('images/cover-bg.jpg') center / cover no-repeat;
+}
+
+.cover-hero .cover-title,
+.cover-hero .cover-subtitle {
+  text-shadow:
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff,
+    0 0 10px #ffffff,
+    0 0 18px #ffffff;
 }
 
 .cover-title {
@@ -97,14 +118,46 @@ button {
 .cover-subtitle {
   font-size: 15px;
   color: #666;
-  margin-bottom: 60px;
   letter-spacing: 0.06em;
+}
+
+.cover-progress {
+  font-size: 13px;
+  font-weight: 600;
+  color: #C44536;
+  margin-top: 20px;
+  letter-spacing: 0.04em;
 }
 
 .cover-buttons {
   display: flex;
   flex-direction: column;
   gap: 12px;
+}
+
+/* ── フッター（お知らせ表示用） ── */
+.app-footer {
+  border-top: 1px solid #eee;
+  padding: 20px 24px 28px;
+  text-align: center;
+}
+
+.app-footer-text {
+  max-width: 520px;
+  margin: 0 auto;
+  font-size: 12px;
+  line-height: 1.7;
+  color: #999;
+  letter-spacing: 0.03em;
+}
+
+.app-footer-text a {
+  color: #C44536;
+  text-decoration: none;
+}
+
+.app-footer-text a:hover {
+  text-decoration: underline;
 }
 
 /* ── ボタン ── */
@@ -176,8 +229,38 @@ button {
   letter-spacing: 0.02em;
 }
 
+.toc-progress-summary {
+  margin-bottom: 28px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.toc-progress-text {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 8px;
+  letter-spacing: 0.03em;
+}
+
+.toc-progress-bar {
+  height: 4px;
+  background: #eee;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.toc-progress-fill {
+  height: 100%;
+  background: #C44536;
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
 .toc-section {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
   padding: 10px 14px;
   font-size: 14px;
   color: #555;
@@ -194,6 +277,22 @@ button {
 .toc-section:hover {
   background: #f5f5f5;
   color: #1a1a1a;
+}
+
+.toc-section.is-read {
+  color: #1a1a1a;
+}
+
+.toc-section-label {
+  flex: 1;
+}
+
+.toc-section-check {
+  flex-shrink: 0;
+  width: 18px;
+  font-size: 13px;
+  color: #C44536;
+  text-align: center;
 }
 
 /* ── 本文リーダー ── */
@@ -268,6 +367,57 @@ button {
   font-size: 0.9em;
 }
 
+/* ═══════════════════════════════════════════
+   特別演出用フェードイン（まえがき・13-6「おわりに」限定）
+   タイトル・挿絵・図解・区切り線などのブロック要素に使用
+   ═══════════════════════════════════════════ */
+.fade-in-target {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.9s ease, transform 0.9s ease;
+}
+
+.fade-in-target.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fade-in-target {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+/* 読み終えたチェック */
+.read-toggle-wrap {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.read-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: #999;
+  cursor: pointer;
+  letter-spacing: 0.03em;
+  user-select: none;
+}
+
+.read-toggle input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  accent-color: #C44536;
+  cursor: pointer;
+}
+
+.read-toggle:has(input:checked) {
+  color: #C44536;
+}
+
 /* リーダー下部ナビ */
 .reader-nav {
   margin-top: 48px;
@@ -288,6 +438,8 @@ button {
   .cover-title { font-size: 28px; }
   .reader-title { font-size: 22px; }
   .reader-body { font-size: 16px; }
+  .cover-hero { padding: 48px 20px; }
+  .auth-title-area { padding: 36px 20px; }
 }
 
 /* ═══════════════════════════════════════════
@@ -299,6 +451,9 @@ button {
   align-items: center;
   justify-content: center;
   background: #ffffff;
+  /* お好きな背景画像が決まったら、以下のコメントを外して使ってください
+     background: #ffffff url('images/cover-bg.jpg') center / cover no-repeat;
+  */
   z-index: 100;
   padding-top: 0;
 }
@@ -311,7 +466,18 @@ button {
 
 .auth-title-area {
   text-align: center;
-  margin-bottom: 48px;
+  margin-bottom: 32px;
+  border-radius: 12px;
+  padding: 48px 24px;
+  background: #ffffff url('images/cover-bg.jpg') center / cover no-repeat;
+}
+
+.auth-title-area .auth-title,
+.auth-title-area .auth-subtitle {
+  text-shadow:
+    0 0 10px #ffffff,
+    0 0 20px #ffffff,
+    0 0 32px #ffffff;
 }
 
 .auth-title {
@@ -496,6 +662,68 @@ button {
 
 .install-close:hover {
   background: #f5f5f5;
+}
+
+/* ── 著者について ── */
+.btn-author {
+  padding: 8px 16px;
+  font-size: 12px;
+  color: #999;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 0.04em;
+  font-family: inherit;
+}
+
+.btn-author:hover {
+  color: #1a1a1a;
+}
+
+.author-profile {
+  text-align: center;
+  padding-top: 8px;
+}
+
+.author-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 auto 16px;
+  object-fit: cover;
+  display: block;
+}
+
+.author-name {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 4px;
+  letter-spacing: 0.03em;
+}
+
+.author-title {
+  font-size: 12px;
+  color: #999;
+  margin-bottom: 20px;
+  letter-spacing: 0.06em;
+}
+
+.author-bio {
+  font-size: 14px;
+  line-height: 1.9;
+  color: #444;
+  text-align: left;
+}
+
+.author-works {
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid #eee;
+  font-size: 12px;
+  line-height: 1.8;
+  color: #999;
+  text-align: left;
+  letter-spacing: 0.02em;
 }
 
 .install-heading {
