@@ -4,7 +4,7 @@
 //  Cache First for static assets (icons)
 // ═══════════════════════════════════════════
 
-const CACHE_NAME = 'web-writing-v15';
+const CACHE_NAME = 'web-writing-v19';
 
 const APP_ASSETS = [
   './',

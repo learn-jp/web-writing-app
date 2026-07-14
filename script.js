@@ -142,10 +142,10 @@ function openSection(idx) {
 
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  if (isSpecialSection(s) && !reduceMotion) {
+  if (shouldAnimate(s) && !reduceMotion) {
     runSpecialIntro(s, myToken);
   } else {
-    // 通常の節、またはモーション低減設定時：アニメーションなし、即時表示
+    // 読了済みの通常節、またはモーション低減設定時：アニメーションなし、即時表示
     const titleEl = document.getElementById('reader-title');
     const navEl = document.querySelector('.reader-nav');
     const readWrapEl = document.getElementById('read-toggle-wrap');
@@ -158,12 +158,20 @@ function openSection(idx) {
 }
 
 // ═══════════════════════════════════════════
-//  特別演出（まえがき・13-6「おわりに」のみ）
+//  特別演出（まえがき・13-6「おわりに」は常時、それ以外は未読了の節のみ）
 //  タイトル→挿絵→本文タイピング→図解 の順で演出
 // ═══════════════════════════════════════════
 
 function isSpecialSection(s) {
   return s.chapter === 'まえがき' || s.title.indexOf('13-6') === 0;
+}
+
+// アニメーションを再生するかどうかの判定：
+// ・まえがき／おわりには常に再生
+// ・それ以外の節は「まだ読了チェックが入っていない」場合のみ再生
+function shouldAnimate(s) {
+  if (isSpecialSection(s)) return true;
+  return !isSectionRead(s.chapter, s.title);
 }
 
 let _timers = [];
@@ -279,19 +287,31 @@ async function runSpecialIntro(s, token) {
   const stillActive = () => token === _introToken;
 
   bodyEl.innerHTML = '';
-  titleEl.innerHTML = s.title;
+
+  // タイトル・ナビ・読了チェックを「transitionなしで瞬時に非表示」にリセットしてから
+  // アニメーションを開始する（前の節のis-visible状態が残っていると、
+  // 一瞬表示されてからフェードアウトする不自然なチラつきが起きるため）
+  titleEl.classList.add('no-transition');
   titleEl.classList.remove('is-visible');
   titleEl.classList.add('fade-in-target');
+  titleEl.innerHTML = s.title;
 
-  // 前へ／目次／次へボタン・読了チェックとその上の区切り線も、演出完了まで非表示にしておく
   if (navEl) {
+    navEl.classList.add('no-transition');
     navEl.classList.remove('is-visible');
     navEl.classList.add('fade-in-target');
   }
   if (readWrapEl) {
+    readWrapEl.classList.add('no-transition');
     readWrapEl.classList.remove('is-visible');
     readWrapEl.classList.add('fade-in-target');
   }
+
+  // 強制リフローしてから no-transition を解除（以降のフェードインは通常通りアニメーションさせる）
+  void titleEl.offsetWidth;
+  titleEl.classList.remove('no-transition');
+  if (navEl) navEl.classList.remove('no-transition');
+  if (readWrapEl) readWrapEl.classList.remove('no-transition');
 
   const temp = document.createElement('div');
   temp.innerHTML = s.body;
@@ -331,8 +351,28 @@ async function runSpecialIntro(s, token) {
     } else if (tag === 'br') {
       // 見た目上の意味を持たない要素は演出なしでそのまま挿入
       bodyEl.appendChild(node);
+    } else if (tag === 'ul' || tag === 'ol') {
+      // 箇条書きは1項目ずつ、本文と同じリズムでタイピング表示する
+      const listEl = document.createElement(tag);
+      listEl.className = node.className;
+      bodyEl.appendChild(listEl);
+
+      const items = Array.from(node.children).filter(c => c.tagName.toLowerCase() === 'li');
+      for (const li of items) {
+        if (!stillActive()) return;
+        const liHtml = li.innerHTML;
+        const liHolder = document.createElement('li');
+        liHolder.className = li.className;
+        listEl.appendChild(liHolder);
+        await waitForVisible(liHolder);
+        if (!stillActive()) return;
+        await typeHTML(liHolder, liHtml, 42, 480, stillActive);
+        if (!stillActive()) return;
+        await wait(200);
+      }
+      await wait(150);
     } else {
-      // hr・h2・ul などはフェードインのみ
+      // hr・h2 などはフェードインのみ
       bodyEl.appendChild(node);
       node.classList.add('fade-in-target');
       await waitForVisible(node);
@@ -439,6 +479,36 @@ document.addEventListener('DOMContentLoaded', () => {
     readCheckboxEl.addEventListener('change', () => {
       const s = SECTIONS[currentIndex];
       if (s) setSectionRead(s.chapter, s.title, readCheckboxEl.checked);
+    });
+  }
+
+  // 図解ライトボックス（タップで拡大表示）
+  const figureLightbox = document.getElementById('figure-lightbox');
+  const figureLightboxImg = document.getElementById('figure-lightbox-img');
+  const figureLightboxClose = document.getElementById('figure-lightbox-close');
+
+  document.addEventListener('click', (e) => {
+    const img = e.target.closest('.section-figure img');
+    if (!img || !figureLightbox || !figureLightboxImg) return;
+    figureLightboxImg.src = img.src;
+    figureLightboxImg.alt = img.alt || '';
+    figureLightbox.classList.add('is-open');
+  });
+
+  function closeFigureLightbox() {
+    if (!figureLightbox) return;
+    figureLightbox.classList.remove('is-open');
+    figureLightboxImg.src = '';
+  }
+
+  if (figureLightboxClose) {
+    figureLightboxClose.addEventListener('click', closeFigureLightbox);
+  }
+  if (figureLightbox) {
+    figureLightbox.addEventListener('click', (e) => {
+      if (e.target === figureLightbox || e.target === figureLightboxImg) {
+        closeFigureLightbox();
+      }
     });
   }
 
