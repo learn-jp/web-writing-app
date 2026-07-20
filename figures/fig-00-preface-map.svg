@@ -5,7 +5,7 @@
     .path-title { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 22px; font-weight: 700; }
     .goal-box { fill: #C44536; stroke: #C44536; stroke-width: 3; }
     .goal-text { fill: #ffffff; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 27px; font-weight: 700; }
-    .goal-sub { fill: #ffe5e2; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 18px; font-weight: 500; }
+    .goal-sub { fill: #ffe5e2; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 26px; font-weight: 500; }
     .line-red { stroke: #C44536; stroke-width: 3; fill: none; }
     .divider-h { stroke: #ddd; stroke-width: 1; fill: none; stroke-dasharray: 4,4; }
     .footer-headline { fill: #1a1a1a; font-family: -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 27px; font-weight: 700; }
@@ -37,11 +37,11 @@
 
   <rect x="200" y="340" width="500" height="140" rx="12" class="goal-box"/>
   <text x="450" y="395" text-anchor="middle" class="goal-text">読者の心</text>
-  <text x="450" y="440" text-anchor="middle" class="goal-sub">あなたの物語が、届く場所</text>
+  <text x="450" y="440" text-anchor="middle" class="goal-sub">あなたの物語が届く場所</text>
 
   <line x1="80" y1="545" x2="820" y2="545" class="divider-h"/>
   <text x="450" y="600" text-anchor="middle" class="footer-headline">誠実に届けば、自然と評価される</text>
-  <text x="450" y="645" text-anchor="middle" class="footer">順番は、読者の心が先。機械の目は、そのあと</text>
+  <text x="450" y="645" text-anchor="middle" class="footer" style="font-size:25px;">順番は、読者の心が先。機械の目は、そのあと</text>
 
-  <text x="450" y="720" text-anchor="middle" class="footer" style="font-style:italic; fill:#666;">さあ、あなたの物語を届ける旅を、始めましょう</text>
+  <text x="450" y="720" text-anchor="middle" class="footer" style="font-style:italic; fill:#666; font-size:25px;">さあ、あなたの物語を届ける旅を、始めましょう</text>
 </svg>
